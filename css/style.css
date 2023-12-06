@@ -319,7 +319,7 @@ img.footer-logo {
   width: 290px;
   margin-bottom: 20px;
 }
-@media(max-widthL767px){
+@media(max-width:767px){
   footer#footer {
     padding-top: 20px;
     margin-top: 40px;

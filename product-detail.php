@@ -221,23 +221,23 @@
                 </div>
                 <i class="fa fa-question align-self-center rounded-2 px-2 py-1 me-3" style=" color: #F5DA36; background-color: black;font-size: 12px; cursor: pointer;"></i>
               </div>
-              <form class="rounded-bottom py-3 px-4" action="/">
-                <div class="d-flex w-100 gap-2">
-                  <div>
-                    <label class="text-white mb-2">ID</label>
-                    <input id="user_id" class="rounded-4 w-100 px-3" name="user_id" type="text" placeholder="Masukkan User ID" />
+              <form class="rounded-bottom py-3 px-4 bg-grey" action="/">
+                <div class="d-flex w-100">
+                  <div class="col-12 col-sm-7">
+                    <label class="text-white mb-2 fw-bold">ID</label>
+                    <input id="user_id" class="rounded-4 w-100 px-3 form-control py-2 border-0 text-sm" name="user_id" type="text" placeholder="Masukkan User ID" />
                   </div>
-                  <div>
-                    <label class="text-white mb-2">Zona ID</label>
-                    <input id="zona_id" class="rounded-4 w-100 px-3" name="zona_id" type="text" placeholder="Masukkan Zona ID" />
+                  <div class="col-12 col-sm-5 ps-sm-4">
+                    <label class="text-white mb-2 fw-bold">Zona ID</label>
+                    <input id="zona_id" class="rounded-4 w-100 px-3 form-control py-2 border-0 text-sm" name="zona_id" type="text" placeholder="Masukkan Zona ID" />
                   </div>
                 </div>
-                <div class="w-100 mt-2">
-                  <label class="text-white mb-2">Zona ID</label>
-                  <input id="account_desc" class="rounded-4 w-100 px-3" disabled="disabled" name="account_desc" type="text" value="Ananda Sekti - SIPSHOP" />
+                <div class="w-100 mt-3">
+                  <!-- <label class="text-white mb-2">Zona ID</label> -->
+                  <input id="account_desc" class="rounded-4 w-100 px-3 border-0 text-yellow fw-bold py-3 text-sm" style="background:#767676" disabled="disabled" name="account_desc" type="text" value="Ananda Sekti - SIPSHOP" />
                 </div>
-                <p class="mt-3 px-4">Nickname akan muncul secara otomatis setelah anda mengklik RE - CHECK USER. <br /> Harap diperiksa kembali nickname anda jika sudah benar. </p>
-                <button class="w-100 rounded-3 text-black" type="submit">RE - CHECK USER</button>
+                <p class="mt-3 px-4 text-center text-white fw-bold fst-italic text-sm">Nickname akan muncul secara otomatis setelah anda mengklik RE - CHECK USER. <br /> Harap diperiksa kembali nickname anda jika sudah benar. </p>
+                <button class="w-100 rounded-3 text-black bg-yellow border-0 py-2 fw-bold" type="submit">RE - CHECK USER</button>
               </form>
             </div>
             <!-- Pilih Nominal -->

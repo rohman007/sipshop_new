@@ -408,6 +408,9 @@ section#banner-catalog img {
 .bg-yellow{
   background: #f5da36;
 }
+.bg-grey{
+  background: #34373B;
+}
 #detail-catalog a{
   color: #f5da36;
   text-decoration: none;
@@ -444,4 +447,12 @@ section#banner-catalog img {
   font-size: 24px;
   rotate: -45deg;
   font-weight: bold;
+}
+input#account_desc {
+  padding: 12px 19px !important;
+  border-radius: 20px !important;
+}
+.data-detail-catalog .title-card-text {
+  font-size: 15pt !important;
+  padding: 1px 0;
 }

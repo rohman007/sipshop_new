@@ -387,11 +387,11 @@ section#banner-catalog img {
 }
 .shadow-image {
   position: absolute;
-  top: 12px;
-  left: 0;
+  top: 15px;
+  left: -8px;
   width: calc(100% - 1.5rem);
   filter: grayscale(100%);
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .text-yellow{
   color: #f5da36;
@@ -400,7 +400,7 @@ section#banner-catalog img {
   font-size: 10pt;
 }
 .text-xs {
-  font-size: 11px;
+  font-size: 12px;
 }
 .fw-500{
   font-weight: 500;
@@ -455,4 +455,91 @@ input#account_desc {
 .data-detail-catalog .title-card-text {
   font-size: 15pt !important;
   padding: 1px 0;
+}
+div#item_pilihan_container img{
+  /* width: 40px; */
+  height: 40px;
+  /* object-fit: cover; */
+}
+div#item_pilihan_container > .col-6 > div {
+  font-size: 12px !important;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #CACACA;
+  color: black;
+  padding: 12px 14px !important;
+}
+div#item_pilihan_container p {
+  margin-bottom: 5px;
+}
+div#isi_ulang_instan_container img {
+  /* width: 40px; */
+  height: 32px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+div#isi_ulang_instan_container > .col-6 > div {
+  font-size: 12px !important;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #CACACA;
+  color: black;
+  padding: 10px 14px 8px !important;
+  border: 2px solid transparent;
+}
+div#isi_ulang_instan_container p {
+  margin-bottom: 5px;
+  padding: 0 !important;
+}
+div#isi_ulang_instan_container p:last-child {
+  margin: 0;
+  padding: 2px 0 3px 13px !important;
+  margin-left: -13px;
+}
+div#isi_ulang_instan_container > div {
+  margin-bottom: -7px;
+}
+div#isi_ulang_instan_container .check-icon{
+  display: none;
+}
+div#isi_ulang_instan_container > .col-6 > label{z-index: 1;cursor: pointer;}
+div#isi_ulang_instan_container > .col-6 > input{
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div img{
+  filter: grayscale(0);
+}
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div{
+  cursor: not-available;
+  font-weight: bold;
+  background-color: #F5DA36;
+  border: 2px solid white;
+  box-shadow: 0 0 12px white;
+  color: black;
+}
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div .check-icon{
+  display: block;
+}
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div p:last-child{
+  margin-bottom: 0px;
+  background-color: #B38700;
+  background-image: linear-gradient(to right, #B38700, #F5DA36);
+  color: #ffffff;
+}
+.check-icon{
+  right: 0px;
+  height:10px; 
+  border-right:solid 20px white;
+  border-bottom:solid 20px transparent;
+  border-left:solid 20px transparent;
+}
+@media(min-width:992px){
+  .col-lg-9.data-detail-catalog {
+    width: 72%;
+  }
+  .col-lg-3.widget-catalog-detail {
+    width: 28%;
+  }
 }

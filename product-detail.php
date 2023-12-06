@@ -99,10 +99,10 @@
                   <img class="col-11 col-lg-12 h-auto mx-auto shadow-image" src="images/detail-catalog.png" alt="" />
                   <img class="col-11 col-lg-12 h-auto mx-auto position-relative" src="images/detail-catalog.png" alt="" />
                 </div>
-                <p class="pt-3 col-8 col-lg-12 fw-bold fs-6 px-0 mb-3">Mobile Legends: Bang Bang <br />
+                <p class="pt-3 col-8 col-lg-12 fw-bold fs-5 px-0 mb-3">Mobile Legends: Bang Bang <br />
                   <span class="text-sm fw-normal">Moonton</span>
                 </p>
-                <div class="rounded p-2 col-12 text-xs card-widget-catalog">
+                <div class="rounded p-2 col-12 text-xs card-widget-catalog fw-500">
                   <p class="text-yellow">Proses Otomatis | Open 24 Jam</p>
                   <p>Beli top up Diamond Mobile Legends: Bang Bang (MLBB) termurah dan proses cepat di SipShop! Harga Diamond paling murah dan banyak promo di setiap harinya. <br />
                     <br /> Top up diamond MLBB/Mobile Legends: Bang Bang saat ini semakin mudah bersama SipShop. Diamond ini dapat digunakan sebagai pembelian di dalam game Mobile Legends seperti Skin, Hero, Item, Draw, Event dan Membership Starlight. <br />
@@ -209,7 +209,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-9 mt-5 mt-lg-0 px-0 data-detail-catalog">
+          <div class="col-12 col-lg-9 mt-5 mt-lg-0 px-0 data-detail-catalog ps-lg-4">
             <!-- Akun User -->
             <div class="container px-0 px-lg-2">
               <div class="d-flex justify-content-between rounded-top-3 bg-yellow">
@@ -217,61 +217,63 @@
                   <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                     <span>1</span>
                   </div>
-                  <p class="align-self-end text-black mt-2 mb-2 title-card-text">Masukkan Data Akun Anda</p>
+                  <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Masukkan Data Akun Anda</p>
                 </div>
                 <i class="fa fa-question align-self-center rounded-2 px-2 py-1 me-3" style=" color: #F5DA36; background-color: black;font-size: 12px; cursor: pointer;"></i>
               </div>
               <form class="rounded-bottom py-3 px-4 bg-grey" action="/">
-                <div class="d-flex w-100">
-                  <div class="col-12 col-sm-7">
-                    <label class="text-white mb-2 fw-bold">ID</label>
-                    <input id="user_id" class="rounded-4 w-100 px-3 form-control py-2 border-0 text-sm" name="user_id" type="text" placeholder="Masukkan User ID" />
+                <div class="px-2">
+                  <div class="d-flex w-100">
+                    <div class="col-12 col-sm-7">
+                      <label class="text-white mb-2 fw-bold">ID</label>
+                      <input id="user_id" class="rounded-4 w-100 px-3 form-control py-2 border-0 text-sm" name="user_id" type="text" placeholder="Masukkan User ID" />
+                    </div>
+                    <div class="col-12 col-sm-5 ps-sm-3">
+                      <label class="text-white mb-2 fw-bold">Zona ID</label>
+                      <input id="zona_id" class="rounded-4 w-100 px-3 form-control py-2 border-0 text-sm" name="zona_id" type="text" placeholder="Masukkan Zona ID" />
+                    </div>
                   </div>
-                  <div class="col-12 col-sm-5 ps-sm-4">
-                    <label class="text-white mb-2 fw-bold">Zona ID</label>
-                    <input id="zona_id" class="rounded-4 w-100 px-3 form-control py-2 border-0 text-sm" name="zona_id" type="text" placeholder="Masukkan Zona ID" />
+                  <div class="w-100 mt-3">
+                    <!-- <label class="text-white mb-2">Zona ID</label> -->
+                    <input id="account_desc" class="rounded-4 w-100 px-3 border-0 text-yellow fw-bold py-3 text-sm" style="background:#767676" disabled="disabled" name="account_desc" type="text" value="Ananda Sekti - SIPSHOP" />
                   </div>
+                  <p class="mt-3 px-4 text-center text-white fw-bold fst-italic text-sm">Nickname akan muncul secara otomatis setelah anda mengklik RE - CHECK USER. <br /> Harap diperiksa kembali nickname anda jika sudah benar. </p>
+                  <button class="w-100 rounded-3 text-black bg-yellow border-0 py-2 fw-bold" type="submit">RE - CHECK USER</button>
                 </div>
-                <div class="w-100 mt-3">
-                  <!-- <label class="text-white mb-2">Zona ID</label> -->
-                  <input id="account_desc" class="rounded-4 w-100 px-3 border-0 text-yellow fw-bold py-3 text-sm" style="background:#767676" disabled="disabled" name="account_desc" type="text" value="Ananda Sekti - SIPSHOP" />
-                </div>
-                <p class="mt-3 px-4 text-center text-white fw-bold fst-italic text-sm">Nickname akan muncul secara otomatis setelah anda mengklik RE - CHECK USER. <br /> Harap diperiksa kembali nickname anda jika sudah benar. </p>
-                <button class="w-100 rounded-3 text-black bg-yellow border-0 py-2 fw-bold" type="submit">RE - CHECK USER</button>
               </form>
             </div>
             <!-- Pilih Nominal -->
             <div class="container px-0 px-lg-2 mt-5">
-              <div class="d-flex justify-content-between rounded-top-3 position-relative">
-                <div class=" p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
+              <div class="d-flex justify-content-between rounded-top-3 position-relative bg-yellow">
+                <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                   <span>2</span>
                 </div>
-                <p class="align-self-end text-black mt-2 mb-2">Pilih Nominal Yang Ingin Dibeli</p>
+                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Pilih Nominal Yang Ingin Dibeli</p>
               </div>
-              <div class="rounded-bottom py-3">
+              <div class="rounded-bottom py-4 px-3 bg-grey pb-5">
                 <div class="container">
-                  <label class="text-white mb-2">Item Pilihan</label>
-                  <div id="item_pilihan_container" class="row g-2">
-                    <div id="0_itempilihan" class="col-6 col-lg-4">
+                  <label class="text-white mb-2 fw-bold">Item Pilihan</label>
+                  <div id="item_pilihan_container" class="row g-3">
+                    <div id="0_itempilihan" class="col-6 col-lg-4" onclick="chooseIsiUlangPayment(0)">
                       <div class=" rounded-3 gap-3 py-2 px-3 mt-2 d-flex justify-content-between align-items-center">
                         <div>
                           <p>Weekly Diamond Pass (82)</p> Rp. 23.730,-
                         </div>
-                        <img class="rounded-2" src="images/icon-ml-lower.png" alt="" />
+                        <img class="rounded-2" src="images/icon-weekly.png" alt="" />
                       </div>
                     </div>
                     <div id="1_itempilihan" class="col-6 col-lg-4">
                       <div class=" rounded-3 gap-3 py-2 px-3 mt-2 d-flex justify-content-between align-items-center">
                         <div>
-                          <p>Weekly Diamond Pass (82)</p> Rp. 23.730,-
+                          <p>Weekly Diamond Pass (100)</p> Rp. 24.235,-
                         </div>
-                        <img class="rounded-2" src="images/icon-ml-lower.png" alt="" />
+                        <img class="rounded-2" src="images/icon-weekly.png" alt="" />
                       </div>
                     </div>
                     <div id="2_itempilihan" class="col-6 col-lg-4">
                       <div class=" rounded-3 gap-3 py-2 px-3 mt-2 d-flex justify-content-between align-items-center">
                         <div>
-                          <p>Weekly Diamond Pass (82)</p> Rp. 23.730,-
+                          <p>Twilight Pass</p> Rp. 119.850,-
                         </div>
                         <img class="rounded-2" src="images/icon-ml-lower.png" alt="" />
                       </div>
@@ -279,294 +281,33 @@
                   </div>
                 </div>
                 <div class="container mt-4">
-                  <label class="text-white mb-2">Isi Ulang Instan</label>
-                  <div id="isi_ulang_instan_container" class="row g-2">
-                    <div id="0_isiulanginstan" class="col-6 col-lg-4">
+                  <label class="text-white mb-2 fw-bold">Isi Ulang Instan</label>
+                  <div id="isi_ulang_instan_container" class="row g-3">
+                    <div id="0_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
+                      <input type="radio" name="product_code" class="product" id="productid-0" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <label for="productid-0" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
                         <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
+                          <p class="text-sm">5 (5+0) Diamonds</p>
+                          <p class="py-1">Rp. 1.431,-</p>
+                        </div>
+                        <img src="images/diamond.png">
+                        <div class="position-absolute top-0 check-icon" style="">
+                            <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                         </div>
                       </div>
                     </div>
-                    <div id="1_isiulanginstan" class="col-6 col-lg-4">
+                    <div id="1_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
+                      <input type="radio" name="product_code" class="product" id="productid-1" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <label for="productid-1" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
                         <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
+                          <p class="text-sm">12 (11+1) Diamonds</p>
+                          <p class="py-1">Rp. 3.333,-</p>
                         </div>
-                      </div>
-                    </div>
-                    <div id="2_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="3_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="4_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                        <div class="position-absolute top-0"></div>
-                      </div>
-                    </div>
-                    <div id="5_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="6_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="7_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="8_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="9_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="10_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="11_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="12_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="13_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="14_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="15_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="16_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="17_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="18_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="19_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="20_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="21_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="22_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="23_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="24_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="25_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="26_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="27_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="28_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="29_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="30_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="31_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="32_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="33_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="34_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="35_isiulanginstan" class="col-6 col-lg-4">
-                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
-                        <div>
-                          <p>Weekly Diamond Pass (82)</p>
-                          <p class="py-1">Rp. 23.730,-</p>
+                        <img src="images/diamond.png">
+                        <div class="position-absolute top-0 check-icon" style="">
+                            <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                         </div>
                       </div>
                     </div>
@@ -1027,6 +768,15 @@
   <!-- Template Main JS File -->
   <script>
     $(document).ready(function() {
+      // Get the clickable element and its parent
+      var clickableElement = document.getElementById('clickableElement');
+      var parentElement = document.getElementById('parentElement');
+
+      // Add a click event listener to the clickable element
+      clickableElement.addEventListener('click', function() {
+        // Add a class to the parent element
+        parentElement.classList.add('highlighted');
+      });
       $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 20,
@@ -1053,6 +803,324 @@
           $('.navbar-collapse').removeClass("show");
       });
     })
+    // var choosenIsiUlangInstan = 0;
+    // var choosenPayment = 0;
+    // var payments = [
+    //   // status: selected, priority, not-available, available
+    //   {
+    //     "id": "0",
+    //     "name": "QRIS",
+    //     "image": "images/payments/qris.png",
+    //     "description": "Bayar dengan QRIS",
+    //     "status": "selected",
+    //     "harga": "1.000",
+    //   },
+    //   {
+    //     "id": "1",
+    //     "name": "Telkomsel",
+    //     "image": "images/payments/telkomsel.png",
+    //     "description": "Bayar dengan Pulsa Telkomsel",
+    //     "status": "available",
+    //     "harga": "1.000",
+    //   },
+    //   {
+    //     "id": "2",
+    //     "name": "Three",
+    //     "image": "images/payments/three.png",
+    //     "description": "Bayar dengan Pulsa Three",
+    //     "status": "available",
+    //     "harga": "1.000.000",
+    //   },
+    //   {
+    //     "id": "3",
+    //     "name": "Indomaret",
+    //     "image": "images/payments/indomaret.png",
+    //     "description": "Bayar dengan Indomaret",
+    //     "status": "available",
+    //     "harga": "1.000",
+    //   },
+
+    //   {
+    //     "id": "4",
+    //     "name": "Alfamart",
+    //     "image": "images/payments/alfamart.png",
+    //     "description": "Bayar dengan Alfamart",
+    //     "status": "available",
+    //     "harga": "1.000",
+    //   },
+    //   {
+    //     "id": "5",
+    //     "name": "Alfamidi",
+    //     "image": "images/payments/alfamidi.png",
+    //     "description": "Bayar dengan Alfamidi",
+    //     "status": "available",
+    //     "harga": "1.000",
+    //   },
+    //   {
+    //     "id": "6",
+    //     "name": "Lawson",
+    //     "image": "images/payments/lawson.png",
+    //     "description": "Bayar dengan Lawson",
+    //     "status": "available",
+    //     "harga": "1.000",
+    //   },
+    //   {
+    //     "id": "7",
+    //     "name": "",
+    //     "image": "images/payments/bca.png",
+    //     "description": "",
+    //     "status": "not-available",
+    //     "harga": "",
+    //   },
+    //   {
+    //     "id": "8",
+    //     "name": "",
+    //     "image": "images/payments/mandiri.png",
+    //     "description": "",
+    //     "status": "not-available",
+    //     "harga": "",
+    //   },
+    //   {
+    //     "id": "9",
+    //     "name": "",
+    //     "image": "images/payments/bri.png",
+    //     "description": "",
+    //     "status": "not-available",
+    //     "harga": "",
+    //   },
+    //   {
+    //     "id": "10",
+    //     "name": "",
+    //     "image": "images/payments/bni.png",
+    //     "description": "",
+    //     "status": "not-available",
+    //     "harga": "",
+    //   },
+    //   {
+    //     "id": "11",
+    //     "name": "",
+    //     "image": "images/payments/bsi.png",
+    //     "description": "",
+    //     "status": "not-available",
+    //     "harga": "",
+    //   },
+    //   {
+    //     "id": "12",
+    //     "name": "",
+    //     "image": "images/payments/cimb.png",
+    //     "description": "",
+    //     "status": "not-available",
+    //     "harga": "",
+    //   },
+    //   {
+    //     "id": "12",
+    //     "name": "SIPAY",
+    //     "image": "images/payments/sipay.png",
+    //     "description": "Login untuk menggunakan saldo SiPay",
+    //     "status": "priority",
+    //     "harga": "5.000.000",
+    //   },
+    // ];
+    // var isi_ulang_instan_container = document.getElementById('isi_ulang_instan_container');
+    // var item_pilihan_container = document.getElementById('item_pilihan_container');
+    // var pilih_pembayaran_container = document.getElementById('pilih_pembayaran_container');
+    // var id_priority;
+
+    // function setPilihPembayaran() {
+    //   var temp = "";
+    //   for (var i = 0; i < payments.length; i++) {
+    //     if (payments[i].status == "selected") {
+    //       temp += `
+    //             <div class="d-flex justify-content-between rounded mt-3" style="background-color: #F5DA36; border: 3px solid white;" onclick="choosePembayaran(${i})">
+    //               <div class="px-0" style="width:100%;">
+    //                 <img src="${payments[i].image}" style="width: auto; height: 32px;" class="mx-2 my-2" />
+    //                 <p class="border-top border-white border-3 px-2"
+    //                   style="padding-top: 10px;font-size: 12px; font-weight: 600;margin-bottom:10px;">
+    //                   ${payments[i].description}</p>
+    //               </div>
+    //               <div class="d-flex position-relative">
+    //                 <div class="position-absolute top-0"
+    //                   style="right: 0px;height:15px; border-right:solid 30px white;border-bottom:solid 20px transparent;border-left:solid 20px transparent;">
+    //                   <i class="fa fa-check position-absolute" style="right:-25px;"></i>
+    //                 </div>
+    //                 <p onclick="caraBayarFunc()" style="top: 12px;box-shadow: 4px 4px #B38700; margin-right: 16px;transform: skew(-15deg);cursor:pointer;" 
+    //                   class="bg-white px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
+    //                   <span style="font-weight: bold; font-size: 11px;white-space: nowrap; display: inline-block;
+    //                 transform: skew(15deg)">
+    //                     Cara Bayar
+    //                   </span>
+    //                 </p>
+    //                 <div>
+    //                   <p style="font-weight: bold; font-size: 15px; margin-bottom: 5px; padding-top: 10px;">Harga</p>
+    //                   <p style="box-shadow: 4px 4px #B38700;transform: skew(-15deg);margin-left: -5px;"
+    //                     class="bg-white px-1 px-lg-3 py-2 rounded-1 me-3">
+    //                     <span style="font-weight: bold; font-size: 13px; display: inline-block;white-space:nowrap;
+    //                 transform: skew(15deg);">
+    //                       Rp. ${payments[i].harga},-
+    //                     </span>
+    //                   </p>
+    //                 </div>
+    //               </div>
+    //             </div>
+    //       `;
+    //     } else if (payments[i].status == "priority") {
+    //       id_priority = i;
+    //       temp += `
+    //       <div class=" d-flex justify-content-between rounded mt-3" style="background-color: #F5DA36; border: 3px solid white;" onclick="choosePembayaran(${i})">
+    //               <div class="px-0" style="width:100%;">
+    //                 <div class="d-flex align-items-center">
+    //                   <img src="${payments[i].image}" style="width: auto; height: 32px;"
+    //                     class="mx-2 my-2" />
+    //                   <span style="font-style: italic;font-size: 20px; font-weight: 900; color: #FDFACC;">LEBIH
+    //                     HEMAT</span>
+    //                 </div>
+    //                 <p class="border-top border-white border-3 px-2"
+    //                   style="padding-top: 10px;font-size: 12px; font-weight: 600;margin-bottom:10px;">
+    //                   ${payments[i].description}</p>
+    //               </div>
+    //               <div class="d-flex position-relative me-3">
+    //                 <p  onclick="caraBayarFunc()" style="top: 12px;box-shadow: 4px 4px #B38700; margin-right: 16px;transform: skew(-15deg);cursor:pointer;"
+    //                   class="bg-white px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
+    //                   <span style="font-weight: bold; font-size: 11px;white-space: nowrap; display: inline-block;
+    //                 transform: skew(15deg)">
+    //                     Cara Bayar
+    //                   </span>
+    //                 </p>
+    //                 <div>
+    //                   <p style="font-weight: bold; font-size: 15px; margin-bottom: 5px; padding-top: 10px;">Harga</p>
+    //                   <p style="box-shadow: 5px 5px #B38700; margin-left: -16px;transform: skew(-15deg);"
+    //                     class="bg-white px-2 px-lg-2 py-1 rounded-1">
+    //                     <span class="py-1" style="font-weight: bold; font-size: 13px;white-space: nowrap; display: inline-block;
+    //                 transform: skew(15deg)">
+    //                       Rp. ${payments[i].harga},-
+    //                     </span>
+    //                   </p>
+    //                 </div>
+    //               </div>
+    //             </div>
+    //       `;
+    //     } else if (payments[i].status == "not-available") {
+    //       temp += `
+    //             <div class=" d-flex justify-content-between rounded mt-3 pe-3" style="background-color: #7D848E; border: none">
+    //               <div class="px-0" style="width:100%;">
+    //                 <img src="${payments[i].image}" style="width: auto; height: 24px;" class="mx-4 my-2" />
+    //               </div>
+    //               <div class="d-flex position-relative">
+    //                 <p  onclick="caraBayarFunc()" style="background-color: #434343; top: 12px;box-shadow: 4px 4px #767676; margin-right: 16px;transform: skew(-15deg);cursor:pointer;right:120px;"
+    //                   class=" px-1 px-lg-2 py-1 rounded-1 position-absolute">
+    //                   <span style="color:#CACACA; font-weight: bold; font-size: 11px;white-space: nowrap; display: inline-block;
+    //               transform: skew(15deg);">
+    //                     Cara Bayar
+    //                   </span>
+    //                 </p>
+    //                 <div>
+    //                   <p class="ms-lg-2"
+    //                     style="font-weight: bold; font-size: 13px; margin-bottom: 5px; padding-top: 10px; color: #434343;text-align: center; margin-left: -24px;">
+    //                     Tidak Tersedia <br /><span class="text-nowrap">Untuk Nominal Ini</span></p>
+    //                 </div>
+    //               </div>
+    //             </div>
+    //       `;
+    //     } else if (payments[i].status == "available") {
+    //       temp += `
+    //             <div class=" d-flex justify-content-between rounded mt-3 pe-3" style="background-color: #CACACA; border: none; cursor:pointer;" onclick="choosePembayaran(${i})">
+    //               <div class="px-0" style="width:100%;">
+    //                 <img src="${payments[i].image}" style="width: auto; height: 32px;"
+    //                   class="mx-2 my-2" />
+    //                 <p class="border-top border-black border-3 px-2"
+    //                   style="padding-top: 10px;font-size: 12px; font-weight: 600;margin-bottom:10px;">
+    //                   ${payments[i].description}</p>
+    //               </div>
+    //               <div class="d-flex position-relative">
+    //                 <p  onclick="caraBayarFunc()" style="top: 12px;box-shadow: 4px 4px #767676; margin-right: 16px;transform: skew(-15deg);cursor:pointer;"
+    //                   class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
+    //                   <span style="color:#CACACA; font-weight: bold; font-size: 11px;white-space: nowrap; display: inline-block;
+    //                 transform: skew(15deg);">
+    //                     Cara Bayar
+    //                   </span>
+    //                 </p>
+    //                 <div>
+    //                   <p
+    //                     style="font-weight: bold; font-size: 15px; margin-bottom: 5px; padding-top: 10px; color: black;">
+    //                     Harga</p>
+    //                   <p style="box-shadow: 4px 4px #767676;transform: skew(-15deg);margin-left: -5px;"
+    //                     class="bg-black px-1 px-lg-3 py-2 rounded-1">
+    //                     <span style="font-weight: bold; font-size: 13px;white-space: nowrap; display: inline-block;
+    //                 transform: skew(15deg);color:#CACACA;">
+    //                       Rp. ${payments[i].harga},-
+    //                     </span>
+    //                   </p>
+    //                 </div>
+    //               </div>
+    //             </div>
+    //       `;
+    //     }
+    //   }
+
+    //   pilih_pembayaran_container.innerHTML = temp;
+    // }
+    // setPilihPembayaran();
+
+    // function setIsiUlangInstan() {
+    //   var temp = "";
+
+    //   for (var i = 0; i < 2; i++) {
+    //     temp += `<div onclick="chooseIsiUlangPayment(${i})" class="col-6 col-lg-4" id="${i}_isiulanginstan">
+    //                     <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center"
+    //                       style="font-size: 10px; cursor: ${choosenIsiUlangInstan == i ? "not-available " : "pointer"}; font-weight: bold; background-color: ${choosenIsiUlangInstan == i ? `#F5DA36;border:2px solid white; box-shadow: 12px white;` : `#CACACA;`};color:black;">
+    //                       <div>
+    //                         <p style="padding-left:8px">Weekly Diamond Pass (82)</p>
+    //                         <p class="py-1" style="padding-left:10px;margin-bottom: 0px; ${choosenIsiUlangInstan == i ? `background-color:#B38700;background-image: linear-gradient(to right, #B38700, #F5DA36);color:#ffffff;` : ``}">Rp. 23.730,-</p>
+    //                       </div>
+    //                       <i style="font-size: 24px;padding-right:8px;" class="fa fa-diamond"></i>
+    //                       ${choosenIsiUlangInstan == i ?
+    //         `<div class="position-absolute top-0" style="right: 0px;height:10px; border-right:solid 20px white;border-bottom:solid 20px transparent;border-left:solid 20px transparent;">
+    //                           <i class="fa fa-check position-absolute" style="right:-20px;" ></i>
+    //                         </div>`: ""
+    //       }
+    //                     </div>                      
+    //                   </div>`;
+    //   }
+    //   isi_ulang_instan_container.innerHTML = temp;
+    // }
+    // setIsiUlangInstan();
+
+    // function setItemPilihan() {
+    //   var temp = "";
+
+    //   for (var i = 0; i < 3; i++) {
+    //     temp += `<div class="col-6 col-lg-4" id="${i}_itempilihan">
+    //                     <div  class=" rounded-3 gap-3 py-2 px-3 mt-2 d-flex justify-content-between align-items-center"
+    //             style="font-size: 10px; cursor:pointer; font-weight: bold; background-color: #CACACA; color:black;">
+    //             <div>
+    //               <p>Weekly Diamond Pass (82)</p>
+    //               <span>Rp. 23.730,-</span>
+    //             </div>
+    //             <img src="images/icon-ml-lower.png" class="rounded-2" style="width:auto; height:36px;"/>
+    //           </div>
+    //                     </div>`;
+    //   }
+    //   item_pilihan_container.innerHTML = temp;
+    // }
+    // setItemPilihan();
+
+    // function chooseIsiUlangPayment(i) {
+    //   choosenIsiUlangInstan = i;
+    //   setIsiUlangInstan();
+    // }
+
+    // function choosePembayaran(i) {
+    //   if (i != id_priority && payments[id_priority].status == "selected") {
+    //     payments[id_priority].status = "priority";
+    //   } else {
+    //     payments[choosenPayment].status = "available";
+    //   }
+
+    //   payments[i].status = "selected";
+    //   choosenPayment = i;
+    //   setPilihPembayaran();
+    // }
+
   </script>
 </body>
 

@@ -26,7 +26,7 @@
   <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 
-  <link href="css/style.css?v=11" rel="stylesheet">
+  <link href="css/style.css?v=111" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>
@@ -65,9 +65,9 @@
               </ul>
             </div>
             <div class="rounded-5 align-items-center login-action-button d-flex justify-content-around ms-4" >
-              <a href="#" style="">Login</a>
+              <a href="login.php" style="">Login</a>
               <span>|</span>
-              <a href="#">Register</a>
+              <a href="register.php">Register</a>
             </div>
           </div>
         </div>

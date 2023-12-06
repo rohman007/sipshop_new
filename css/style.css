@@ -16,6 +16,9 @@ body:before {
   background: url(images/bg-header.jpg)no-repeat;
   background-size: 100% auto;
 }
+body#login-page:before {
+  display: none;
+}
 a {
   outline: 0 !important;
 }
@@ -89,7 +92,7 @@ button.navbar-toggler span {
 @media(max-width:767px){
   .login-action-button {
     background: #f5da36;
-    padding: 0 10px;
+    padding: 0 5px;
     border-radius: 12px !important;
   }
   a.navbar-brand img {

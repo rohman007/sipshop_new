@@ -1,0 +1,99 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: normal;
+  background: url(images/bg-login.jpg)no-repeat;
+  font-size: 11pt;
+  background-size: cover;
+  background-position: center;
+}
+a {
+  outline: 0 !important;
+}
+.toggle-password {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 9px;
+  display: block;
+  height: 100%;
+  width: 40px;
+  font-size: 13pt;
+  color: #555;
+}
+.fw-500{
+  font-weight: 500;
+}
+.form-logo {
+  max-width: 80%;
+}
+.form-block h3 {
+  color: #f5da36;
+  font-weight: 600;
+  font-size: 12pt;
+  text-transform: uppercase;
+}
+.form-block{
+  position: relative;
+  z-index: 1;
+}
+.form-block h1 {
+  font-weight: 700;
+  color: #fff;
+}
+input.form-control {
+  font-size: 11pt;
+  border: 0;
+  padding: 9px 16px;
+  border-radius: 14px;
+  font-weight: 500;
+}
+.btn-primary {
+  padding: 11px;
+  border-radius: 14px;
+  border: 0;
+  background: #f5da36;
+  color: #222;
+}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active {
+  background-color: #cfb728;
+  color: #222;
+}
+.text-sm {
+  font-size: 10pt;
+}
+.form-block a{
+  color: #f5da36;
+  text-decoration: none;
+}
+.image-form {
+  position: relative;
+  margin-left: -50px;
+}
+@media(max-width:767px){
+  .image-form:before {
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .form-block {
+    padding: 0 25px !important;
+  }
+  .image-form {
+    position: absolute;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+  }
+  .image-form img {
+    width: 290% !important;
+    height: auto !important;
+  }
+  .form-logo {
+    max-width: 65%;
+  }
+}

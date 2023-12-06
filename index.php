@@ -26,7 +26,7 @@
   <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 
-  <link href="css/style.css?v=111" rel="stylesheet">
+  <link href="css/style.css?v=11111" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>
@@ -145,62 +145,62 @@
               <h2 class=" px-md-5">Semua list game mobile</h2>
               <div class="row px-md-5 gx-5 gy-2">
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Mobile Legends.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/LOL.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire Max.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/AOV.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ace Racer.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Sausage man.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok M.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok X.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Super Sus.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/PUBG MOBILE.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Gensin Impact.jpg" class="w-100">
                   </a>
                 </div>
@@ -210,62 +210,62 @@
               <h2 class=" px-md-5">Semua list game PC</h2>
               <div class="row px-md-5 gx-5 gy-2">
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Mobile Legends.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/LOL.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire Max.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/AOV.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ace Racer.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Sausage man.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok M.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok X.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Super Sus.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/PUBG MOBILE.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Gensin Impact.jpg" class="w-100">
                   </a>
                 </div>
@@ -275,62 +275,62 @@
               <h2 class=" px-md-5">Semua list pulsa & data</h2>
               <div class="row px-md-5 gx-5 gy-2">
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Mobile Legends.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/LOL.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire Max.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/AOV.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ace Racer.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Sausage man.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok M.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok X.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Super Sus.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/PUBG MOBILE.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Gensin Impact.jpg" class="w-100">
                   </a>
                 </div>
@@ -340,62 +340,62 @@
               <h2 class=" px-md-5">Semua list voucher</h2>
               <div class="row px-md-5 gx-5 gy-2">
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Mobile Legends.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/LOL.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire Max.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/AOV.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ace Racer.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Sausage man.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok M.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok X.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Super Sus.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/PUBG MOBILE.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Gensin Impact.jpg" class="w-100">
                   </a>
                 </div>
@@ -404,62 +404,62 @@
               <h2 class=" px-md-5">Semua list lainnya</h2>
               <div class="row px-md-5 gx-5 gy-2">
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Mobile Legends.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/LOL.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire Max.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/AOV.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Free Fire.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ace Racer.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Sausage man.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok M.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Ragnarok X.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Super Sus.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/PUBG MOBILE.jpg" class="w-100">
                   </a>
                 </div>
                 <div class="col-4 col-sm-2">
-                  <a href="#">
+                  <a href="product-detail.php">
                     <img src="images/Gensin Impact.jpg" class="w-100">
                   </a>
                 </div>
@@ -469,7 +469,7 @@
           <div class="col-sm-10">
             <div class="row">
               <div class="col-sm-2">
-                <a href="#">
+                <a href="product-detail.php">
                   <img src="">
                 </a>
               </div>
@@ -495,8 +495,8 @@
             <div class="w-50">
               <h3 class="text-start">INFORMASI</h3>
               <p class="text-nowrap mb-2"><a href="#">Tipe Akun SipShop</a></p>
-              <p class="text-nowrap mb-2"><a href="#">Login</a></p>
-              <p class="text-nowrap mb-2"><a href="#">Register</a></p>
+              <p class="text-nowrap mb-2"><a href="login.php">Login</a></p>
+              <p class="text-nowrap mb-2"><a href="register.php">Register</a></p>
               <p class="text-nowrap mb-2"><a href="#">Info dan klaim garansi</a></p>
             </div>
             <div class="w-50">
@@ -568,7 +568,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 mx-auto border-top border-white py-1 pt-3 align-self-end mt-4">
+        <div class="copyright col-12 mx-auto border-top border-white py-1 pt-3 align-self-end mt-4">
           <p class="text-white text-center">Copyright @2023 SipShop - Situs Top Up Game
             Termurah Se Indonesia</p>
         </div>

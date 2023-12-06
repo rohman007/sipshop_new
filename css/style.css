@@ -80,11 +80,11 @@ button.navbar-toggler {
   margin-right: 10px;
 }
 button.navbar-toggler span {
-  width: 22px;
+  width: 20px;
   background: #000;
   position: relative;
   height: 3px;
-  margin: 4px 0;
+  margin: 3px 0;
   border-radius: 5px;
   display: block;
   vertical-align: middle;
@@ -93,10 +93,10 @@ button.navbar-toggler span {
   .login-action-button {
     background: #f5da36;
     padding: 0 5px;
-    border-radius: 12px !important;
+    border-radius: 8px !important;
   }
   a.navbar-brand img {
-    height: 35px;
+    height: 28px;
   }
   .login-action-button {
     margin: 0 !important;
@@ -106,19 +106,23 @@ button.navbar-toggler span {
     margin: 0;
     display: block;
   }
-  .login-action-button a{
-    padding: 9px 10px;
+  .login-action-button a {
+    padding: 7px 6px;
   }
   div#navbarCollapse {
     position: absolute;
-    width: 75%;
+    width: 70%;
     top: 0;
+    height: 100vh;
     left: 0;
     background: #1a1a1a;
     border-radius: 0 0 15px;
     padding: 0 0;
-  
+    display: block;
+    transform: translateX(-100%);
+    transition: all 0.2s ease;
   }
+  div#navbarCollapse.show {transform: translateX(0%);transition: all 0.2s ease;}
   nav a.nav-link{
     padding: 10px 19px !important;
   }
@@ -138,18 +142,6 @@ button.navbar-toggler span {
     top: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 0.1);
-  }
-  section#hero .owl-nav{
-    padding: 0;
-  }
-  section#hero .owl-theme .owl-dots .owl-dot span {
-    width: 34px;
-    height: 2px;
-    margin: 0 4px;
-  }
-  div#hero-slide .owl-dots {
-    margin-top: 6px;
-    margin-bottom: 15px;
   }
 }
 
@@ -200,6 +192,18 @@ div#hero-slide .owl-dots {
   section#hero .owl-nav.disabled {
     display: none;
   }
+  section#hero .owl-nav{
+    padding: 0;
+  }
+  section#hero .owl-theme .owl-dots .owl-dot span {
+    width: 34px;
+    height: 2px;
+    margin: 0 4px;
+  }
+  div#hero-slide .owl-dots {
+    margin-top: 6px;
+    margin-bottom: 15px;
+  }
 }
 
 /*SEARCH CATALOG*/
@@ -213,6 +217,17 @@ div#dropsearchdown button {
   background: transparent;
   border: 0;
 }
+@media(max-width:767px){
+  div#dropsearchdown input {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: 4px 20px;
+    font-size: 11pt;
+  }
+  div#dropsearchdown button {
+    padding: 4px 10px;
+  }
+}
 
 /*TAB CATALOG*/
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
@@ -223,6 +238,15 @@ div#dropsearchdown button {
 .nav-tabs .nav-link{
   color: #fff;
   font-weight: 500;
+}
+@media(max-width:767px){
+  ul#catalogTab {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    justify-content: start !important;
+    overflow-x: auto;
+    padding-bottom: 11px;
+  }
 }
 
 /*CATALOG*/
@@ -280,6 +304,9 @@ div#catalogTabContent .row > div {
   div#catalogTabContent img {
     border-radius: 10px;
   }
+  #catalogTabContent h2 {
+    font-size: 14pt;
+  }
 }
 
 /*FOOTER*/
@@ -323,5 +350,98 @@ img.footer-logo {
   footer#footer {
     padding-top: 20px;
     margin-top: 40px;
+    font-size: 13px;
   }
+  .payment-methode > div {
+    width: calc(25% - 0.4rem);
+    text-align: center;
+  }
+  img.footer-logo {
+    width: auto;
+    height: 60px;
+  }
+  footer#footer h3{
+    font-size: 13pt;
+  }
+  .copyright{
+    font-size: 10.5px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .payment-methode img {
+    max-width: 100%;
+  }
+}
+
+
+/*DETAIL CATALOG*/
+section#detail-catalog {
+  padding-top: 40px;
+}
+.widget-catalog-detail {
+  margin-top: -100px;
+}
+section#banner-catalog img {
+  box-shadow: 0 0px 60px -20px #f5da36;
+  border-radius: 10px;
+}
+.shadow-image {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: calc(100% - 1.5rem);
+  filter: grayscale(100%);
+  opacity: 0.8;
+}
+.text-yellow{
+  color: #f5da36;
+}
+.text-sm {
+  font-size: 10pt;
+}
+.text-xs {
+  font-size: 11px;
+}
+.fw-500{
+  font-weight: 500;
+}
+.bg-yellow{
+  background: #f5da36;
+}
+#detail-catalog a{
+  color: #f5da36;
+  text-decoration: none;
+}
+.title-card-text {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 72px;
+}
+.position-absolute.title-card-icon i {
+  color: #B38700;
+  font-size: 16px;
+  rotate: -45deg;
+}
+.card-widget-catalog {
+  background: #34373B;
+  padding: 13px !important;
+}
+.title-card-icon {
+  margin-left: 20px;
+  margin-bottom: 16px;
+  background-color: #F5DA36;
+  rotate: 45deg;
+  width: 38px;
+  height: 38px;
+  border:3px solid #fff;
+  top: -18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data-detail-catalog .title-card-icon span{
+  color: #000000;
+  font-size: 24px;
+  rotate: -45deg;
+  font-weight: bold;
 }

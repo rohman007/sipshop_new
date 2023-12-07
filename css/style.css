@@ -646,7 +646,7 @@ div#pilih_pembayaran_container > div > div > div:nth-child(2) p:first-child{
   font-size: 15px;
   margin-bottom: 5px;
   padding-top: 15px;
-  color: black;
+  color: transparent;
 }
 div#pilih_pembayaran_container > div > div > div:nth-child(2) p:last-child{
   box-shadow: 4px 4px #767676;
@@ -723,6 +723,7 @@ div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child p
 div#pilih_pembayaran_container > div.recommend-payment > div a {
   background: #fff !important;
   box-shadow: 4px 4px #B38700;
+  display: none;
 }
 div#pilih_pembayaran_container > div.recommend-payment > div > div:nth-child(2) p:last-child {
   background: #fff !important;
@@ -749,7 +750,7 @@ div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child s
   opacity: 0.7;
 }
 div#pilih_pembayaran_container > div > div > div:nth-child(2) {
-  min-width: 160px;
+  min-width: 166px;
   margin: 0 !important;
   justify-content: flex-end;
 }
@@ -783,7 +784,7 @@ div#pilih_pembayaran_container > div.recommend-payment > div:before {background:
     bottom: 20px;
   }
   div#pilih_pembayaran_container > div > div > div:nth-child(2) {
-    min-width: 92px;
+    min-width: 114px;
   }
   div#item_pilihan_container,#isi_ulang_instan_container {
     --bs-gutter-y: 0.6rem;
@@ -901,8 +902,11 @@ div#pilih_pembayaran_container > div.recommend-payment > div:before {background:
     box-shadow: 2px 2px #B38700;
   }
   div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child span {
-    font-size: 9pt;
-    margin-left: -10px;
+    font-size: 4.7vw;
+    margin-left: -5px;
+    position: absolute;
+    right: 136px;
+    bottom: 8.4vw;
   }
   div#pilih_pembayaran_container > div.recommend-payment > div > div:nth-child(2) p:last-child {
     background: #fff !important;

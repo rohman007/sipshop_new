@@ -418,7 +418,7 @@
                         <div>
                           <p>Harga</p>
                           <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                            <span> Rp. 1.000.441,- </span>
+                            <span> Rp. 100.000.441,- </span>
                           </p>
                         </div>
                       </div>

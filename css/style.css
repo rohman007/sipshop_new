@@ -638,7 +638,7 @@ div#pilih_pembayaran_container > div > div > div:first-child p {
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 7px;
-  border-top: 2px solid #1a1a1a !important;
+  border-top: 2px solid transparent !important;
   padding-left: 20px !important;
 }
 div#pilih_pembayaran_container > div > div > div:nth-child(2) p:first-child{
@@ -681,7 +681,7 @@ div#pilih_pembayaran_container > div > input:checked ~ div > div:nth-child(2) p:
   box-shadow: 4px 4px #B38700;
 }
 div#pilih_pembayaran_container > div > input:checked ~ div > div:nth-child(2) p:last-child span{color: #000 !important;}
-div#pilih_pembayaran_container > div > input:checked ~ div > div:first-child p{border-color: #fff !important;}
+/* div#pilih_pembayaran_container > div > input:checked ~ div > div:first-child p{border-color: #fff !important;} */
 
 div#pilih_pembayaran_container > div.disabled-payment  > div{
   background: #7D848E;
@@ -718,7 +718,7 @@ div#pilih_pembayaran_container > div.recommend-payment > div {
   border: 4px solid transparent;
 }
 div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child p {
-  border-color: #fff !important;
+  /* border-color: #fff !important; */
 }
 div#pilih_pembayaran_container > div.recommend-payment > div a {
   background: #fff !important;
@@ -748,7 +748,36 @@ div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child s
   margin-left: 20px;
   opacity: 0.7;
 }
+div#pilih_pembayaran_container > div > div > div:nth-child(2) {
+  min-width: 160px;
+  margin: 0 !important;
+  justify-content: flex-end;
+}
+div#pilih_pembayaran_container > div > div:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: calc(100% - 40px);
+  height: 2px;
+  background: #1a1a1a;
+  bottom: 32px;
+}
+div#pilih_pembayaran_container > div > input:checked ~ div:before {
+  background: #fff !important;
+  bottom:28px;
+}
+
+div#pilih_pembayaran_container > div.disabled-payment > div:before {display: none;}
+div#pilih_pembayaran_container > div.recommend-payment > div:before {background: #fff !important;}
 @media(max-width:767px){
+  div#pilih_pembayaran_container > div > div:before{bottom:22px}
+  div#pilih_pembayaran_container > div > input:checked ~ div:before {
+    background: #fff !important;
+    bottom: 20px;
+  }
+  div#pilih_pembayaran_container > div > div > div:nth-child(2) {
+    min-width: 96px;
+  }
   div#item_pilihan_container,#isi_ulang_instan_container {
     --bs-gutter-y: 0.6rem;
     --bs-gutter-x: 0.6rem;
@@ -763,11 +792,6 @@ div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child s
     /* width: 40px; */
     height: 35px;
   }
-  .data-detail-catalog .title-card-text {
-    font-size: 12
-    pt !important;
-    padding: 1px 0;
-  }
   div#item_pilihan_container p:first-child {
     margin-bottom: 5px;
     font-size: 10px;
@@ -779,8 +803,16 @@ div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child s
     padding: 6px 9px 5px !important;
   }
   .data-detail-catalog .title-card-text {
-    font-size: 12pt !important;
-    padding: 1px 0;
+    font-size: 11pt !important;
+    padding: 1px 0 !important;
+  }
+  .data-detail-catalog .title-card-icon span {
+    font-size: 16px;
+  }
+  .title-card-icon {
+    width: 34px;
+    height: 34px;
+    padding: 0 !important;
   }
   input#account_desc {
     padding: 10px 12px !important;
@@ -812,9 +844,10 @@ div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child s
     padding-top: 4px;
     margin-bottom: 5px;
   }
-  div#pilih_pembayaran_container > div.disabled-payment > div > div:nth-child(2) p:last-child{
+  div#pilih_pembayaran_container > div.disabled-payment > div > div:nth-child(2) p:last-child {
     font-size: 10px;
-    margin-top: 4px;
+    margin-top: 6px;
+    padding-right: 0 !important;
   }
   div#pilih_pembayaran_container .disabled-payment a {
     box-shadow: 2px 2px #767676;
@@ -861,7 +894,7 @@ div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child s
   }
   div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child span {
     font-size: 9pt;
-    margin-left: -6px;
+    margin-left: -10px;
   }
   div#pilih_pembayaran_container > div.recommend-payment > div > div:nth-child(2) p:last-child {
     background: #fff !important;

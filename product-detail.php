@@ -26,7 +26,7 @@
   <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 
-  <link href="css/style.css?v=111111" rel="stylesheet">
+  <link href="css/style.css?v=1111111" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>
@@ -240,7 +240,7 @@
                     <!-- <label class="text-white mb-2">Zona ID</label> -->
                     <input id="account_desc" class="rounded-4 w-100 px-3 border-0 text-yellow fw-bold py-3 text-sm" style="background:#767676" disabled="disabled" name="account_desc" type="text" value="Ananda Sekti - SIPSHOP" />
                   </div>
-                  <p class="mt-3 px-md-4 text-center text-white fw-bold fst-italic text-sm">Nickname akan muncul secara otomatis setelah anda mengklik RE - CHECK USER. <br class="d-none d-md-block"/> Harap diperiksa kembali nickname anda jika sudah benar. </p>
+                  <p class="mt-3 px-md-4 text-center text-white fw-bold fst-italic text-xs">Nickname akan muncul secara otomatis setelah anda mengklik RE - CHECK USER. <br class="d-none d-md-block"/> Harap diperiksa kembali nickname anda jika sudah benar. </p>
                   <button class="w-100 rounded-3 text-black bg-yellow border-0 py-2 fw-bold" type="submit">RE - CHECK USER</button>
                 </div>
               </form>
@@ -405,7 +405,7 @@
                   <div class="position-relative">
                     <input type="radio" name="payment-methode" class="product" id="paymentid-1" value="QRIS" >
                     <label for="paymentid-1" class="position-absolute w-100 h-100 top-0 start-0"></label>
-                    <div class="d-flex justify-content-between rounded mt-3">
+                    <div class="d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
                         <img class="mx-2 my-2" src="images/payments/qris.png" alt="" />
                         <p class="border-top border-black border-3 px-2">Bayar dengan QRIS</p>
@@ -417,8 +417,8 @@
                         </a>
                         <div>
                           <p>Harga</p>
-                          <p class="bg-black px-1 px-lg-3 py-2 rounded-1 me-3">
-                            <span> Rp. 1.000,- </span>
+                          <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
+                            <span> Rp. 1.000.441,- </span>
                           </p>
                         </div>
                       </div>
@@ -442,7 +442,7 @@
                         <div>
                           <p>Harga</p>
                           <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                            <span> Rp. 1.000,- </span>
+                            <span> Rp. 1.441,- </span>
                           </p>
                         </div>
                       </div>
@@ -466,7 +466,7 @@
                         <div>
                           <p>Harga</p>
                           <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                            <span> Rp. 1.000.000,- </span>
+                            <span> Rp. 1.441,- </span>
                           </p>
                         </div>
                       </div>
@@ -490,7 +490,7 @@
                         <div>
                           <p>Harga</p>
                           <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                            <span> Rp. 1.000,- </span>
+                            <span> Rp. 1.441,- </span>
                           </p>
                         </div>
                       </div>
@@ -514,7 +514,7 @@
                         <div>
                           <p>Harga</p>
                           <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                            <span> Rp. 1.000,- </span>
+                            <span> Rp. 1.441,- </span>
                           </p>
                         </div>
                       </div>
@@ -538,7 +538,7 @@
                         <div>
                           <p>Harga</p>
                           <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                            <span> Rp. 1.000,- </span>
+                            <span> Rp. 1.441,- </span>
                           </p>
                         </div>
                       </div>
@@ -562,7 +562,7 @@
                         <div>
                           <p>Harga</p>
                           <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                            <span> Rp. 1.000,- </span>
+                            <span> Rp. 1.441,- </span>
                           </p>
                         </div>
                       </div>
@@ -688,7 +688,7 @@
                   <div class="position-relative recommend-payment">
                     <input type="radio" name="payment-methode" class="product" id="paymentid-14" value="sipay" >
                     <label for="paymentid-14" class="position-absolute w-100 h-100 top-0 start-0"></label>
-                    <div class=" d-flex justify-content-between rounded mt-3">
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
                         <div class="d-flex align-items-center">
                           <img class="mx-2 my-2" src="images/payments/sipay.png" alt="" />

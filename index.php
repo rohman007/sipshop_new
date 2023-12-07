@@ -484,7 +484,8 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="container footer-bottom clearfix">
+    <div class="footer-bottom">
+    <div class="container clearfix">
     <div class="row justify-content-center">
         <div class="col-12 col-lg-6 pe-md-5">
           <img src="images/logo_2x.png" class="footer-logo">
@@ -573,6 +574,7 @@
             Termurah Se Indonesia</p>
         </div>
       </div>
+    </div>
     </div>
   </footer><!-- End Footer -->
 

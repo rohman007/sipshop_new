@@ -311,18 +311,21 @@ div#catalogTabContent .row > div {
 
 /*FOOTER*/
 footer#footer {
+  background: #151515;
+  margin-top: 80px;
+}
+footer#footer .footer-bottom {
   color: #fff;
   background: url(images/bg-footer.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 30px;
-  margin-top: 80px;
 }
 footer#footer a{
   color: #fff;
   text-decoration: none;
 }
-footer#footer h3 {
+footer#footer .footer-bottom h3 {
   color: #f5da36;
   text-transform: uppercase;
   font-weight: bold;
@@ -348,7 +351,6 @@ img.footer-logo {
 }
 @media(max-width:767px){
   footer#footer {
-    padding-top: 20px;
     margin-top: 40px;
     font-size: 13px;
   }
@@ -459,6 +461,7 @@ input#account_desc {
 div#item_pilihan_container img{
   /* width: 40px; */
   height: 40px;
+  filter: grayscale(100%);
   /* object-fit: cover; */
 }
 div#item_pilihan_container > .col-6 > div {
@@ -468,6 +471,7 @@ div#item_pilihan_container > .col-6 > div {
   background-color: #CACACA;
   color: black;
   padding: 12px 14px !important;
+  border: 2px solid transparent;
 }
 div#item_pilihan_container p {
   margin-bottom: 5px;
@@ -484,14 +488,14 @@ div#isi_ulang_instan_container > .col-6 > div {
   font-weight: bold;
   background-color: #CACACA;
   color: black;
-  padding: 10px 14px 8px !important;
+  padding: 12px 14px 10px !important;
   border: 2px solid transparent;
 }
 div#isi_ulang_instan_container p {
   margin-bottom: 5px;
   padding: 0 !important;
 }
-div#isi_ulang_instan_container p:last-child {
+div#isi_ulang_instan_container p:last-child,div#item_pilihan_container p:last-child {
   margin: 0;
   padding: 2px 0 3px 13px !important;
   margin-left: -13px;
@@ -499,30 +503,40 @@ div#isi_ulang_instan_container p:last-child {
 div#isi_ulang_instan_container > div {
   margin-bottom: -7px;
 }
-div#isi_ulang_instan_container .check-icon{
+div#isi_ulang_instan_container .check-icon,div#item_pilihan_container .check-icon{
   display: none;
 }
-div#isi_ulang_instan_container > .col-6 > label{z-index: 1;cursor: pointer;}
-div#isi_ulang_instan_container > .col-6 > input{
+div#isi_ulang_instan_container > .col-6 > label,div#item_pilihan_container > .col-6 > label{z-index: 1;cursor: pointer;}
+div#isi_ulang_instan_container > .col-6 > input,div#item_pilihan_container > .col-6 > input{
   position: absolute;
   width: 0;
   height: 0;
 }
-div#isi_ulang_instan_container > .col-6 > input:checked ~ div img{
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div img,div#item_pilihan_container > .col-6 > input:checked ~ div img{
   filter: grayscale(0);
 }
-div#isi_ulang_instan_container > .col-6 > input:checked ~ div{
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div,div#item_pilihan_container > .col-6 > input:checked ~ div{
   cursor: not-available;
   font-weight: bold;
   background-color: #F5DA36;
   border: 2px solid white;
   box-shadow: 0 0 12px white;
+  overflow: hidden;
   color: black;
+  position: relative;
+  -webkit-animation-name: shadow;
+  animation-name: shadow;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
-div#isi_ulang_instan_container > .col-6 > input:checked ~ div .check-icon{
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div .check-icon,div#item_pilihan_container > .col-6 > input:checked ~ div .check-icon{
   display: block;
 }
-div#isi_ulang_instan_container > .col-6 > input:checked ~ div p:last-child{
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div p:last-child,div#item_pilihan_container > .col-6 > input:checked ~ div p:last-child{
   margin-bottom: 0px;
   background-color: #B38700;
   background-image: linear-gradient(to right, #B38700, #F5DA36);
@@ -535,6 +549,347 @@ div#isi_ulang_instan_container > .col-6 > input:checked ~ div p:last-child{
   border-bottom:solid 20px transparent;
   border-left:solid 20px transparent;
 }
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 2px 0px #f0dd62;
+  }
+  100% {
+    box-shadow: 0 0 22px 5px #f0dd62;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    left: -75px;
+  }
+  100% {
+    left: 1000%;
+  }
+}
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div:after,div#item_pilihan_container > .col-6 > input:checked ~ div:after,div#pilih_pembayaran_container > div >  input:checked ~ div:after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    opacity: .3;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    left: -75px;
+    animation-name: glitch;
+    -webkit-animation-name: glitch;
+    animation-name: glitch;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: ;
+}
+
+/*PAYMENT*/
+div#pilih_pembayaran_container img{
+  width: auto;
+  height: 40px;
+}
+div#pilih_pembayaran_container > div > input:checked ~ div {
+  background:  linear-gradient(90deg, rgba(246,222,79,1) 0%, rgb(247, 237, 137) 100%);
+  border: 4px solid white;
+  position: relative;
+  z-index: 2;
+}
+div#pilih_pembayaran_container > div > label{
+  cursor: pointer;
+  z-index: 1;
+}
+div#pilih_pembayaran_container > div > input{
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+div#pilih_pembayaran_container > div > div {
+  background-color: #CACACA;
+  cursor: pointer;
+  border: 4px solid transparent;
+  overflow: hidden;
+}
+div#pilih_pembayaran_container a {
+  top: 17px;
+  box-shadow: 4px 4px #767676;
+  margin-right: 16px;
+  transform: skew(-15deg);
+  cursor: pointer;
+  padding: 5px 10px !important;
+}
+div#pilih_pembayaran_container a span {
+  font-weight: bold;
+  font-size: 12px;
+  color: #CACACA;
+  white-space: nowrap;
+  display: block;
+  transform: skew(15deg);
+  line-height: 1.2;
+}
+div#pilih_pembayaran_container > div > div > div:first-child {
+  width: 100%;
+}
+div#pilih_pembayaran_container > div > div > div:first-child p {
+  padding-top: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 7px;
+  border-top: 2px solid #1a1a1a !important;
+  padding-left: 20px !important;
+}
+div#pilih_pembayaran_container > div > div > div:nth-child(2) p:first-child{
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-top: 15px;
+  color: black;
+}
+div#pilih_pembayaran_container > div > div > div:nth-child(2) p:last-child{
+  box-shadow: 4px 4px #767676;
+  transform: skew(-15deg);
+  margin-left: -5px;
+  margin-bottom: 0 !important;
+}
+div#pilih_pembayaran_container > div > div > div:nth-child(2) p:last-child span{
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+  display: inline-block;
+  transform: skew(15deg);
+  color: #CACACA;
+}
+div#pilih_pembayaran_container > div > input:checked ~ div a{
+  background: #fff !important;
+  box-shadow: 4px 4px #B38700;
+}
+div#pilih_pembayaran_container > div > div .check-icon{
+  display: none;
+  font-size: 12px;
+  right: 0px;
+  top: 0px !important;
+}
+div#pilih_pembayaran_container > div > input:checked ~ div .check-icon{
+  display: block;
+}
+div#pilih_pembayaran_container > div > input:checked ~ div a span{color: #000 !important;}
+div#pilih_pembayaran_container > div > input:checked ~ div > div:nth-child(2) p:last-child{
+  background: #fff !important;
+  box-shadow: 4px 4px #B38700;
+}
+div#pilih_pembayaran_container > div > input:checked ~ div > div:nth-child(2) p:last-child span{color: #000 !important;}
+div#pilih_pembayaran_container > div > input:checked ~ div > div:first-child p{border-color: #fff !important;}
+
+div#pilih_pembayaran_container > div.disabled-payment  > div{
+  background: #7D848E;
+}
+div#pilih_pembayaran_container > div.disabled-payment  {
+  cursor: no-drop;
+}
+.disabled-payment > input, .disabled-payment > label {
+  display: none;
+}
+div#pilih_pembayaran_container > div.disabled-payment > div > div:nth-child(2) p:last-child span{
+  color: #434343;
+  transform: skew(-0deg);
+  font-size: 13px;
+}
+div#pilih_pembayaran_container > div.disabled-payment > div > div:nth-child(2) p:last-child{
+  box-shadow: none;
+  padding-top: 13px;
+  transform: skew(-0deg);
+  color: #434343;
+  text-align: center;
+  font-size: 13px;
+}
+div#pilih_pembayaran_container .disabled-payment a{
+  background-color: #434343;
+  box-shadow: 4px 4px #767676;
+}
+div#pilih_pembayaran_container .disabled-payment a span{
+  color: #7d848e;
+}
+
+div#pilih_pembayaran_container > div.recommend-payment > div {
+  background: linear-gradient(90deg, rgba(246,222,79,1) 0%, rgb(247, 237, 137) 100%);
+  border: 4px solid transparent;
+}
+div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child p {
+  border-color: #fff !important;
+}
+div#pilih_pembayaran_container > div.recommend-payment > div a {
+  background: #fff !important;
+  box-shadow: 4px 4px #B38700;
+}
+div#pilih_pembayaran_container > div.recommend-payment > div > div:nth-child(2) p:last-child {
+  background: #fff !important;
+  box-shadow: 4px 4px #B38700;
+}
+.title-footer-catalog{
+  transform: skew(-15deg);
+  box-shadow: 2px 2px 20px 2px #F5DA36;
+  background-color: #F5DA36;
+}
+.title-footer-catalog span{
+  font-weight: bold;
+  font-size: 15px;
+  white-space: nowrap;
+  display: inline-block;
+  transform: skew(15deg);
+}
+div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child span {
+  color: #fff;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 21pt;
+  margin-left: 20px;
+  opacity: 0.7;
+}
+@media(max-width:767px){
+  div#item_pilihan_container,#isi_ulang_instan_container {
+    --bs-gutter-y: 0.6rem;
+    --bs-gutter-x: 0.6rem;
+  }
+  div#isi_ulang_instan_container > .col-6 p:first-child {
+    font-size: 12px;
+  }
+  div#item_pilihan_container > .col-6 > div {
+    padding: 6px 7px 5px !important;
+  }
+  div#item_pilihan_container img {
+    /* width: 40px; */
+    height: 35px;
+  }
+  .data-detail-catalog .title-card-text {
+    font-size: 12
+    pt !important;
+    padding: 1px 0;
+  }
+  div#item_pilihan_container p:first-child {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  div#isi_ulang_instan_container img{
+    height: 22px;
+  }
+  div#isi_ulang_instan_container > .col-6 > div{
+    padding: 6px 9px 5px !important;
+  }
+  .data-detail-catalog .title-card-text {
+    font-size: 12pt !important;
+    padding: 1px 0;
+  }
+  input#account_desc {
+    padding: 10px 12px !important;
+    border-radius: 5px !important;
+  }
+  .data-detail-catalog  input.rounded-4,.data-detail-catalog  input.rounded-5 {
+    border-radius: 5px !important;
+    padding: 8px 12px !important;
+  }
+  .shadow-image {
+    position: absolute;
+    top: 13px;
+    left: 6px;
+    width: calc(100% - 2rem);
+  }
+  div#item_pilihan_container img{
+    height: 30px;
+  }
+  .widget-catalog-detail .fs-5 {
+    font-size: 13pt !important;
+  }
+  div#pilih_pembayaran_container img {
+    width: auto;
+    height: 25px;
+  }
+  div#pilih_pembayaran_container > div > div > div:first-child p {
+    padding-left: 8px !important;
+    font-size: 9px;
+    padding-top: 4px;
+    margin-bottom: 5px;
+  }
+  div#pilih_pembayaran_container > div.disabled-payment > div > div:nth-child(2) p:last-child{
+    font-size: 10px;
+    margin-top: 4px;
+  }
+  div#pilih_pembayaran_container .disabled-payment a {
+    box-shadow: 2px 2px #767676;
+  } 
+  div#pilih_pembayaran_container > div.disabled-payment > div > div:nth-child(2) p:last-child span{
+    font-size: 10px;
+  }
+  div#pilih_pembayaran_container > div > div{
+    border-width: 2px !important;
+  }
+  div#pilih_pembayaran_container > div > div > div:nth-child(2) p:last-child {
+    padding: 2px 8px 3px !important;
+    margin-right: 0 !important;
+  }
+  div#pilih_pembayaran_container a {
+    top: 11px;
+    margin-right: 14px;
+    cursor: pointer;
+    padding: 3px 5px !important;
+    box-shadow: 2px 2px #767676;
+    border-radius: 2px !important;
+  }
+  div#pilih_pembayaran_container > div > input:checked ~ div a {
+    background: #fff !important;
+    box-shadow: 2px 2px #B38700;
+  }
+  div#pilih_pembayaran_container > div > div{
+    padding-right: 10px !important;
+  }
+  div#pilih_pembayaran_container a span{font-size: 8px;}
+  div#pilih_pembayaran_container > div > div > div:nth-child(2) p:first-child {
+    font-size: 11px;
+    margin-bottom: 3px;
+    padding-top: 12px;
+  }
+  div#pilih_pembayaran_container > div > div > div:nth-child(2) p:last-child span {
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 0 !important;
+  }
+  div#pilih_pembayaran_container > div.recommend-payment > div a {
+    background: #fff !important;
+    box-shadow: 2px 2px #B38700;
+  }
+  div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child span {
+    font-size: 9pt;
+    margin-left: -6px;
+  }
+  div#pilih_pembayaran_container > div.recommend-payment > div > div:nth-child(2) p:last-child {
+    background: #fff !important;
+    box-shadow: 2px 2px #B38700;
+  }
+  input#kode_voucher {
+    border-radius: 0 10px 10px 0 !important;
+    padding: 8px 9px !important;
+}
+.rounded-start-4 {
+  border-radius: 10px 0 0 10px !important;
+}
+.catalog-desc p:nth-child(2) {
+  display: block;
+}
+.catalog-desc p:first-child {
+  display: block;
+}
+.catalog-desc p {
+  display: none;
+}
+.catalog-desc.show-all .catalog-show {display: none;}
+.catalog-desc.show-all p {
+  display: block;
+}
+
+}
+
 @media(min-width:992px){
   .col-lg-9.data-detail-catalog {
     width: 72%;

@@ -26,7 +26,7 @@
   <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 
-  <link href="css/style.css?v=11111" rel="stylesheet">
+  <link href="css/style.css?v=111111" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>
@@ -74,7 +74,7 @@
       </nav>
     </header><!-- End Header -->
     <!-- ======= Hero Section ======= -->
-    <section id="banner-catalog" class="position-relative pt-4">
+    <section id="banner-catalog" class="position-relative pt-md-4  pt-2">
 
       <div class="container">
         <div class="row">
@@ -95,22 +95,25 @@
           <div class="col-12 col-lg-3 text-white d-flex flex-lg-column flex-row align-items-center widget-catalog-detail">
             <div class="container mt-5 mt-lg-0">
               <div class="row justify-content-start justify-content-lg-center align-items-center">
-                <div class="col-4 col-lg-9 mt-5 mb-3 my-lg-0 mb-lg-3 position-relative">
+                <div class="col-4 col-lg-9 mt-4 mb-4 my-lg-0 mb-lg-3 position-relative pt-2 pt-md-0">
                   <img class="col-11 col-lg-12 h-auto mx-auto shadow-image" src="images/detail-catalog.png" alt="" />
                   <img class="col-11 col-lg-12 h-auto mx-auto position-relative" src="images/detail-catalog.png" alt="" />
                 </div>
                 <p class="pt-3 col-8 col-lg-12 fw-bold fs-5 px-0 mb-3">Mobile Legends: Bang Bang <br />
                   <span class="text-sm fw-normal">Moonton</span>
                 </p>
-                <div class="rounded p-2 col-12 text-xs card-widget-catalog fw-500">
+                <div class="rounded p-2 col-12 text-xs card-widget-catalog fw-500 catalog-desc">
                   <p class="text-yellow">Proses Otomatis | Open 24 Jam</p>
-                  <p>Beli top up Diamond Mobile Legends: Bang Bang (MLBB) termurah dan proses cepat di SipShop! Harga Diamond paling murah dan banyak promo di setiap harinya. <br />
-                    <br /> Top up diamond MLBB/Mobile Legends: Bang Bang saat ini semakin mudah bersama SipShop. Diamond ini dapat digunakan sebagai pembelian di dalam game Mobile Legends seperti Skin, Hero, Item, Draw, Event dan Membership Starlight. <br />
-                    <br /> Anda cukup masukan User ID dan Zone ID, pilih nominal dan lakukan pembayaran. Setelah itu diamond akan langsung masuk ke akun Mobile Legends Anda secara instant. <br />
-                    <br /> Di SipShop mempunyai beberapa pilihan metode pembayaran yang dapat Anda gunakan, diantaranya: QRIS (Gopay, OVO, Dana, LinkAja, ShopeePay dan MBanking), Transfer Bank BCA, Virtual Account (BRI, Mandiri, BNI, BSI, CIMB Niaga) dan Convenience Store (Alfamart, Alfamidi, Lawson dan Indomaret). <br />
-                    <br /> Semua pembayaran dapat Anda lakukan tanpa perlu registrasi ataupun log-in terlebih dahulu, Namun khusus ShopeePay hanya tersedia untuk Pengguna Seluler (Mobile/HP). <br />
-                    <br /> Follow akun Instagram SipShop untuk mendapatkan promo flash sale diamond di setiap harinya <a href="/">@sipshop.co.id</a>
-                  </p>
+                  <p>Beli top up Diamond Mobile Legends: Bang Bang (MLBB) termurah dan proses cepat di SipShop! Harga Diamond paling murah dan banyak promo di setiap harinya.</p>
+                  <p> Top up diamond MLBB/Mobile Legends: Bang Bang saat ini semakin mudah bersama SipShop. Diamond ini dapat digunakan sebagai pembelian di dalam game Mobile Legends seperti Skin, Hero, Item, Draw, Event dan Membership Starlight. </p>
+                  <p> Anda cukup masukan User ID dan Zone ID, pilih nominal dan lakukan pembayaran. Setelah itu diamond akan langsung masuk ke akun Mobile Legends Anda secara instant. </p>
+                  <p> Di SipShop mempunyai beberapa pilihan metode pembayaran yang dapat Anda gunakan, diantaranya: QRIS (Gopay, OVO, Dana, LinkAja, ShopeePay dan MBanking), Transfer Bank BCA, Virtual Account (BRI, Mandiri, BNI, BSI, CIMB Niaga) dan Convenience Store (Alfamart, Alfamidi, Lawson dan Indomaret). </p>
+                  <p> Semua pembayaran dapat Anda lakukan tanpa perlu registrasi ataupun log-in terlebih dahulu, Namun khusus ShopeePay hanya tersedia untuk Pengguna Seluler (Mobile/HP). </p>
+                  <p> Follow akun Instagram SipShop untuk mendapatkan promo flash sale diamond di setiap harinya <a href="/">@sipshop.co.id</a>
+                  <div class="catalog-show text-white fw-bold d-md-none">
+                    <span class="show-button">Baca Selengkapnya <i class=" fa fa-arrow-right"></i></span>
+                    <!-- <span class="hide-button">Baca Selengkapnya <i class=" fa fa-arrow-right"></i></span> -->
+                  </div>
                 </div>
               </div>
             </div>
@@ -209,7 +212,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-9 mt-5 mt-lg-0 px-0 data-detail-catalog ps-lg-4">
+          <div class="col-12 col-lg-9 mt-5 mt-lg-0 px-md-0 data-detail-catalog ps-lg-4">
             <!-- Akun User -->
             <div class="container px-0 px-lg-2">
               <div class="d-flex justify-content-between rounded-top-3 bg-yellow">
@@ -221,14 +224,14 @@
                 </div>
                 <i class="fa fa-question align-self-center rounded-2 px-2 py-1 me-3" style=" color: #F5DA36; background-color: black;font-size: 12px; cursor: pointer;"></i>
               </div>
-              <form class="rounded-bottom py-3 px-4 bg-grey" action="/">
+              <form class="rounded-bottom bg-grey py-3 px-2 px-md-4" action="/">
                 <div class="px-2">
                   <div class="d-flex w-100">
-                    <div class="col-12 col-sm-7">
+                    <div class="col-6 col-sm-7 pe-1 pe-sm-0 ">
                       <label class="text-white mb-2 fw-bold">ID</label>
                       <input id="user_id" class="rounded-4 w-100 px-3 form-control py-2 border-0 text-sm" name="user_id" type="text" placeholder="Masukkan User ID" />
                     </div>
-                    <div class="col-12 col-sm-5 ps-sm-3">
+                    <div class="col-6 col-sm-5 ps-1 ps-sm-3">
                       <label class="text-white mb-2 fw-bold">Zona ID</label>
                       <input id="zona_id" class="rounded-4 w-100 px-3 form-control py-2 border-0 text-sm" name="zona_id" type="text" placeholder="Masukkan Zona ID" />
                     </div>
@@ -237,7 +240,7 @@
                     <!-- <label class="text-white mb-2">Zona ID</label> -->
                     <input id="account_desc" class="rounded-4 w-100 px-3 border-0 text-yellow fw-bold py-3 text-sm" style="background:#767676" disabled="disabled" name="account_desc" type="text" value="Ananda Sekti - SIPSHOP" />
                   </div>
-                  <p class="mt-3 px-4 text-center text-white fw-bold fst-italic text-sm">Nickname akan muncul secara otomatis setelah anda mengklik RE - CHECK USER. <br /> Harap diperiksa kembali nickname anda jika sudah benar. </p>
+                  <p class="mt-3 px-md-4 text-center text-white fw-bold fst-italic text-sm">Nickname akan muncul secara otomatis setelah anda mengklik RE - CHECK USER. <br class="d-none d-md-block"/> Harap diperiksa kembali nickname anda jika sudah benar. </p>
                   <button class="w-100 rounded-3 text-black bg-yellow border-0 py-2 fw-bold" type="submit">RE - CHECK USER</button>
                 </div>
               </form>
@@ -250,32 +253,50 @@
                 </div>
                 <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Pilih Nominal Yang Ingin Dibeli</p>
               </div>
-              <div class="rounded-bottom py-4 px-3 bg-grey pb-5">
+              <div class="rounded-bottom py-3 py-md-4 px-md-3 px-0 bg-grey pb-md-5 pb-4">
                 <div class="container">
                   <label class="text-white mb-2 fw-bold">Item Pilihan</label>
                   <div id="item_pilihan_container" class="row g-3">
-                    <div id="0_itempilihan" class="col-6 col-lg-4" onclick="chooseIsiUlangPayment(0)">
-                      <div class=" rounded-3 gap-3 py-2 px-3 mt-2 d-flex justify-content-between align-items-center">
+                    <div id="0_itempilihan" class="col-6 col-lg-4 option-list position-relative">
+                      <input type="radio" name="product_code" class="product" id="productid-1001" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <label for="productid-1001" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                      <div class="position-relative rounded-3 gap-3 py-2 px-3 d-flex justify-content-between align-items-center">
                         <div>
-                          <p>Weekly Diamond Pass (82)</p> Rp. 23.730,-
+                          <p>Weekly Diamond Pass (82)</p> 
+                          <p>Rp. 23.730,-</p>
                         </div>
                         <img class="rounded-2" src="images/icon-weekly.png" alt="" />
+                        <div class="position-absolute top-0 check-icon" style="">
+                            <i class="fa fa-check position-absolute" style="right:-20px;"></i>
+                        </div>
                       </div>
                     </div>
-                    <div id="1_itempilihan" class="col-6 col-lg-4">
-                      <div class=" rounded-3 gap-3 py-2 px-3 mt-2 d-flex justify-content-between align-items-center">
+                    <div id="1_itempilihan" class="col-6 col-lg-4 option-list position-relative">
+                      <input type="radio" name="product_code" class="product" id="productid-1002" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <label for="productid-1002" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                      <div class="position-relative rounded-3 gap-3 py-2 px-3 d-flex justify-content-between align-items-center">
                         <div>
-                          <p>Weekly Diamond Pass (100)</p> Rp. 24.235,-
+                          <p>Weekly Diamond Pass (100)</p> 
+                          <p>Rp. 24.235,-</p> 
                         </div>
                         <img class="rounded-2" src="images/icon-weekly.png" alt="" />
+                        <div class="position-absolute top-0 check-icon" style="">
+                            <i class="fa fa-check position-absolute" style="right:-20px;"></i>
+                        </div>
                       </div>
                     </div>
-                    <div id="2_itempilihan" class="col-6 col-lg-4">
-                      <div class=" rounded-3 gap-3 py-2 px-3 mt-2 d-flex justify-content-between align-items-center">
+                    <div id="2_itempilihan" class="col-6 col-lg-4 option-list position-relative">
+                      <input type="radio" name="product_code" class="product" id="productid-1003" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <label for="productid-1003" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                      <div class="position-relative rounded-3 gap-3 py-2 px-3  d-flex justify-content-between align-items-center">
                         <div>
-                          <p>Twilight Pass</p> Rp. 119.850,-
+                          <p>Twilight Pass</p> 
+                          <p>Rp. 119.850,-</p> 
                         </div>
                         <img class="rounded-2" src="images/icon-ml-lower.png" alt="" />
+                        <div class="position-absolute top-0 check-icon" style="">
+                            <i class="fa fa-check position-absolute" style="right:-20px;"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -311,247 +332,383 @@
                         </div>
                       </div>
                     </div>
+                    <div id="3_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
+                      <input type="radio" name="product_code" class="product" id="productid-3" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <label for="productid-3" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
+                        <div>
+                          <p class="text-sm">14 (13+1) Diamonds</p>
+                          <p class="py-1">Rp. 3.244,-</p>
+                        </div>
+                        <img src="images/diamond.png">
+                        <div class="position-absolute top-0 check-icon" style="">
+                            <i class="fa fa-check position-absolute" style="right:-20px;"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="4_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
+                      <input type="radio" name="product_code" class="product" id="productid-4" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <label for="productid-4" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
+                        <div>
+                          <p class="text-sm">19 (17+2) Diamonds</p>
+                          <p class="py-1">Rp. 5.236,-</p>
+                        </div>
+                        <img src="images/diamond.png">
+                        <div class="position-absolute top-0 check-icon" style="">
+                            <i class="fa fa-check position-absolute" style="right:-20px;"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="5_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
+                      <input type="radio" name="product_code" class="product" id="productid-5" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <label for="productid-5" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
+                        <div>
+                          <p class="text-sm">28 (26+2) Diamonds</p>
+                          <p class="py-1">Rp. 6.487,-</p>
+                        </div>
+                        <img src="images/diamond.png">
+                        <div class="position-absolute top-0 check-icon" style="">
+                            <i class="fa fa-check position-absolute" style="right:-20px;"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="6_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
+                      <input type="radio" name="product_code" class="product" id="productid-6" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <label for="productid-6" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                      <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
+                        <div>
+                          <p class="text-sm">42 (38+4) Diamonds</p>
+                          <p class="py-1">Rp. 9.731,-</p>
+                        </div>
+                        <img src="images/diamond.png">
+                        <div class="position-absolute top-0 check-icon" style="">
+                            <i class="fa fa-check position-absolute" style="right:-20px;"></i>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Pilih Pembayaran -->
             <div class="container px-0 px-lg-2 mt-5">
-              <div class="d-flex justify-content-between rounded-top-3 position-relative">
-                <div class=" p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
+              <div class="d-flex justify-content-between rounded-top-3 position-relative bg-yellow">
+                <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                   <span>3</span>
                 </div>
-                <p class="align-self-end text-black mt-2 mb-2">Pilih Pembayaran yang Ingin Anda Gunakan</p>
+                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Pilih Pembayaran yang Ingin Anda Gunakan</p>
               </div>
-              <div class="rounded-bottom py-3 px-2">
+              <div class="rounded-bottom py-1 py-md-3 px-0 px-md-2 pb-4 bg-grey">
                 <div id="pilih_pembayaran_container" class="container">
-                  <div class="d-flex justify-content-between rounded mt-3">
-                    <div class="px-0">
-                      <img class="mx-2 my-2" src="images/payments/qris.png" alt="" />
-                      <p class="border-top border-white border-3 px-2">Bayar dengan QRIS</p>
-                    </div>
-                    <div class="d-flex position-relative">
-                      <div class="position-absolute top-0"></div>
-                      <p class="bg-white px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p>Harga</p>
-                        <p class="bg-white px-1 px-lg-3 py-2 rounded-1 me-3">
-                          <span> Rp. 1.000,- </span>
-                        </p>
+                  <div class="position-relative">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-1" value="QRIS" >
+                    <label for="paymentid-1" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class="d-flex justify-content-between rounded mt-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/qris.png" alt="" />
+                        <p class="border-top border-black border-3 px-2">Bayar dengan QRIS</p>
+                      </div>
+                      <div class="d-flex position-relative">
+                        <div class="position-absolute top-0"></div>
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p>Harga</p>
+                          <p class="bg-black px-1 px-lg-3 py-2 rounded-1 me-3">
+                            <span> Rp. 1.000,- </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="position-absolute top-0 check-icon" style="">
+                          <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-2 my-2" src="images/payments/telkomsel.png" alt="" />
-                      <p class="border-top border-black border-3 px-2">Bayar dengan Pulsa Telkomsel</p>
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p>Harga</p>
-                        <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                          <span> Rp. 1.000,- </span>
-                        </p>
+                  <div class="position-relative">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-2" value="Telkomsel" >
+                    <label for="paymentid-2" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/telkomsel.png" alt="" />
+                        <p class="border-top border-black border-3 px-2">Bayar dengan Pulsa Telkomsel</p>
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p>Harga</p>
+                          <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
+                            <span> Rp. 1.000,- </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="position-absolute top-0 check-icon" style="">
+                          <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-2 my-2" src="images/payments/three.png" alt="" />
-                      <p class="border-top border-black border-3 px-2">Bayar dengan Pulsa Three</p>
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p>Harga</p>
-                        <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                          <span> Rp. 1.000.000,- </span>
-                        </p>
+                  <div class="position-relative">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-3" value="PulsaThree" >
+                    <label for="paymentid-3" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/three.png" alt="" />
+                        <p class="border-top border-black border-3 px-2">Bayar dengan Pulsa Three</p>
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p>Harga</p>
+                          <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
+                            <span> Rp. 1.000.000,- </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="position-absolute top-0 check-icon" style="">
+                          <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-2 my-2" src="images/payments/indomaret.png" alt="" />
-                      <p class="border-top border-black border-3 px-2">Bayar dengan Indomaret</p>
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p>Harga</p>
-                        <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                          <span> Rp. 1.000,- </span>
-                        </p>
+                  <div class="position-relative">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-4" value="Indomaret" >
+                    <label for="paymentid-4" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/indomaret.png" alt="" />
+                        <p class="border-top border-black border-3 px-2">Bayar dengan Indomaret</p>
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p>Harga</p>
+                          <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
+                            <span> Rp. 1.000,- </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="position-absolute top-0 check-icon" style="">
+                          <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-2 my-2" src="images/payments/alfamart.png" alt="" />
-                      <p class="border-top border-black border-3 px-2">Bayar dengan Alfamart</p>
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p>Harga</p>
-                        <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                          <span> Rp. 1.000,- </span>
-                        </p>
+                  <div class="position-relative">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-5" value="Alfamart" >
+                    <label for="paymentid-5" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/alfamart.png" alt="" />
+                        <p class="border-top border-black border-3 px-2">Bayar dengan Alfamart</p>
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p>Harga</p>
+                          <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
+                            <span> Rp. 1.000,- </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="position-absolute top-0 check-icon" style="">
+                          <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-2 my-2" src="images/payments/alfamidi.png" alt="" />
-                      <p class="border-top border-black border-3 px-2">Bayar dengan Alfamidi</p>
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p>Harga</p>
-                        <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                          <span> Rp. 1.000,- </span>
-                        </p>
+                  <div class="position-relative">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-6" value="Alfamidi" >
+                    <label for="paymentid-6" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/alfamidi.png" alt="" />
+                        <p class="border-top border-black border-3 px-2">Bayar dengan Alfamidi</p>
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p>Harga</p>
+                          <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
+                            <span> Rp. 1.000,- </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="position-absolute top-0 check-icon" style="">
+                          <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-2 my-2" src="images/payments/lawson.png" alt="" />
-                      <p class="border-top border-black border-3 px-2">Bayar dengan Lawson</p>
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p>Harga</p>
-                        <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
-                          <span> Rp. 1.000,- </span>
-                        </p>
+                  <div class="position-relative">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-7" value="Lawson" >
+                    <label for="paymentid-7" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/lawson.png" alt="" />
+                        <p class="border-top border-black border-3 px-2">Bayar dengan Lawson</p>
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p>Harga</p>
+                          <p class="bg-black px-1 px-lg-3 py-2 rounded-1">
+                            <span> Rp. 1.000,- </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="position-absolute top-0 check-icon" style="">
+                          <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-4 my-2" src="images/payments/bca.png" alt="" />
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class=" px-1 px-lg-2 py-1 rounded-1 position-absolute">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p class="ms-lg-2">Tidak Tersedia <br />
-                          <span class="text-nowrap">Untuk Nominal Ini</span>
-                        </p>
+                  <div class="position-relative disabled-payment">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-8" value="BCA" >
+                    <label for="paymentid-8" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/bca.png" alt="" />
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p class="ms-lg-2">Tidak Tersedia <br />
+                            <span class="text-nowrap">Untuk Nominal Ini</span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-4 my-2" src="images/payments/mandiri.png" alt="" />
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class=" px-1 px-lg-2 py-1 rounded-1 position-absolute">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p class="ms-lg-2">Tidak Tersedia <br />
-                          <span class="text-nowrap">Untuk Nominal Ini</span>
-                        </p>
+                  <div class="position-relative disabled-payment">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-9" value="Mandiri" >
+                    <label for="paymentid-9" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/mandiri.png" alt="" />
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p class="ms-lg-2">Tidak Tersedia <br />
+                            <span class="text-nowrap">Untuk Nominal Ini</span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-4 my-2" src="images/payments/bri.png" alt="" />
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class=" px-1 px-lg-2 py-1 rounded-1 position-absolute">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p class="ms-lg-2">Tidak Tersedia <br />
-                          <span class="text-nowrap">Untuk Nominal Ini</span>
-                        </p>
+                  <div class="position-relative disabled-payment">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-10" value="BRI" >
+                    <label for="paymentid-10" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/bri.png" alt="" />
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p class="ms-lg-2">Tidak Tersedia <br />
+                            <span class="text-nowrap">Untuk Nominal Ini</span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-4 my-2" src="images/payments/bni.png" alt="" />
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class=" px-1 px-lg-2 py-1 rounded-1 position-absolute">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p class="ms-lg-2">Tidak Tersedia <br />
-                          <span class="text-nowrap">Untuk Nominal Ini</span>
-                        </p>
+                  <div class="position-relative disabled-payment">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-11" value="BNI" >
+                    <label for="paymentid-11" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/bni.png" alt="" />
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p class="ms-lg-2">Tidak Tersedia <br />
+                            <span class="text-nowrap">Untuk Nominal Ini</span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-4 my-2" src="images/payments/bsi.png" alt="" />
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class=" px-1 px-lg-2 py-1 rounded-1 position-absolute">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p class="ms-lg-2">Tidak Tersedia <br />
-                          <span class="text-nowrap">Untuk Nominal Ini</span>
-                        </p>
+                  <div class="position-relative disabled-payment">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-12" value="BSI" >
+                    <label for="paymentid-12" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/bsi.png" alt="" />
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p class="ms-lg-2">Tidak Tersedia <br />
+                            <span class="text-nowrap">Untuk Nominal Ini</span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3 pe-3">
-                    <div class="px-0">
-                      <img class="mx-4 my-2" src="images/payments/cimb.png" alt="" />
-                    </div>
-                    <div class="d-flex position-relative">
-                      <p class=" px-1 px-lg-2 py-1 rounded-1 position-absolute">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p class="ms-lg-2">Tidak Tersedia <br />
-                          <span class="text-nowrap">Untuk Nominal Ini</span>
-                        </p>
+                  <div class="position-relative disabled-payment">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-13" value="CIMB" >
+                    <label for="paymentid-13" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3 pe-3">
+                      <div class="px-0">
+                        <img class="mx-2 my-2" src="images/payments/cimb.png" alt="" />
+                      </div>
+                      <div class="d-flex position-relative">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p class="ms-lg-2">Tidak Tersedia <br />
+                            <span class="text-nowrap">Untuk Nominal Ini</span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div class=" d-flex justify-content-between rounded mt-3">
-                    <div class="px-0">
-                      <div class="d-flex align-items-center">
-                        <img class="mx-2 my-2" src="images/payments/sipay.png" alt="" />
-                        <span>LEBIH HEMAT</span>
+                  <div class="position-relative recommend-payment">
+                    <input type="radio" name="payment-methode" class="product" id="paymentid-14" value="sipay" >
+                    <label for="paymentid-14" class="position-absolute w-100 h-100 top-0 start-0"></label>
+                    <div class=" d-flex justify-content-between rounded mt-3">
+                      <div class="px-0">
+                        <div class="d-flex align-items-center">
+                          <img class="mx-2 my-2" src="images/payments/sipay.png" alt="" />
+                          <span>LEBIH HEMAT</span>
+                        </div>
+                        <p class="border-top border-white border-3 px-2">Login untuk menggunakan saldo SiPay</p>
                       </div>
-                      <p class="border-top border-white border-3 px-2">Login untuk menggunakan saldo SiPay</p>
-                    </div>
-                    <div class="d-flex position-relative me-3">
-                      <p class="bg-white px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-                        <span> Cara Bayar </span>
-                      </p>
-                      <div>
-                        <p>Harga</p>
-                        <p class="bg-white px-2 px-lg-2 py-1 rounded-1">
-                          <span class="py-1"> Rp. 5.000.000,- </span>
-                        </p>
+                      <div class="d-flex position-relative me-md-3">
+                        <a class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100" href="#">
+                          <span class=" text-black"> Cara Bayar </span>
+                        </a>
+                        <div>
+                          <p>Harga</p>
+                          <p class="bg-white px-2 px-lg-2 py-1 rounded-1">
+                            <span class="py-1 text-black"> Rp. 1.441,- </span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="position-absolute top-0 check-icon" style="">
+                          <i class="fa fa-check position-absolute" style="right:-20px;"></i>
                       </div>
                     </div>
                   </div>
@@ -560,55 +717,64 @@
             </div>
             <!-- Kode Voucher -->
             <div class="container px-0 px-lg-2 mt-5">
-              <div class="d-flex justify-content-between rounded-top-3 position-relative">
-                <div class=" p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
+              <div class="d-flex justify-content-between rounded-top-3 position-relative bg-yellow">
+                <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                   <span>4</span>
                 </div>
-                <p class="align-self-end text-black mt-2 mb-2">Kode Voucher Promo</p>
+                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Kode Voucher Promo</p>
               </div>
-              <form class="rounded-bottom py-3 px-3" action="/">
-                <label class="text-white mb-2">Kode Promo</label>
+              <form class="rounded-bottom py-3 px-3 px-md-4 pb-md-4 pd-3 bg-grey" action="/">
+                <label class="text-white mb-2 fw-bold">Kode Promo</label>
                 <div class="row justify-content-around pr-3">
-                  <div class="col-8 col-lg-10 d-flex">
-                    <div class="d-flex justify-content-center align-items-center px-2 rounded-start-4">
-                      <img src="images/voucher-icon.png" alt="" />
+                  <div class="col-8 col-lg-10 d-flex pe-0">
+                    <div class="d-flex justify-content-center align-items-center px-2 ps-md-3 rounded-start-4 bg-yellow">
+                      <img src="images/voucher-icon.png" alt="" style="height:15px" />
                     </div>
-                    <input id="kode_voucher" class="rounded-end-4 rounded-start-0 w-100" name="kode_voucher" type="text" placeholder="Masukkan Kode Voucher Promo" />
+                    <input id="kode_voucher" class="rounded-end-4 rounded-start-0 fw-500 w-100 px-3 form-control py-2 border-0 text-sm" name="kode_voucher" type="text" placeholder="Masukkan Kode Voucher Promo" />
                   </div>
                   <div class="col-4 col-lg-2">
-                    <button class="w-100 rounded-3 text-black text-center" type="submit">Gunakan</button>
+                    <button class="w-100 rounded-3 text-black text-center border-0 bg-yellow fw-bold py-2" type="submit">Gunakan</button>
                   </div>
                 </div>
               </form>
             </div>
             <!-- Nomor Whatsapp -->
             <div class="container px-0 px-lg-2 mt-5">
-              <div class="d-flex justify-content-between rounded-top-3 position-relative">
-                <div class=" p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
+              <div class="d-flex justify-content-between rounded-top-3 position-relative bg-yellow">
+                <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                   <span>5</span>
                 </div>
-                <p class="align-self-end text-black mt-2 mb-2">Nomor Whatsapp</p>
+                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Nomor Whatsapp</p>
               </div>
-              <div class="rounded-bottom py-3 px-4">
-                <label class="text-white mb-2">Kode Promo</label>
+              <div class="rounded-bottom py-3 px-md-4 px-3 bg-grey">
+                <label class="text-white mb-2 fw-bold">Kode Promo</label>
                 <div class=" w-100 mb-3">
-                  <input id="nomor_whatsapp" class="rounded-4 w-100 px-3" name="nomor_whatsapp" type="text" placeholder="Masukkan Nomor Whatsapp (08xxxxxxxxxx)" />
+                  <input id="nomor_whatsapp" class="rounded-4 w-100 px-3 border-0 py-2 text-sm fw-500 form-control" name="nomor_whatsapp" type="text" placeholder="Masukkan Nomor Whatsapp (08xxxxxxxxxx)" />
                 </div>
-                <span>Nomor handphone akan digunakan sebagai notifikasi pembayaran melalui WhatsApp dan juga sebagai nomor pengirim pulsa untuk metode pembayaran transfer pulsa. Pastikan nomor handpone yang dimasukkan aktif. </span>
+                <span class="text-white text-xs fst-italic">Nomor handphone akan digunakan sebagai notifikasi pembayaran melalui WhatsApp dan juga sebagai nomor pengirim pulsa untuk metode pembayaran transfer pulsa. Pastikan nomor handpone yang dimasukkan aktif. </span>
               </div>
             </div>
-            <button class="container rounded-3 my-4 text-black" type="submit"> Pesan Sekarang </button>
+            <div class="container px-0 px-lg-2 mt-5">
+              <button class="bg-yellow rounded-5 my-4 py-2 text-black w-100 border-0 form-control fw-bold" type="submit"><i class="fa fa-shopping-cart" style="margin-right: 5px;"></i> Pesan Sekarang </button>
+            </div>
+            
             <!-- Ulasan Pelanggan Bagian Mobile -->
-            <div class="d-lg-none d-inline container mt-5">
-              <div class="d-flex position-relative justify-content-start rounded-top w-100 mt-5">
-                <div class="position-absolute"></div>
-                <p class="align-self-end text-black my-2">Ulasan Pelanggan</p>
+            <div class="container d-lg-none mt-5 px-0">
+              <div class="d-flex position-relative justify-content-start mt-5 rounded-top w-100 bg-yellow">
+                <div class="position-absolute title-card-icon"><i class="fa fa-star" aria-hidden="true"></i></div>
+                <p class="align-self-end text-black my-2 fw-bold title-card-text">Ulasan Pelanggan</p>
               </div>
-              <div class="rounded-bottom w-100 p-2">
+              <div class="rounded-bottom w-100 p-2 card-widget-catalog text-xs text-white">
                 <div class="position-relative border-bottom py-2 ">
                   <div class="d-flex justify-content-between align-content-start">
-                    <span>Customer 1 - (08xxxxxxxxxx)</span>
-                    <div class="d-flex flex-nowrap align-content-center justify-content-center"></div>
+                    <span class="fw-bold">Customer 1 - (08xxxxxxxxxx)</span>
+                    <div class="d-flex flex-nowrap align-content-center justify-content-center">
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                    </div>
                   </div>
                   <div class="d-flex justify-content-between align-content-start">
                     <span>19 (17+2) Diamonds</span>
@@ -618,8 +784,14 @@
                 </div>
                 <div class="position-relative border-bottom py-2 mt-2 ">
                   <div class="d-flex justify-content-between align-content-start">
-                    <span>Customer 1 - (08xxxxxxxxxx)</span>
-                    <div class="d-flex flex-nowrap align-content-center justify-content-center"></div>
+                    <span class="fw-bold">Customer 1 - (08xxxxxxxxxx)</span>
+                    <div class="d-flex flex-nowrap align-content-center justify-content-center">
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                    </div>
                   </div>
                   <div class="d-flex justify-content-between align-content-start">
                     <span>19 (17+2) Diamonds</span>
@@ -629,8 +801,14 @@
                 </div>
                 <div class="position-relative border-bottom py-2 mt-2 ">
                   <div class="d-flex justify-content-between align-content-start">
-                    <span>Customer 1 - (08xxxxxxxxxx)</span>
-                    <div class="d-flex flex-nowrap align-content-center justify-content-center"></div>
+                    <span class="fw-bold">Customer 1 - (08xxxxxxxxxx)</span>
+                    <div class="d-flex flex-nowrap align-content-center justify-content-center">
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                    </div>
                   </div>
                   <div class="d-flex justify-content-between align-content-start">
                     <span>19 (17+2) Diamonds</span>
@@ -640,8 +818,14 @@
                 </div>
                 <div class="position-relative border-bottom py-2 mt-2 ">
                   <div class="d-flex justify-content-between align-content-start">
-                    <span>Customer 1 - (08xxxxxxxxxx)</span>
-                    <div class="d-flex flex-nowrap align-content-center justify-content-center"></div>
+                    <span class="fw-bold">Customer 1 - (08xxxxxxxxxx)</span>
+                    <div class="d-flex flex-nowrap align-content-center justify-content-center">
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                    </div>
                   </div>
                   <div class="d-flex justify-content-between align-content-start">
                     <span>19 (17+2) Diamonds</span>
@@ -651,8 +835,14 @@
                 </div>
                 <div class="position-relative border-bottom py-2 mt-2 ">
                   <div class="d-flex justify-content-between align-content-start">
-                    <span>Customer 1 - (08xxxxxxxxxx)</span>
-                    <div class="d-flex flex-nowrap align-content-center justify-content-center"></div>
+                    <span class="fw-bold">Customer 1 - (08xxxxxxxxxx)</span>
+                    <div class="d-flex flex-nowrap align-content-center justify-content-center">
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                      <i class="fa fa-star ms-1 text-yellow" style="" aria-hidden="true"></i>
+                    </div>
                   </div>
                   <div class="d-flex justify-content-between align-content-start">
                     <span>19 (17+2) Diamonds</span>
@@ -660,9 +850,10 @@
                   </div>
                   <span>“Proses topup nya cepat”</span>
                 </div>
-                <p class="mt-4">Lihat Semua</p>
+                <p class="mt-4 fw-bold"><a href="#">Lihat Semua <i class=" fa fa-arrow-right"></i></a></p>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
@@ -672,7 +863,65 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="container footer-bottom clearfix">
+    <div class="container-fluid px-4 px-lg-5 mx-auto py-5 pb-0 pb-md-5">
+      <h4 class="text-white text-center fw-bold">Tentang Top Up Mobile Legends MLBB</h4>
+      <p class="text-white text-sm text-center">Pada game Mobile Legends, pemain tetap bisa menikmati permainannya secara gratis. Seperti pembelian hero yang dapat dibeli menggunakan Battle Point (BP), Skin-skin tertentu yang bisa di dapatkan secara gratis dan efek-efek lainnya. Akan tetapi, pemain juga dapat melakukan pembelian (top up) berupa diamond yang dapat digunakan sebagai pembelian eksklusif dalam game. Tentunya Skin atau efek-efek yang didapatkan secara gratis dan berbayar itu pasti berbeda kualitasnya. Selain itu, biasanya untuk mendapatkan sesuatu yang gratis di Mobile Legends itu perlu usaha lebih. Seperti harus menjalankan suatu quest atau harus bermain terus untuk mendapatkan Battle Point (BP). Jika Anda ingin mendapatkan skin atau efek yang eksklusif, maka Anda harus top up diamond Mobile Legends.</p>
+      <h4 class="text-white text-center fw-bold mt-5">Mengapa Anda harus Top Up Diamond Mobile Legends?</h4>
+      <p class="text-white text-sm text-center">Jika Anda ingin membeli hero secara langsung karena Battle Point Anda tidak mencukupi, maka Anda harus membelinya menggunakan sejumlah diamond. Selain itu, jika Anda ingin mempunyai skin atau efek yang keren untuk hero Anda, maka Anda juga harus membelinya dengan diamond. Anda bisa membeli diamond di dalam gamenya langsung pada bagian top up. Namun harganya kerap kali lebih mahal, tapi Anda tak perlu ragu keamanannya karena resmi dari pihak Mobile Legends. Selain itu, jika Anda ingin menghemat maka pilihannya dengan membeli diamond Mobile Legends di situs yang dikhususkan untuk top up game. Ada banyak sekali situs yang menyediakan jasa top up, salah satunya adalah SipShop. Di SipShop Anda bisa mendapatkan harga diamond Mobile Legends termurah dengan proses yang instant.</p>
+      <p class="text-white my-4 text-sm text-center">Bahkan kami memberikan garansi harga termurah dan proses cepat juga loh!</p>
+      <div class="container text-sm text-white">
+        <div class="row">
+          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
+              <span> Bagaimana Cara Top Up <br /> Diamond Mobile Legends ? </span>
+            </p>
+            <ol type="number">
+              <li>Masukan ID Pengguna dan ID Zona Anda</li>
+              <li>Pilih nominal diamond</li>
+              <li>Pilih metode pembayaran</li>
+              <li>Masukan nomer WhatsApp sebagai notifikasi</li>
+              <li>Selesai! diamond akan langsung masuk ketika pembayaran telah berhasil.</li>
+            </ol>
+            <p>Anda juga bisa mengirimkan Diamond ke teman atau keluarga dengan cara ketik User ID dan Zone ID mereka.</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
+              <span> Bagaimana Cara Membeli <br /> Twilight Pass ? </span>
+            </p>
+            <ol type="number">
+              <li>Masukan ID Pengguna dan ID Zona Anda</li>
+              <li>Pilih nominal diamond</li>
+              <li>Pilih metode pembayaran</li>
+              <li>Masukan nomer WhatsApp sebagai notifikasi</li>
+              <li>Selesai! diamond akan langsung masuk ketika pembayaran telah berhasil.</li>
+            </ol>
+            <p>Anda juga bisa mengirimkan Twilight Pass ke teman atau keluarga dengan cara ketik User ID dan Zone ID mereka.</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
+              <span> Bagaimana Cara Membeli <br /> Weekly Diamond Pass ? </span>
+            </p>
+            <ol type="number">
+              <li>Masukan ID Pengguna dan ID Zona Anda</li>
+              <li>Pilih nominal diamond</li>
+              <li>Pilih metode pembayaran</li>
+              <li>Masukan nomer WhatsApp sebagai notifikasi</li>
+              <li>Selesai! diamond akan langsung masuk ketika pembayaran telah berhasil.</li>
+            </ol>
+            <p>Anda juga bisa mengirimkan Weekly Diamond Pass ke teman atau keluarga dengan cara ketik User ID dan Zone ID mereka.</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
+              <span> Dimana Promo/Flash Sale <br /> Diamond Mobile Legends <br /> di SipShop ? </span>
+            </p>
+            <p>Anda dapat menemukan promo/flash sale menarik seputar top up diamond mobile legends melalui halaman instagram kami di : <a href="/">@sipshop.co.id</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+    <div class="container  clearfix">
     <div class="row justify-content-center">
         <div class="col-12 col-lg-6 pe-md-5">
           <img src="images/logo_2x.png" class="footer-logo">
@@ -762,12 +1011,23 @@
         </div>
       </div>
     </div>
+    </div>
   </footer><!-- End Footer -->
 
 
   <!-- Template Main JS File -->
   <script>
     $(document).ready(function() {
+      $('.navbar-toggler').click(function() {
+          $('body').addClass("menu-active");
+      });
+      $('.catalog-show').click(function() {
+          $('.catalog-desc').toggleClass("show-all");
+      });
+      $('.background-layer').click(function() {
+          $('body').removeClass("menu-active");
+          $('.navbar-collapse').removeClass("show");
+      });
       // Get the clickable element and its parent
       var clickableElement = document.getElementById('clickableElement');
       var parentElement = document.getElementById('parentElement');
@@ -795,332 +1055,7 @@
             }
         }
       })
-      $('.navbar-toggler').click(function() {
-          $('body').addClass("menu-active");
-      });
-      $('.background-layer').click(function() {
-          $('body').removeClass("menu-active");
-          $('.navbar-collapse').removeClass("show");
-      });
     })
-    // var choosenIsiUlangInstan = 0;
-    // var choosenPayment = 0;
-    // var payments = [
-    //   // status: selected, priority, not-available, available
-    //   {
-    //     "id": "0",
-    //     "name": "QRIS",
-    //     "image": "images/payments/qris.png",
-    //     "description": "Bayar dengan QRIS",
-    //     "status": "selected",
-    //     "harga": "1.000",
-    //   },
-    //   {
-    //     "id": "1",
-    //     "name": "Telkomsel",
-    //     "image": "images/payments/telkomsel.png",
-    //     "description": "Bayar dengan Pulsa Telkomsel",
-    //     "status": "available",
-    //     "harga": "1.000",
-    //   },
-    //   {
-    //     "id": "2",
-    //     "name": "Three",
-    //     "image": "images/payments/three.png",
-    //     "description": "Bayar dengan Pulsa Three",
-    //     "status": "available",
-    //     "harga": "1.000.000",
-    //   },
-    //   {
-    //     "id": "3",
-    //     "name": "Indomaret",
-    //     "image": "images/payments/indomaret.png",
-    //     "description": "Bayar dengan Indomaret",
-    //     "status": "available",
-    //     "harga": "1.000",
-    //   },
-
-    //   {
-    //     "id": "4",
-    //     "name": "Alfamart",
-    //     "image": "images/payments/alfamart.png",
-    //     "description": "Bayar dengan Alfamart",
-    //     "status": "available",
-    //     "harga": "1.000",
-    //   },
-    //   {
-    //     "id": "5",
-    //     "name": "Alfamidi",
-    //     "image": "images/payments/alfamidi.png",
-    //     "description": "Bayar dengan Alfamidi",
-    //     "status": "available",
-    //     "harga": "1.000",
-    //   },
-    //   {
-    //     "id": "6",
-    //     "name": "Lawson",
-    //     "image": "images/payments/lawson.png",
-    //     "description": "Bayar dengan Lawson",
-    //     "status": "available",
-    //     "harga": "1.000",
-    //   },
-    //   {
-    //     "id": "7",
-    //     "name": "",
-    //     "image": "images/payments/bca.png",
-    //     "description": "",
-    //     "status": "not-available",
-    //     "harga": "",
-    //   },
-    //   {
-    //     "id": "8",
-    //     "name": "",
-    //     "image": "images/payments/mandiri.png",
-    //     "description": "",
-    //     "status": "not-available",
-    //     "harga": "",
-    //   },
-    //   {
-    //     "id": "9",
-    //     "name": "",
-    //     "image": "images/payments/bri.png",
-    //     "description": "",
-    //     "status": "not-available",
-    //     "harga": "",
-    //   },
-    //   {
-    //     "id": "10",
-    //     "name": "",
-    //     "image": "images/payments/bni.png",
-    //     "description": "",
-    //     "status": "not-available",
-    //     "harga": "",
-    //   },
-    //   {
-    //     "id": "11",
-    //     "name": "",
-    //     "image": "images/payments/bsi.png",
-    //     "description": "",
-    //     "status": "not-available",
-    //     "harga": "",
-    //   },
-    //   {
-    //     "id": "12",
-    //     "name": "",
-    //     "image": "images/payments/cimb.png",
-    //     "description": "",
-    //     "status": "not-available",
-    //     "harga": "",
-    //   },
-    //   {
-    //     "id": "12",
-    //     "name": "SIPAY",
-    //     "image": "images/payments/sipay.png",
-    //     "description": "Login untuk menggunakan saldo SiPay",
-    //     "status": "priority",
-    //     "harga": "5.000.000",
-    //   },
-    // ];
-    // var isi_ulang_instan_container = document.getElementById('isi_ulang_instan_container');
-    // var item_pilihan_container = document.getElementById('item_pilihan_container');
-    // var pilih_pembayaran_container = document.getElementById('pilih_pembayaran_container');
-    // var id_priority;
-
-    // function setPilihPembayaran() {
-    //   var temp = "";
-    //   for (var i = 0; i < payments.length; i++) {
-    //     if (payments[i].status == "selected") {
-    //       temp += `
-    //             <div class="d-flex justify-content-between rounded mt-3" style="background-color: #F5DA36; border: 3px solid white;" onclick="choosePembayaran(${i})">
-    //               <div class="px-0" style="width:100%;">
-    //                 <img src="${payments[i].image}" style="width: auto; height: 32px;" class="mx-2 my-2" />
-    //                 <p class="border-top border-white border-3 px-2"
-    //                   style="padding-top: 10px;font-size: 12px; font-weight: 600;margin-bottom:10px;">
-    //                   ${payments[i].description}</p>
-    //               </div>
-    //               <div class="d-flex position-relative">
-    //                 <div class="position-absolute top-0"
-    //                   style="right: 0px;height:15px; border-right:solid 30px white;border-bottom:solid 20px transparent;border-left:solid 20px transparent;">
-    //                   <i class="fa fa-check position-absolute" style="right:-25px;"></i>
-    //                 </div>
-    //                 <p onclick="caraBayarFunc()" style="top: 12px;box-shadow: 4px 4px #B38700; margin-right: 16px;transform: skew(-15deg);cursor:pointer;" 
-    //                   class="bg-white px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-    //                   <span style="font-weight: bold; font-size: 11px;white-space: nowrap; display: inline-block;
-    //                 transform: skew(15deg)">
-    //                     Cara Bayar
-    //                   </span>
-    //                 </p>
-    //                 <div>
-    //                   <p style="font-weight: bold; font-size: 15px; margin-bottom: 5px; padding-top: 10px;">Harga</p>
-    //                   <p style="box-shadow: 4px 4px #B38700;transform: skew(-15deg);margin-left: -5px;"
-    //                     class="bg-white px-1 px-lg-3 py-2 rounded-1 me-3">
-    //                     <span style="font-weight: bold; font-size: 13px; display: inline-block;white-space:nowrap;
-    //                 transform: skew(15deg);">
-    //                       Rp. ${payments[i].harga},-
-    //                     </span>
-    //                   </p>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //       `;
-    //     } else if (payments[i].status == "priority") {
-    //       id_priority = i;
-    //       temp += `
-    //       <div class=" d-flex justify-content-between rounded mt-3" style="background-color: #F5DA36; border: 3px solid white;" onclick="choosePembayaran(${i})">
-    //               <div class="px-0" style="width:100%;">
-    //                 <div class="d-flex align-items-center">
-    //                   <img src="${payments[i].image}" style="width: auto; height: 32px;"
-    //                     class="mx-2 my-2" />
-    //                   <span style="font-style: italic;font-size: 20px; font-weight: 900; color: #FDFACC;">LEBIH
-    //                     HEMAT</span>
-    //                 </div>
-    //                 <p class="border-top border-white border-3 px-2"
-    //                   style="padding-top: 10px;font-size: 12px; font-weight: 600;margin-bottom:10px;">
-    //                   ${payments[i].description}</p>
-    //               </div>
-    //               <div class="d-flex position-relative me-3">
-    //                 <p  onclick="caraBayarFunc()" style="top: 12px;box-shadow: 4px 4px #B38700; margin-right: 16px;transform: skew(-15deg);cursor:pointer;"
-    //                   class="bg-white px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-    //                   <span style="font-weight: bold; font-size: 11px;white-space: nowrap; display: inline-block;
-    //                 transform: skew(15deg)">
-    //                     Cara Bayar
-    //                   </span>
-    //                 </p>
-    //                 <div>
-    //                   <p style="font-weight: bold; font-size: 15px; margin-bottom: 5px; padding-top: 10px;">Harga</p>
-    //                   <p style="box-shadow: 5px 5px #B38700; margin-left: -16px;transform: skew(-15deg);"
-    //                     class="bg-white px-2 px-lg-2 py-1 rounded-1">
-    //                     <span class="py-1" style="font-weight: bold; font-size: 13px;white-space: nowrap; display: inline-block;
-    //                 transform: skew(15deg)">
-    //                       Rp. ${payments[i].harga},-
-    //                     </span>
-    //                   </p>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //       `;
-    //     } else if (payments[i].status == "not-available") {
-    //       temp += `
-    //             <div class=" d-flex justify-content-between rounded mt-3 pe-3" style="background-color: #7D848E; border: none">
-    //               <div class="px-0" style="width:100%;">
-    //                 <img src="${payments[i].image}" style="width: auto; height: 24px;" class="mx-4 my-2" />
-    //               </div>
-    //               <div class="d-flex position-relative">
-    //                 <p  onclick="caraBayarFunc()" style="background-color: #434343; top: 12px;box-shadow: 4px 4px #767676; margin-right: 16px;transform: skew(-15deg);cursor:pointer;right:120px;"
-    //                   class=" px-1 px-lg-2 py-1 rounded-1 position-absolute">
-    //                   <span style="color:#CACACA; font-weight: bold; font-size: 11px;white-space: nowrap; display: inline-block;
-    //               transform: skew(15deg);">
-    //                     Cara Bayar
-    //                   </span>
-    //                 </p>
-    //                 <div>
-    //                   <p class="ms-lg-2"
-    //                     style="font-weight: bold; font-size: 13px; margin-bottom: 5px; padding-top: 10px; color: #434343;text-align: center; margin-left: -24px;">
-    //                     Tidak Tersedia <br /><span class="text-nowrap">Untuk Nominal Ini</span></p>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //       `;
-    //     } else if (payments[i].status == "available") {
-    //       temp += `
-    //             <div class=" d-flex justify-content-between rounded mt-3 pe-3" style="background-color: #CACACA; border: none; cursor:pointer;" onclick="choosePembayaran(${i})">
-    //               <div class="px-0" style="width:100%;">
-    //                 <img src="${payments[i].image}" style="width: auto; height: 32px;"
-    //                   class="mx-2 my-2" />
-    //                 <p class="border-top border-black border-3 px-2"
-    //                   style="padding-top: 10px;font-size: 12px; font-weight: 600;margin-bottom:10px;">
-    //                   ${payments[i].description}</p>
-    //               </div>
-    //               <div class="d-flex position-relative">
-    //                 <p  onclick="caraBayarFunc()" style="top: 12px;box-shadow: 4px 4px #767676; margin-right: 16px;transform: skew(-15deg);cursor:pointer;"
-    //                   class="bg-black px-1 px-lg-2 py-1 rounded-1 position-absolute end-100">
-    //                   <span style="color:#CACACA; font-weight: bold; font-size: 11px;white-space: nowrap; display: inline-block;
-    //                 transform: skew(15deg);">
-    //                     Cara Bayar
-    //                   </span>
-    //                 </p>
-    //                 <div>
-    //                   <p
-    //                     style="font-weight: bold; font-size: 15px; margin-bottom: 5px; padding-top: 10px; color: black;">
-    //                     Harga</p>
-    //                   <p style="box-shadow: 4px 4px #767676;transform: skew(-15deg);margin-left: -5px;"
-    //                     class="bg-black px-1 px-lg-3 py-2 rounded-1">
-    //                     <span style="font-weight: bold; font-size: 13px;white-space: nowrap; display: inline-block;
-    //                 transform: skew(15deg);color:#CACACA;">
-    //                       Rp. ${payments[i].harga},-
-    //                     </span>
-    //                   </p>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //       `;
-    //     }
-    //   }
-
-    //   pilih_pembayaran_container.innerHTML = temp;
-    // }
-    // setPilihPembayaran();
-
-    // function setIsiUlangInstan() {
-    //   var temp = "";
-
-    //   for (var i = 0; i < 2; i++) {
-    //     temp += `<div onclick="chooseIsiUlangPayment(${i})" class="col-6 col-lg-4" id="${i}_isiulanginstan">
-    //                     <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center"
-    //                       style="font-size: 10px; cursor: ${choosenIsiUlangInstan == i ? "not-available " : "pointer"}; font-weight: bold; background-color: ${choosenIsiUlangInstan == i ? `#F5DA36;border:2px solid white; box-shadow: 12px white;` : `#CACACA;`};color:black;">
-    //                       <div>
-    //                         <p style="padding-left:8px">Weekly Diamond Pass (82)</p>
-    //                         <p class="py-1" style="padding-left:10px;margin-bottom: 0px; ${choosenIsiUlangInstan == i ? `background-color:#B38700;background-image: linear-gradient(to right, #B38700, #F5DA36);color:#ffffff;` : ``}">Rp. 23.730,-</p>
-    //                       </div>
-    //                       <i style="font-size: 24px;padding-right:8px;" class="fa fa-diamond"></i>
-    //                       ${choosenIsiUlangInstan == i ?
-    //         `<div class="position-absolute top-0" style="right: 0px;height:10px; border-right:solid 20px white;border-bottom:solid 20px transparent;border-left:solid 20px transparent;">
-    //                           <i class="fa fa-check position-absolute" style="right:-20px;" ></i>
-    //                         </div>`: ""
-    //       }
-    //                     </div>                      
-    //                   </div>`;
-    //   }
-    //   isi_ulang_instan_container.innerHTML = temp;
-    // }
-    // setIsiUlangInstan();
-
-    // function setItemPilihan() {
-    //   var temp = "";
-
-    //   for (var i = 0; i < 3; i++) {
-    //     temp += `<div class="col-6 col-lg-4" id="${i}_itempilihan">
-    //                     <div  class=" rounded-3 gap-3 py-2 px-3 mt-2 d-flex justify-content-between align-items-center"
-    //             style="font-size: 10px; cursor:pointer; font-weight: bold; background-color: #CACACA; color:black;">
-    //             <div>
-    //               <p>Weekly Diamond Pass (82)</p>
-    //               <span>Rp. 23.730,-</span>
-    //             </div>
-    //             <img src="images/icon-ml-lower.png" class="rounded-2" style="width:auto; height:36px;"/>
-    //           </div>
-    //                     </div>`;
-    //   }
-    //   item_pilihan_container.innerHTML = temp;
-    // }
-    // setItemPilihan();
-
-    // function chooseIsiUlangPayment(i) {
-    //   choosenIsiUlangInstan = i;
-    //   setIsiUlangInstan();
-    // }
-
-    // function choosePembayaran(i) {
-    //   if (i != id_priority && payments[id_priority].status == "selected") {
-    //     payments[id_priority].status = "priority";
-    //   } else {
-    //     payments[choosenPayment].status = "available";
-    //   }
-
-    //   payments[i].status = "selected";
-    //   choosenPayment = i;
-    //   setPilihPembayaran();
-    // }
-
   </script>
 </body>
 

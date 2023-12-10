@@ -95,7 +95,7 @@
           <div class="col-12 col-lg-3 text-white d-flex flex-lg-column flex-row align-items-center widget-catalog-detail">
             <div class="container mt-5 mt-lg-0">
               <div class="row justify-content-start justify-content-lg-center align-items-center">
-                <div class="col-4 col-lg-9 mt-4 mb-4 my-lg-0 mb-lg-3 position-relative pt-2 pt-md-0">
+                <div class="col-4 col-lg-8 mt-4 mb-4 my-lg-0 mb-lg-3 position-relative pt-2 pt-md-0">
                   <img class="col-11 col-lg-12 h-auto mx-auto shadow-image" src="images/detail-catalog.png" alt="" />
                   <img class="col-11 col-lg-12 h-auto mx-auto position-relative" src="images/detail-catalog.png" alt="" />
                 </div>
@@ -220,7 +220,7 @@
                   <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                     <span>1</span>
                   </div>
-                  <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Masukkan Data Akun Anda</p>
+                  <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Masukan Data User</p>
                 </div>
                 <i class="fa fa-question align-self-center rounded-2 px-2 py-1 me-3" style=" color: #F5DA36; background-color: black;font-size: 12px; cursor: pointer;"></i>
               </div>
@@ -251,7 +251,7 @@
                 <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                   <span>2</span>
                 </div>
-                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Pilih Nominal Yang Ingin Dibeli</p>
+                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Pilih Nominal</p>
               </div>
               <div class="rounded-bottom py-3 py-md-4 px-md-3 px-0 bg-grey pb-md-5 pb-4">
                 <div class="container">
@@ -398,7 +398,7 @@
                 <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                   <span>3</span>
                 </div>
-                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Pilih Pembayaran yang Ingin Anda Gunakan</p>
+                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Pilih Metode Pembayaran</p>
               </div>
               <div class="rounded-bottom py-1 py-md-3 px-0 px-md-2 pb-4 bg-grey">
                 <div id="pilih_pembayaran_container" class="container">
@@ -721,7 +721,7 @@
                 <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                   <span>4</span>
                 </div>
-                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Kode Voucher Promo</p>
+                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Voucher</p>
               </div>
               <form class="rounded-bottom py-3 px-3 px-md-4 pb-md-4 pd-3 bg-grey" action="/">
                 <label class="text-white mb-2 fw-bold">Kode Promo</label>
@@ -744,7 +744,7 @@
                 <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                   <span>5</span>
                 </div>
-                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Nomor Whatsapp</p>
+                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">No Whatsapp</p>
               </div>
               <div class="rounded-bottom py-3 px-md-4 px-3 bg-grey">
                 <label class="text-white mb-2 fw-bold">Kode Promo</label>

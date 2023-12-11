@@ -26,7 +26,7 @@
   <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 
-  <link href="css/style.css?v=1111111" rel="stylesheet">
+  <link href="css/style.css?v=111111111" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>
@@ -87,7 +87,6 @@
     </section><!-- End Hero -->
 
   <main id="main" class="position-relative">
-  
     <!-- ======= Content Section ======= -->
     <section id="detail-catalog" class="section">
       <div class="container">
@@ -258,7 +257,7 @@
                   <label class="text-white mb-2 fw-bold">Item Pilihan</label>
                   <div id="item_pilihan_container" class="row g-3">
                     <div id="0_itempilihan" class="col-6 col-lg-4 option-list position-relative">
-                      <input type="radio" name="product_code" class="product" id="productid-1001" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <input type="radio" name="product_code" class="product" id="productid-1001" value="0" data-nominal="23.730" data-name="Weekly Diamond Pass (82)" data-type="diamond">
                       <label for="productid-1001" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 px-3 d-flex justify-content-between align-items-center">
                         <div>
@@ -272,7 +271,7 @@
                       </div>
                     </div>
                     <div id="1_itempilihan" class="col-6 col-lg-4 option-list position-relative">
-                      <input type="radio" name="product_code" class="product" id="productid-1002" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <input type="radio" name="product_code" class="product" id="productid-1002" value="0" data-nominal="24.235" data-name="Weekly Diamond Pass (100)" data-type="diamond">
                       <label for="productid-1002" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 px-3 d-flex justify-content-between align-items-center">
                         <div>
@@ -286,7 +285,7 @@
                       </div>
                     </div>
                     <div id="2_itempilihan" class="col-6 col-lg-4 option-list position-relative">
-                      <input type="radio" name="product_code" class="product" id="productid-1003" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <input type="radio" name="product_code" class="product" id="productid-1003" value="0" data-nominal="119.850" data-name="Twilight Pass" data-type="diamond">
                       <label for="productid-1003" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 px-3  d-flex justify-content-between align-items-center">
                         <div>
@@ -305,7 +304,7 @@
                   <label class="text-white mb-2 fw-bold">Isi Ulang Instan</label>
                   <div id="isi_ulang_instan_container" class="row g-3">
                     <div id="0_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
-                      <input type="radio" name="product_code" class="product" id="productid-0" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <input type="radio" name="product_code" class="product" id="productid-0" value="0" data-nominal="1.431" data-name="5 (5+0) Diamonds" data-type="diamond">
                       <label for="productid-0" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
                         <div>
@@ -319,7 +318,7 @@
                       </div>
                     </div>
                     <div id="1_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
-                      <input type="radio" name="product_code" class="product" id="productid-1" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <input type="radio" name="product_code" class="product" id="productid-1" value="0" data-nominal="3.333" data-name="12 (11+1) Diamonds" data-type="diamond">
                       <label for="productid-1" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
                         <div>
@@ -333,7 +332,7 @@
                       </div>
                     </div>
                     <div id="3_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
-                      <input type="radio" name="product_code" class="product" id="productid-3" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <input type="radio" name="product_code" class="product" id="productid-3" value="0" data-nominal="3.244" data-name="14 (13+11) Diamonds" data-type="diamond">
                       <label for="productid-3" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
                         <div>
@@ -347,7 +346,7 @@
                       </div>
                     </div>
                     <div id="4_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
-                      <input type="radio" name="product_code" class="product" id="productid-4" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <input type="radio" name="product_code" class="product" id="productid-4" value="0" data-nominal="5.236" data-name="19 (17+2) Diamonds" data-type="diamond">
                       <label for="productid-4" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
                         <div>
@@ -361,7 +360,7 @@
                       </div>
                     </div>
                     <div id="5_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
-                      <input type="radio" name="product_code" class="product" id="productid-5" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <input type="radio" name="product_code" class="product" id="productid-5" value="0" data-nominal="6.487" data-name="28 (26+2) Diamonds" data-type="diamond">
                       <label for="productid-5" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
                         <div>
@@ -375,7 +374,7 @@
                       </div>
                     </div>
                     <div id="6_isiulanginstan" class="col-6 col-lg-4 option-list position-relative">
-                      <input type="radio" name="product_code" class="product" id="productid-6" value="0" data-nominal="Twilight Pass" data-type="diamond">
+                      <input type="radio" name="product_code" class="product" id="productid-6" value="0" data-nominal="9.731" data-name="42 (38+4) Diamonds" data-type="diamond">
                       <label for="productid-6" class="position-absolute w-100 h-100 top-0 start-0"></label>
                       <div class="position-relative rounded-3 gap-3 py-2 mt-2 d-flex justify-content-between align-items-center">
                         <div>
@@ -403,7 +402,7 @@
               <div class="rounded-bottom py-1 py-md-3 px-0 px-md-2 pb-4 bg-grey">
                 <div id="pilih_pembayaran_container" class="container">
                   <div class="position-relative">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-1" value="QRIS" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-1" value="QRIS" >
                     <label for="paymentid-1" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class="d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -428,7 +427,7 @@
                     </div>
                   </div>
                   <div class="position-relative">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-2" value="Telkomsel" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-2" value="Telkomsel" >
                     <label for="paymentid-2" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -452,7 +451,7 @@
                     </div>
                   </div>
                   <div class="position-relative">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-3" value="PulsaThree" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-3" value="PulsaThree" >
                     <label for="paymentid-3" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -476,7 +475,7 @@
                     </div>
                   </div>
                   <div class="position-relative">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-4" value="Indomaret" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-4" value="Indomaret" >
                     <label for="paymentid-4" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -500,7 +499,7 @@
                     </div>
                   </div>
                   <div class="position-relative">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-5" value="Alfamart" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-5" value="Alfamart" >
                     <label for="paymentid-5" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -524,7 +523,7 @@
                     </div>
                   </div>
                   <div class="position-relative">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-6" value="Alfamidi" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-6" value="Alfamidi" >
                     <label for="paymentid-6" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -548,7 +547,7 @@
                     </div>
                   </div>
                   <div class="position-relative">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-7" value="Lawson" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-7" value="Lawson" >
                     <label for="paymentid-7" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -572,7 +571,7 @@
                     </div>
                   </div>
                   <div class="position-relative disabled-payment">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-8" value="BCA" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-8" value="BCA" >
                     <label for="paymentid-8" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -591,7 +590,7 @@
                     </div>
                   </div>
                   <div class="position-relative disabled-payment">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-9" value="Mandiri" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-9" value="Mandiri" >
                     <label for="paymentid-9" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -610,7 +609,7 @@
                     </div>
                   </div>
                   <div class="position-relative disabled-payment">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-10" value="BRI" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-10" value="BRI" >
                     <label for="paymentid-10" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -629,7 +628,7 @@
                     </div>
                   </div>
                   <div class="position-relative disabled-payment">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-11" value="BNI" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-11" value="BNI" >
                     <label for="paymentid-11" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -648,7 +647,7 @@
                     </div>
                   </div>
                   <div class="position-relative disabled-payment">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-12" value="BSI" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-12" value="BSI" >
                     <label for="paymentid-12" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -667,7 +666,7 @@
                     </div>
                   </div>
                   <div class="position-relative disabled-payment">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-13" value="CIMB" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-13" value="CIMB" >
                     <label for="paymentid-13" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -686,7 +685,7 @@
                     </div>
                   </div>
                   <div class="position-relative recommend-payment">
-                    <input type="radio" name="payment-methode" class="product" id="paymentid-14" value="sipay" >
+                    <input type="radio" name="payment-methode" class="payment_methode" id="paymentid-14" value="SIPAY" >
                     <label for="paymentid-14" class="position-absolute w-100 h-100 top-0 start-0"></label>
                     <div class=" d-flex justify-content-between rounded mt-3 pe-3">
                       <div class="px-0">
@@ -754,8 +753,29 @@
                 <span class="text-white text-xs fst-italic">Nomor handphone akan digunakan sebagai notifikasi pembayaran melalui WhatsApp dan juga sebagai nomor pengirim pulsa untuk metode pembayaran transfer pulsa. Pastikan nomor handpone yang dimasukkan aktif. </span>
               </div>
             </div>
-            <div class="container px-0 px-lg-2 mt-5">
+            <div class="container px-0 px-lg-2 mt-5 d-none d-sm-block">
               <button class="bg-yellow rounded-5 my-4 py-2 text-black w-100 border-0 form-control fw-bold" type="submit"><i class="fa fa-shopping-cart" style="margin-right: 5px;"></i> Pesan Sekarang </button>
+            </div>
+            <div class="container content-buy px-0 position-sticky bottom-0 text-white d-sm-none mt-4">
+		         		<div class="card border-0">
+		         			<div class="card-body bg-black border-0 rounded-0 px-0">
+		         				<div class="d-flex">
+		         					<div class="pe-3" style="width:20%">
+		         						<img src="images/Mobile Legends.jpg" alt="" class="mb-3 image-product w-100 rounded-2">
+		         					</div>
+		         					<div class="text-white">
+		         						<div id="textDiamond" class="fw-600 fs-6 mb-2 pt-1">Harley's Magic Hat (20 Diamonds)</div>
+			         					<div id="textPrice" class="fw-600 mb-2 text-yellow text-sm">Rp. 2,335</div>
+			         					<div id="textPayment" class="fw-600 mb-0 text-sm">QRIS - Fee 0.7%</div>
+		         					</div>
+		         				</div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning fw-bold text-sm w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa fa-shopping-cart" style="margin-right: 5px;"></i> Pesan Sekarang
+                    </button>
+		         			</div>
+		         		</div>
+		         	<!-- <button class="btn btn-warning" style="width: 100%" id="buyNow">Beli Sekarang</button> -->
             </div>
             
             <!-- Ulasan Pelanggan Bagian Mobile -->
@@ -1014,10 +1034,72 @@
     </div>
   </footer><!-- End Footer -->
 
-
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content bg-blackgrey" style="width: 90%;margin: auto;padding: 10px 10px;">
+        <div class="modal-body">
+          <div class="text-center">
+          <img src="images/check-icon.png" class="" style="width:70px">
+          </div>
+          <div class="fs-5 fw-600 text-white text-center  mb-2 mt-3">Buat Pesanan</div>
+          <div class="text-sm text-center text-white mb-2">Pastikan datang akun Anda dan produk yang Anda pilih valid dan sesuai.</div>
+          <div class="bg-grey text-white rounded-2 p-2 mb-3 mt-3">
+            <table class="table text-white text-sm bg-grey table-order fw-500 mb-0">
+              <tr>
+                <td class=" bg-grey">Username</td>
+                <td>:</td>
+                <td>Zilongmlbb</td>
+              </tr>
+              <tr>
+                <td>ID</td>
+                <td>:</td>
+                <td>2134345456</td>
+              </tr>
+              <tr>
+                <td>Server</td>
+                <td>:</td>
+                <td>1011</td>
+              </tr>
+              <tr>
+                <td>Item</td>
+                <td>:</td>
+                <td>5 (5+0) Diamond</td>
+              </tr>
+              <tr>
+                <td>Produk</td>
+                <td>:</td>
+                <td>Mobile Legend</td>
+              </tr>
+              <tr>
+                <td>Pembayaran</td>
+                <td>:</td>
+                <td>Mandiri Va</td>
+              </tr>
+            </table>
+          </div>
+          <div class="d-flex align-items-center justify-content-between">
+            <button type="button" class="btn btn-secondary text-sm w-50 me-1 fw-bold" data-bs-dismiss="modal" aria-label="Close">Batalkan</button>
+            <button type="submit" id="buyNow" class="btn btn-warning fw-bold text-sm w-50 ms-1">Pesan Sekarang</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
   <!-- Template Main JS File -->
   <script>
     $(document).ready(function() {
+      $('.product').click(function(){
+          var namaproduct = $(this).attr('data-name');
+          var hargaproduct = $(this).attr('data-nominal');
+          $('#textDiamond').html(namaproduct);
+          $('#textPrice').html("Rp. " + hargaproduct +",-");
+      });
+      $('.payment_methode').click(function(){
+          var paymentmethode = $(this).attr('value');
+          $('#textPayment').html(paymentmethode);
+      });
       $('.navbar-toggler').click(function() {
           $('body').addClass("menu-active");
       });

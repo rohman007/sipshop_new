@@ -111,7 +111,7 @@
               </div>
               <div class="d-sm-none">
                 <div class="text-center mt-4 pt-1">
-                <img src="images/check-icon.svg" class="">
+                <img src="images/check-icon.png" class="">
                 </div>
                 <div class="mb-2 text-white fw-600 mt-2 pt-3 text-center">Pesanan ini telah berhasil</div>
                 <div class="fs-6 rounded-3 bg-green text-white mb-2 mx-3 fw-bold mt-3 py-2 text-center">SUCCESS</div>

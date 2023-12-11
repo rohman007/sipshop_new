@@ -425,8 +425,16 @@ section#banner-catalog img {
 a.bg-yellow:hover,button.bg-yellow:hover{
   background: #85771d;
 }
+.modal {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
 .bg-grey{
-  background: #34373B;
+  background: #34373B !important;
+}
+.table-order td,.table-order tr{
+  border: 0;
+  background: #34373B !important;
+  color: #fff !important;
 }
 .bg-blackgrey{
   background: #151515;
@@ -785,7 +793,9 @@ div#pilih_pembayaran_container > div > input:checked ~ div:before {
   background: #fff !important;
   bottom:28px;
 }
-
+.content-buy{
+  z-index: 3;
+}
 div#pilih_pembayaran_container > div.disabled-payment > div:before {display: none;}
 div#pilih_pembayaran_container > div.recommend-payment > div:before {background: #fff !important;}
 @media(max-width:767px){

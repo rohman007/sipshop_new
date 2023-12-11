@@ -408,7 +408,7 @@ section#banner-catalog img {
   opacity: 0.7;
 }
 .text-yellow{
-  color: #f5da36;
+  color: #f5da36 !important;
 }
 .text-sm {
   font-size: 10pt;
@@ -422,8 +422,8 @@ section#banner-catalog img {
 .bg-yellow{
   background: #f5da36;
 }
-a.bg-yellow:hover,button.bg-yellow:hover{
-  background: #85771d;
+a.bg-yellow:hover,button.bg-yellow:hover,button.bg-yellow.show,a.bg-yellow:active,button.bg-yellow:active{
+  background: #85771d !important;
 }
 .modal {
   background: rgba(255, 255, 255, 0.3) !important;
@@ -613,6 +613,8 @@ div#isi_ulang_instan_container > .col-6 > input:checked ~ div:after,div#item_pil
     animation-iteration-count: infinite;
     z-index: ;
 }
+
+
 
 /*PAYMENT*/
 div#pilih_pembayaran_container img{
@@ -980,6 +982,18 @@ div#pilih_pembayaran_container > div.recommend-payment > div:before {background:
   cursor: pointer;
   font-weight: 500;
 }
+.menu-loggedin  a:hover img,.menu-loggedin  a.active img{
+  -webkit-filter: brightness(8%);
+  filter: brightness(8%);
+}
+.menu-loggedin img {
+  width: 19px;
+  height: 17px;
+  object-fit: scale-down;
+  position: relative;
+  top: -2px;
+  margin-right: 8px !important;
+}
 .menu-loggedin a i {
   font-size: 14pt;
   font-weight: normal;
@@ -992,6 +1006,20 @@ div#pilih_pembayaran_container > div.recommend-payment > div:before {background:
 }
 .text-red{
   color: #d63f3e;
+}
+.after-loggin .dropdown-menu[data-bs-popper] a:hover,.after-loggin .dropdown-menu[data-bs-popper] a:focus,.after-loggin .dropdown-menu[data-bs-popper] a:active{
+  background: #151515 !important;
+}
+.after-loggin .dropdown-menu[data-bs-popper] {
+  margin-top: 20px;
+  background: #232323;
+  white-space: nowrap;
+  min-width: 190px;
+}
+.after-loggin .dropdown-menu[data-bs-popper] img {
+  width: 15px !important;
+  height: 14px;
+  object-fit: scale-down;
 }
 .nav-history a {
   border-radius: 6px;
@@ -1059,6 +1087,9 @@ a.bg-red:hover,button.bg-red:hover{
   background: #901a1a;
 }
 @media(min-width:768px){
+  .after-loggin .dropdown-menu[data-bs-popper] {
+    margin-top: 35px;
+  }
   .content-buy {
     z-index: 3;
     position: relative !important;

@@ -1,78 +1,9 @@
 
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>SipShop - Situs Top Up Game Termurah Se Indonesia</title>
-  <meta name="description" content="Situs Top Up Game Termurah Se Indonesia | Flash Sale Setiap Hari | Garansi Termurah | Proses Cepat | Aman dan Terpercaya.">
-  <meta property="og:description" content="Situs Top Up Game Termurah Se Indonesia | Flash Sale Setiap Hari | Garansi Termurah | Proses Cepat | Aman dan Terpercaya.">
-
-  <!-- Favicons -->
-  <link href="images/favicon.png" rel="icon">
-
-  <!--====== Font Google ======-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Vendor CSS Files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!-- Template Main CSS File -->
-  <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
-  <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
-
-  <link href="css/style.css?v=111111111.1111" rel="stylesheet">
-
-  <!-- JS Files -->
-  <script src="js/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
-  <script src="js/owl.carousel.js"></script>
-</head>
+<?php include "header.php" ?>  
 <body>
-    <header id="header">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container d-flex">
-          <div class="d-flex align-items-center">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              <span class="navbar-toggler-icon"></span>
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-              <img src="images/logo.png">
-            </a>
-          </div>
-          <div class="background-layer"></div>
-          <div class="d-flex align-items-center">
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <a class="navbar-brand d-sm-none" href="#">
-                <img src="images/logo.png">
-              </a>
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-home " aria-hidden="true"></i> Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i> Cek Pesanan</a>
-                </li>
-              </ul>
-            </div>
-            <div class="rounded-5 align-items-center login-action-button d-flex justify-content-around ms-4" >
-              <a href="login.php" style="">Login</a>
-              <span>|</span>
-              <a href="register.php">Register</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header><!-- End Header -->
+
+  <?php include "navbar.php" ?>  
     <!-- ======= Hero Section ======= -->
     <section id="banner-catalog" class="position-relative pt-md-4  pt-2">
 
@@ -908,158 +839,8 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container-fluid px-4 px-lg-5 mx-auto py-5 pb-0 pb-md-5">
-      <h4 class="text-white text-center fw-bold">Tentang Top Up Mobile Legends MLBB</h4>
-      <p class="text-white text-sm text-center">Pada game Mobile Legends, pemain tetap bisa menikmati permainannya secara gratis. Seperti pembelian hero yang dapat dibeli menggunakan Battle Point (BP), Skin-skin tertentu yang bisa di dapatkan secara gratis dan efek-efek lainnya. Akan tetapi, pemain juga dapat melakukan pembelian (top up) berupa diamond yang dapat digunakan sebagai pembelian eksklusif dalam game. Tentunya Skin atau efek-efek yang didapatkan secara gratis dan berbayar itu pasti berbeda kualitasnya. Selain itu, biasanya untuk mendapatkan sesuatu yang gratis di Mobile Legends itu perlu usaha lebih. Seperti harus menjalankan suatu quest atau harus bermain terus untuk mendapatkan Battle Point (BP). Jika Anda ingin mendapatkan skin atau efek yang eksklusif, maka Anda harus top up diamond Mobile Legends.</p>
-      <h4 class="text-white text-center fw-bold mt-5">Mengapa Anda harus Top Up Diamond Mobile Legends?</h4>
-      <p class="text-white text-sm text-center">Jika Anda ingin membeli hero secara langsung karena Battle Point Anda tidak mencukupi, maka Anda harus membelinya menggunakan sejumlah diamond. Selain itu, jika Anda ingin mempunyai skin atau efek yang keren untuk hero Anda, maka Anda juga harus membelinya dengan diamond. Anda bisa membeli diamond di dalam gamenya langsung pada bagian top up. Namun harganya kerap kali lebih mahal, tapi Anda tak perlu ragu keamanannya karena resmi dari pihak Mobile Legends. Selain itu, jika Anda ingin menghemat maka pilihannya dengan membeli diamond Mobile Legends di situs yang dikhususkan untuk top up game. Ada banyak sekali situs yang menyediakan jasa top up, salah satunya adalah SipShop. Di SipShop Anda bisa mendapatkan harga diamond Mobile Legends termurah dengan proses yang instant.</p>
-      <p class="text-white my-4 text-sm text-center">Bahkan kami memberikan garansi harga termurah dan proses cepat juga loh!</p>
-      <div class="container text-sm text-white">
-        <div class="row">
-          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
-            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
-              <span> Bagaimana Cara Top Up <br /> Diamond Mobile Legends ? </span>
-            </p>
-            <ol type="number">
-              <li>Masukan ID Pengguna dan ID Zona Anda</li>
-              <li>Pilih nominal diamond</li>
-              <li>Pilih metode pembayaran</li>
-              <li>Masukan nomer WhatsApp sebagai notifikasi</li>
-              <li>Selesai! diamond akan langsung masuk ketika pembayaran telah berhasil.</li>
-            </ol>
-            <p>Anda juga bisa mengirimkan Diamond ke teman atau keluarga dengan cara ketik User ID dan Zone ID mereka.</p>
-          </div>
-          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
-            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
-              <span> Bagaimana Cara Membeli <br /> Twilight Pass ? </span>
-            </p>
-            <ol type="number">
-              <li>Masukan ID Pengguna dan ID Zona Anda</li>
-              <li>Pilih nominal diamond</li>
-              <li>Pilih metode pembayaran</li>
-              <li>Masukan nomer WhatsApp sebagai notifikasi</li>
-              <li>Selesai! diamond akan langsung masuk ketika pembayaran telah berhasil.</li>
-            </ol>
-            <p>Anda juga bisa mengirimkan Twilight Pass ke teman atau keluarga dengan cara ketik User ID dan Zone ID mereka.</p>
-          </div>
-          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
-            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
-              <span> Bagaimana Cara Membeli <br /> Weekly Diamond Pass ? </span>
-            </p>
-            <ol type="number">
-              <li>Masukan ID Pengguna dan ID Zona Anda</li>
-              <li>Pilih nominal diamond</li>
-              <li>Pilih metode pembayaran</li>
-              <li>Masukan nomer WhatsApp sebagai notifikasi</li>
-              <li>Selesai! diamond akan langsung masuk ketika pembayaran telah berhasil.</li>
-            </ol>
-            <p>Anda juga bisa mengirimkan Weekly Diamond Pass ke teman atau keluarga dengan cara ketik User ID dan Zone ID mereka.</p>
-          </div>
-          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
-            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
-              <span> Dimana Promo/Flash Sale <br /> Diamond Mobile Legends <br /> di SipShop ? </span>
-            </p>
-            <p>Anda dapat menemukan promo/flash sale menarik seputar top up diamond mobile legends melalui halaman instagram kami di : <a href="/">@sipshop.co.id</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-    <div class="container  clearfix">
-    <div class="row justify-content-center">
-        <div class="col-12 col-lg-6 pe-md-5">
-          <img src="images/logo_2x.png" class="footer-logo">
-          <p style="">SIPSHOP adalah situs top up game termurah se indonesia flash sale setiap hari, garansi termurah, proses cepat, aman dan terpercaya.</p>
-        </div>
-        <div class="col-12 col-lg-6 mb-3">
-          <div class="d-flex justify-content-lg-start justify-content-between mt-4 gap-4 mb-4 pb-3">
-            <div class="w-50">
-              <h3 class="text-start">INFORMASI</h3>
-              <p class="text-nowrap mb-2"><a href="#">Tipe Akun SipShop</a></p>
-              <p class="text-nowrap mb-2"><a href="#">Login</a></p>
-              <p class="text-nowrap mb-2"><a href="#">Register</a></p>
-              <p class="text-nowrap mb-2"><a href="#">Info dan klaim garansi</a></p>
-            </div>
-            <div class="w-50">
-              <h3 class="text-start">SOCIAL MEDIA</h3>
-              <div class="d-flex gap-2 mt-2 list-social">
-                <a class="rounded-5" href="#">
-                  <i class="fa fa-instagram rounded-5"></i>
-                </a>
-                <a class="rounded-5" href="#">
-                  <i class="fa fa-whatsapp rounded-5"></i>
-                </a>
-                <a class="rounded-5" href="#">
-                  <i class="fa fa-youtube-play rounded-5"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="mt-2">
-            <h3 class="text-start">METODE PEMBAYARAN</h3>
-            <div class="d-flex flex-wrap gap-2 mt-1 payment-methode">
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/bca.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/qris.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/bri.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/mandiri.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/bni.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/bsi.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/cimb.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/alfamart.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/alfamidi.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/indomaret.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/lawson.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/gopay.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/ovo.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/dana.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/linkaja.png" alt="">
-              </div>
-              <div class="p-1 bg-white">
-                <img style="height: 25px; width: auto;" src="images/payments/shopeepay.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="copyright col-12 mx-auto border-top border-white py-1 pt-3 align-self-end mt-4">
-          <p class="text-white text-center">Copyright @2023 SipShop - Situs Top Up Game
-            Termurah Se Indonesia</p>
-        </div>
-      </div>
-    </div>
-    </div>
-  </footer><!-- End Footer -->
+  
+  <?php include "footer.php" ?>  
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -1070,7 +851,7 @@
             <img src="images/check-icon.png" class="" style="width:70px">
           </div>
           <div class="fs-5 fw-600 text-white text-center  mb-2 mt-3">Buat Pesanan</div>
-          <div class="text-sm text-center text-white mb-2">Pastikan datang akun Anda dan produk yang Anda pilih valid dan sesuai.</div>
+          <div class="text-sm text-center text-white mb-2">Pastikan data akun Anda dan produk yang Anda pilih valid dan sesuai.</div>
           <div class="bg-grey text-white rounded-2 p-2 mb-3 mt-3">
             <table class="table text-white text-sm bg-grey table-order fw-500 mb-0">
               <tr>
@@ -1114,8 +895,10 @@
       </div>
     </div>
   </div>
-  <!-- Template Main JS File -->
+  
+  <?php include "footer-script.php" ?>
   <script>
+    
     $(document).ready(function() {
       // Event handler untuk tombol plus
       $('.input-group').on('click', '.btn-number[data-type="plus"]', function() {
@@ -1148,44 +931,10 @@
           var paymentmethode = $(this).attr('value');
           $('#textPayment').html(paymentmethode);
       });
-      $('.navbar-toggler').click(function() {
-          $('body').addClass("menu-active");
-      });
       $('.catalog-show').click(function() {
           $('.catalog-desc').toggleClass("show-all");
       });
-      $('.background-layer').click(function() {
-          $('body').removeClass("menu-active");
-          $('.navbar-collapse').removeClass("show");
-      });
-      // Get the clickable element and its parent
-      var clickableElement = document.getElementById('clickableElement');
-      var parentElement = document.getElementById('parentElement');
-
-      // Add a click event listener to the clickable element
-      clickableElement.addEventListener('click', function() {
-        // Add a class to the parent element
-        parentElement.classList.add('highlighted');
-      });
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 20,
-        responsiveClass: true,
-        items: 1,
-        responsive : {
-            // breakpoint from 0 up
-            0 : {
-              stagePadding: 0,
-              nav: false,
-            },
-            // breakpoint from 768 up
-            768 : {
-              stagePadding: 150,
-              nav: true,
-            }
-        }
-      })
-    })
+    });
   </script>
 </body>
 

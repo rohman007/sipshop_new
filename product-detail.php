@@ -26,7 +26,7 @@
   <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 
-  <link href="css/style.css?v=111111111.111" rel="stylesheet">
+  <link href="css/style.css?v=111111111.1111" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>
@@ -777,10 +777,10 @@
                 <span class="text-white text-xs fst-italic">Nomor handphone akan digunakan sebagai notifikasi pembayaran melalui WhatsApp dan juga sebagai nomor pengirim pulsa untuk metode pembayaran transfer pulsa. Pastikan nomor handpone yang dimasukkan aktif. </span>
               </div>
             </div>
-            <div class="container px-0 px-lg-2 mt-5 d-none d-sm-block">
+            <!-- <div class="container px-0 px-lg-2 mt-5 d-none d-sm-block">
               <button class="bg-yellow rounded-5 my-4 py-2 text-black w-100 border-0 form-control fw-bold" type="submit"><i class="fa fa-shopping-cart" style="margin-right: 5px;"></i> Pesan Sekarang </button>
-            </div>
-            <div class="container content-buy px-0 position-sticky bottom-0 text-white d-sm-none mt-4">
+            </div> -->
+            <div class="container content-buy px-0 px-lg-2 position-sticky bottom-0 text-white mt-4">
 		         		<div class="card border-0">
 		         			<div class="card-body bg-black border-0 rounded-0 px-0">
                     <div class="alert alert-warning fw-500 text-sm" role="alert" style="border-left: 4px solid #fdce20;padding:10px 20px !important">

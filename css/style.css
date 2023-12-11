@@ -1059,6 +1059,18 @@ a.bg-red:hover,button.bg-red:hover{
   background: #901a1a;
 }
 @media(min-width:768px){
+  .content-buy {
+    z-index: 3;
+    position: relative !important;
+  }
+  .content-buy .card-body > .d-flex > div:first-child {
+    width: 10% !important;
+  }
+  .content-buy button {
+    border-radius: 20px !important;
+    font-size: 11pt !important;
+    padding: 8px 0 !important;
+  }
   .fs-sm-6 {
     font-size: 1rem!important;
   }

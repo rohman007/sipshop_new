@@ -1042,16 +1042,39 @@ div#pilih_pembayaran_container > div.recommend-payment > div:before {background:
 .fw-600{
   font-weight: 600 !important;
 }
-.data-order{
+.data-order table {
   border: 2px solid #363636;
+  margin-top: 0 !important;
 }
 .button-block button:hover,.button-block a:hover {
   background: #877819;
   color: #222 !important;
 }
+ul.pagination li {
+  margin-left: 10px;
+}
+ul.pagination a {
+  border-radius: 7px !important;
+  font-size: 10pt;
+  font-weight: 500;
+  padding: 7px 15px;
+}
+ul.pagination .disabled a {
+  background: #34373b;
+  color: #fff;
+  border-color: #34373b;
+}
 .data-order a {
   color:  #f5da36;
   text-decoration: none;
+}
+div#list-order_info {
+  font-weight: 500;
+  font-size: 10pt;
+  margin-top: 10px;
+}
+div#list-order_paginate {
+  margin-top: 10px;
 }
 .data-order td {
   background: transparent;
@@ -1060,7 +1083,7 @@ div#pilih_pembayaran_container > div.recommend-payment > div:before {background:
   padding: 9px 13px;
   vertical-align: middle;
 }
-.data-order tr:last-child td {border:0}
+.data-order tbody tr:last-child td {border:0}
 .bg-green{
   background: #2bb673;
 }
@@ -1087,6 +1110,9 @@ a.bg-red:hover,button.bg-red:hover{
   background: #901a1a;
 }
 @media(min-width:768px){
+  div#list-order_paginate {
+    padding-right: 28px;
+}
   .after-loggin .dropdown-menu[data-bs-popper] {
     margin-top: 35px;
   }

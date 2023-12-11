@@ -76,55 +76,59 @@
                   </ul>
                 </div>
               </div>
-              <div class="data-order rounded-3 pt-2">
-                <div class="table-responsive">
-                  <table class="table  text-white text-sm bg-transparent mb-0">
-                    <tr class="fw-600">
-                      <td>Nomor Invoice</td>
-                      <td>ID Trx</td>
-                      <td>Item</td>
-                      <td>Inputan/ID</td>
-                      <td>Harga</td>
-                      <td>Tanggal</td>
-                      <td>Status</td>
-                    </tr>
-                    <tr class="fw-500">
-                      <td><a href="#">HJGAD987987KHJH87JH</div></td>
-                      <td>n/a</td>
-                      <td>Weekly Diamond Pass</td>
-                      <td><div class="rounded-3 px-2 py-1">2134564223 - 1001 <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></td>
-                      <td>Rp. 26.500 </td>
-                      <td>06-12-2023  20:32:11</td>
-                      <td><div class="bg-yellow text-black px-2 py-1 rounded-1 text-xs d-inline-block">Pending</div></td>
-                    </tr>
-                    <tr class="fw-500">
-                      <td><a href="#">HJGAD987987KHJH87JH</div></td>
-                      <td>n/a</td>
-                      <td>Weekly Diamond Pass</td>
-                      <td><div class="rounded-3 px-2 py-1">2134564223 - 1001 <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></td>
-                      <td>Rp. 26.500 </td>
-                      <td>06-12-2023  20:32:11</td>
-                      <td><div class="bg-yellow text-black px-2 py-1 rounded-1 text-xs d-inline-block">On Progress</div></td>
-                    </tr>
-                    <tr class="fw-500">
-                      <td><a href="#">HJGAD987987KHJH87JH</div></td>
-                      <td>n/a</td>
-                      <td>Weekly Diamond Pass</td>
-                      <td><div class="rounded-3 px-2 py-1">2134564223 - 1001 <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></td>
-                      <td>Rp. 26.500 </td>
-                      <td>06-12-2023  20:32:11</td>
-                      <td><div class="bg-green text-white px-2 py-1 rounded-1 text-xs d-inline-block">Success</div></td>
-                    </tr>
+              <div class="data-order mb-md-5 mb-4">
+                <div class="">
+                  <table id="list-order" class="table  text-white text-sm bg-transparent mb-0 rounded-3">
+                    <thead>
+                      <tr class="fw-600">
+                        <td>Nomor Invoice</td>
+                        <td>ID Trx</td>
+                        <td>Item</td>
+                        <td>Inputan/ID</td>
+                        <td>Harga</td>
+                        <td>Tanggal</td>
+                        <td>Status</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="fw-500">
+                        <td><a href="#">HJGAD987987KHJH87JH</div></td>
+                        <td>n/a</td>
+                        <td>Weekly Diamond Pass</td>
+                        <td><div class="rounded-3 px-2 py-1">2134564223 - 1001 <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></td>
+                        <td>Rp. 26.500 </td>
+                        <td>06-12-2023  20:32:11</td>
+                        <td><div class="bg-yellow text-black px-2 py-1 rounded-1 text-xs d-inline-block">Pending</div></td>
+                      </tr>
+                      <tr class="fw-500">
+                        <td><a href="#">HJGAD987987KHJH87JH</div></td>
+                        <td>n/a</td>
+                        <td>Weekly Diamond Pass</td>
+                        <td><div class="rounded-3 px-2 py-1">2134564223 - 1001 <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></td>
+                        <td>Rp. 26.500 </td>
+                        <td>06-12-2023  20:32:11</td>
+                        <td><div class="bg-yellow text-black px-2 py-1 rounded-1 text-xs d-inline-block">On Progress</div></td>
+                      </tr>
+                      <tr class="fw-500">
+                        <td><a href="#">HJGAD987987KHJH87JH</div></td>
+                        <td>n/a</td>
+                        <td>Weekly Diamond Pass</td>
+                        <td><div class="rounded-3 px-2 py-1">2134564223 - 1001 <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></td>
+                        <td>Rp. 26.500 </td>
+                        <td>06-12-2023  20:32:11</td>
+                        <td><div class="bg-green text-white px-2 py-1 rounded-1 text-xs d-inline-block">Success</div></td>
+                      </tr>
+                    </tbody>
                   </table>
                 </div>
               </div>
-              <div class="row justify-content-between mt-4 text-sm pe-md-4 mb-md-5 mb-4 data-show">
+              <!-- <div class="row justify-content-between mt-4 text-sm pe-md-4 mb-md-5 mb-4 data-show">
                 <div class="col-12 col-sm-6 fw-500 mb-3 mb-md-0">Menampilkan 4 sampai 10 dari 4 hasil</div>
                 <div class="col-12 col-sm-auto">
                 <a class="bg-grey text-white px-3 py-2 rounded-2 text-sm d-inline-block fw-500 mx-1 text-decoration-none">Sebelumnya</a>
                 <a class="bg-grey text-white px-3 py-2 rounded-2 text-sm d-inline-block fw-500 mx-1 text-decoration-none">Selanjutnya</a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -132,12 +136,21 @@
     </section><!-- End Hero Section -->
   </main><!-- End #main -->
 
-  
+  <style>
+    div#list-order_length {
+      display: none;
+    }
+  </style>
   <?php include "footer.php" ?>  
   <?php include "footer-script.php" ?>
   <script>
     $(document).ready(function() {
       $('#transaksi-sidebar').addClass("active");
+      // new DataTable('#list-order');
+      $('#list-order').dataTable({
+        searching: false, 
+      });
+
     });
   </script>
 

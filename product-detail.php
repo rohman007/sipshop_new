@@ -26,7 +26,7 @@
   <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 
-  <link href="css/style.css?v=111111111.11" rel="stylesheet">
+  <link href="css/style.css?v=111111111.111" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>
@@ -391,11 +391,35 @@
                 </div>
               </div>
             </div>
-            <!-- Pilih Pembayaran -->
+            <!-- QTY -->
             <div class="container px-0 px-lg-2 mt-5">
               <div class="d-flex justify-content-between rounded-top-3 position-relative bg-yellow">
                 <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
                   <span>3</span>
+                </div>
+                <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">⁠Masukan Jumlah Pembelian</p>
+              </div>
+              <div class="rounded-bottom py-3 px-md-4 px-3 bg-grey">
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default btn-number bg-yellow py-2 text-black text-sm border-0 rounded-end-0 rounded-start-2" data-type="minus" data-field="quantity">
+                            <span class="fa fa-minus"></span>
+                        </button>
+                    </span>
+                    <input type="text" name="quantity" class="px-3 input-number form-control py-2 border-0 text-sm rounded-0 text-center fw-600" value="1" min="1" max="30">
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default btn-number bg-yellow py-2 text-black text-sm border-0 rounded-end-2 rounded-start-0" data-type="plus" data-field="quantity">
+                            <span class="fa fa-plus"></span>
+                        </button>
+                    </span>
+                </div>
+              </div>
+            </div>
+            <!-- Pilih Pembayaran -->
+            <div class="container px-0 px-lg-2 mt-5">
+              <div class="d-flex justify-content-between rounded-top-3 position-relative bg-yellow">
+                <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
+                  <span>4</span>
                 </div>
                 <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Pilih Metode Pembayaran</p>
               </div>
@@ -718,7 +742,7 @@
             <div class="container px-0 px-lg-2 mt-5">
               <div class="d-flex justify-content-between rounded-top-3 position-relative bg-yellow">
                 <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
-                  <span>4</span>
+                  <span>5</span>
                 </div>
                 <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Voucher</p>
               </div>
@@ -741,7 +765,7 @@
             <div class="container px-0 px-lg-2 mt-5">
               <div class="d-flex justify-content-between rounded-top-3 position-relative bg-yellow">
                 <div class="title-card-icon p-3 d-flex justify-content-center align-items-center ms-3 ms-lg-4 me-2 position-absolute">
-                  <span>5</span>
+                  <span>6</span>
                 </div>
                 <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">No Whatsapp</p>
               </div>
@@ -1093,6 +1117,27 @@
   <!-- Template Main JS File -->
   <script>
     $(document).ready(function() {
+      // Event handler untuk tombol plus
+      $('.input-group').on('click', '.btn-number[data-type="plus"]', function() {
+        var input = $(this).closest('.input-group').find('input[name="quantity"]');
+        var currentValue = parseInt(input.val());
+
+        if (!isNaN(currentValue)) {
+          var newValue = currentValue + 1;
+          input.val(newValue);
+        }
+      });
+
+      // Event handler untuk tombol minus
+      $('.input-group').on('click', '.btn-number[data-type="minus"]', function() {
+        var input = $(this).closest('.input-group').find('input[name="quantity"]');
+        var currentValue = parseInt(input.val());
+
+        if (!isNaN(currentValue) && currentValue > 1) {
+          var newValue = currentValue - 1;
+          input.val(newValue);
+        }
+      });
       $('.product').click(function(){
           var namaproduct = $(this).attr('data-name');
           var hargaproduct = $(this).attr('data-nominal');

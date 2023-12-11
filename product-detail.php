@@ -26,7 +26,7 @@
   <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 
-  <link href="css/style.css?v=111111111" rel="stylesheet">
+  <link href="css/style.css?v=111111111.11" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>
@@ -759,6 +759,9 @@
             <div class="container content-buy px-0 position-sticky bottom-0 text-white d-sm-none mt-4">
 		         		<div class="card border-0">
 		         			<div class="card-body bg-black border-0 rounded-0 px-0">
+                    <div class="alert alert-warning fw-500 text-sm" role="alert" style="border-left: 4px solid #fdce20;padding:10px 20px !important">
+                      <i class="fa fa-warning" style="margin-right: 5px;"></i> Belum ada item produk yang dipilih.
+                    </div>
 		         				<div class="d-flex">
 		         					<div class="pe-3" style="width:20%">
 		         						<img src="images/Mobile Legends.jpg" alt="" class="mb-3 image-product w-100 rounded-2">
@@ -770,7 +773,7 @@
 		         					</div>
 		         				</div>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-warning fw-bold text-sm w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn-order btn btn-warning fw-bold text-sm w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <i class="fa fa-shopping-cart" style="margin-right: 5px;"></i> Pesan Sekarang
                     </button>
 		         			</div>
@@ -1040,7 +1043,7 @@
       <div class="modal-content bg-blackgrey" style="width: 90%;margin: auto;padding: 10px 10px;">
         <div class="modal-body">
           <div class="text-center">
-          <img src="images/check-icon.png" class="" style="width:70px">
+            <img src="images/check-icon.png" class="" style="width:70px">
           </div>
           <div class="fs-5 fw-600 text-white text-center  mb-2 mt-3">Buat Pesanan</div>
           <div class="text-sm text-center text-white mb-2">Pastikan datang akun Anda dan produk yang Anda pilih valid dan sesuai.</div>

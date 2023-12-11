@@ -592,7 +592,8 @@ div#isi_ulang_instan_container > .col-6 > input:checked ~ div p:last-child,div#i
     left: 1000%;
   }
 }
-div#isi_ulang_instan_container > .col-6 > input:checked ~ div:after,div#item_pilihan_container > .col-6 > input:checked ~ div:after,div#pilih_pembayaran_container > div >  input:checked ~ div:after {
+.content-buy .btn-order{overflow: hidden;position:relative}
+div#isi_ulang_instan_container > .col-6 > input:checked ~ div:after,div#item_pilihan_container > .col-6 > input:checked ~ div:after,div#pilih_pembayaran_container > div >  input:checked ~ div:after,.content-buy .btn-order:after {
     background: #fff;
     content: "";
     height: 155px;

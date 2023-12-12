@@ -649,6 +649,17 @@ div#pilih_pembayaran_container a {
   transform: skew(-15deg);
   cursor: pointer;
   padding: 5px 10px !important;
+  text-decoration:none;
+}
+.active>.page-link, .page-link.active {
+  z-index: 3;
+  color: #222;
+  background-color: #f5db36;
+  border-color: #f5db36;
+}
+.daftar-harga div#list-order_paginate {
+  padding-right: 0 !important;
+  padding-top: 4px;
 }
 div#pilih_pembayaran_container a span {
   font-weight: bold;
@@ -1076,6 +1087,14 @@ div#list-order_info {
 div#list-order_paginate {
   margin-top: 10px;
 }
+.dataTables_scrollHead table {
+    border-bottom: 0;
+    border-radius: 8px 8px 0 0!important;
+}
+.dataTables_scrollBody table {
+  border-top: 0;
+  border-radius: 0 0 8px 8px!important;
+}
 .data-order td {
   background: transparent;
   color: #fff;
@@ -1136,6 +1155,9 @@ a.bg-red:hover,button.bg-red:hover{
   }
 }
 @media(max-width:767px){
+  ul.pagination li {
+    margin: 0 5px;
+  }
   #history-page .col-12.col-sm-9 {
     width: 100% !important;
   }

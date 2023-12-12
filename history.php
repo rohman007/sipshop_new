@@ -15,8 +15,8 @@
           <div class="col-12 col-sm-9" style="width:80%">
             <div class="rounded-4 bg-blackgrey text-white py-sm-3 px-sm-4  pb-1">
               <div class="nav-history d-flex align-items-center px-3 py-3 px-md-2 py-md-4 pt-3">
-                <a href="#" class="active py-2 fw-500 px-3 me-2">Riwayat</a>
-                <a href="#" class="py-2 fw-500 px-3 me-2">Order</a>
+                <a href="history.php" class="active py-2 fw-500 px-3 me-2">Riwayat</a>
+                <a href="order.php" class="py-2 fw-500 px-3 me-2">Order</a>
               </div>
               <div class="px-md-2 px-3 py-3">
                 <h2 class="fw-bold fs-3 mt-3">Riwayat Transaksi</h2>
@@ -149,6 +149,7 @@
       // new DataTable('#list-order');
       $('#list-order').dataTable({
         searching: false, 
+        scrollX: true,
         language: {
           url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/id.json',
         },

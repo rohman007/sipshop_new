@@ -1155,6 +1155,20 @@ a.bg-red:hover,button.bg-red:hover{
   }
 }
 @media(max-width:767px){
+  .lable-promotion{
+    font-size: 11.5pt !important;
+  }
+  .jumlah-trx .text-white.fw-bold.mb-2 {
+    font-size: 30pt !important;
+  }
+  .jumlah-trx .fs-6.text-white.fw-600 {
+    font-size: 10pt !important;
+  }
+  .jumlah-trx {
+    margin: 0 -7px;
+    justify-content: start !important;
+  }
+  .jumlah-trx > div{width:33.33% !important;padding: 0 7px;}
   ul.pagination li {
     margin: 0 5px;
   }

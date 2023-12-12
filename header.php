@@ -27,7 +27,7 @@
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
   <link href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css" rel="stylesheet">
 
-  <link href="css/style.css?v=1111111" rel="stylesheet">
+  <link href="css/style.css?v=111111111" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>

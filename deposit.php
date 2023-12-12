@@ -125,7 +125,7 @@
               </div>
               <div class="data-order mb-md-5 mb-4">
                 <div class="">
-                  <table id="list-order" class="table  text-white text-sm bg-transparent mb-0 rounded-3">
+                  <table id="list-order" class="table w-100 text-white text-sm bg-transparent mb-0 rounded-3">
                     <thead>
                       <tr class="fw-600">
                         <td>Nomor Invoice</td>

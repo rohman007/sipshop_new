@@ -23,7 +23,7 @@
                   <a class="nav-link" href="index.php"><i class="fa fa-home " aria-hidden="true"></i> Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i> Cek Pesanan</a>
+                  <a class="nav-link" href="check-transaction.php"><i class="fa fa-search" aria-hidden="true"></i> Cek Pesanan</a>
                 </li>
                 <li class="sparator d-sm-none"></li>
                 <li class="nav-item d-sm-none">

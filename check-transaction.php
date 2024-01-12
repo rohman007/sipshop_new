@@ -10,7 +10,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="rounded-4 bg-blackgrey text-white py-sm-3 px-sm-5  pb-1 mb-4">
+            <div class="rounded-4 bg-blackgrey text-white py-sm-3 px-sm-5 pb-1 mb-0">
               <div class="px-md-0 px-3 py-3 bb-1">
                 <h2 class="fw-bold fs-4 mt-sm-3 pt-2 mt-md-2 border-bottom pb-sm-4 pb-3" style="border-color: #4c4c4c !important;">Lihat Riwayat Transaksi</h2>
               </div>
@@ -28,7 +28,7 @@
                 </div>
               </div>
             </div>
-            <div class="rounded-4 bg-blackgrey text-white py-sm-3 px-sm-5 mb-4 pb-1">
+            <!-- <div class="rounded-4 bg-blackgrey text-white py-sm-3 px-sm-5 mb-4 pb-1">
               <div class="px-md-0 px-3 py-3 bb-1 d-flex justify-content-between align-items-center mb-3"  style="border-bottom:1px solid #4c4c4c !important;">
                 <div class="notrx fw-600">#SIP697278</div>
                 <div class="text-sm">
@@ -115,7 +115,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

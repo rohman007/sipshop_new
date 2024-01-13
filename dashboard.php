@@ -114,12 +114,12 @@
                   <div class="fs-6 text-white fw-600">Gagal</div>
                 </div>
               </div>
-              <div class="col-auto" style="width:20%">
+              <!-- <div class="col-auto" style="width:20%">
                 <div class="rounded-3 bg-blackgrey text-center text-white py-sm-4 px-sm-4 px-1 py-3 mb-sm-4 mb-3 w-100 position-relative">
                   <div class=" text-white fw-bold mb-2" style="font-size:40pt">0</div>
                   <div class="fs-6 text-white fw-600">Batal</div>
                 </div>
-              </div>
+              </div> -->
             </div>
             <div class="rounded-4 bg-blackgrey text-white py-sm-3 px-sm-4  pb-1">
               <div class="px-md-2 px-3 py-3">

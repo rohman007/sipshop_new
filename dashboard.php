@@ -90,25 +90,25 @@
               <div class="fw-600 fs-5 mt-0 pt-sm-2 px-2 mb-2 text-white">Jumlah Transaksi Terbaru Hari Ini</div>
             </div>
             <div class="row justify-content-between pb-3 jumlah-trx">
-              <div class="col-auto" style="width:20%">
+              <div class="col-auto" style="width:25%">
                 <div class="rounded-3 bg-blackgrey text-center text-white py-sm-4 px-sm-4 px-1 py-3 mb-sm-4 mb-3 w-100 position-relative">
                   <div class=" text-white fw-bold mb-2" style="font-size:40pt">3</div>
                   <div class="fs-6 text-white fw-600">Total</div>
                 </div>
               </div>
-              <div class="col-auto" style="width:20%">
+              <div class="col-auto" style="width:25%">
                 <div class="rounded-3 bg-blackgrey text-center text-white py-sm-4 px-sm-4 px-1 py-3 mb-sm-4 mb-3 w-100 position-relative">
                   <div class=" text-white fw-bold mb-2" style="font-size:40pt">2</div>
                   <div class="fs-6 text-white fw-600">Dalam Proses</div>
                 </div>
               </div>
-              <div class="col-auto" style="width:20%">
+              <div class="col-auto" style="width:25%">
                 <div class="rounded-3 bg-blackgrey text-center text-white py-sm-4 px-sm-4 px-1 py-3 mb-sm-4 mb-3 w-100 position-relative">
                   <div class=" text-white fw-bold mb-2" style="font-size:40pt">1</div>
                   <div class="fs-6 text-white fw-600">Sukses</div>
                 </div>
               </div>
-              <div class="col-auto" style="width:20%">
+              <div class="col-auto" style="width:25%">
                 <div class="rounded-3 bg-blackgrey text-center text-white py-sm-4 px-sm-4 px-1 py-3 mb-sm-4 mb-3 w-100 position-relative">
                   <div class=" text-white fw-bold mb-2" style="font-size:40pt">0</div>
                   <div class="fs-6 text-white fw-600">Gagal</div>
@@ -122,12 +122,13 @@
               </div> -->
             </div>
             <div class="rounded-4 bg-blackgrey text-white py-sm-3 px-sm-4  pb-1">
-              <div class="px-md-2 px-3 py-3">
+              <div class="px-md-2 px-3 py-3 d-sm-flex text-center text-sm-start justify-content-between align-items-center ">
                 <div class="fw-600 fs-5 mt-2 mt-sm-0 mb-2">Riwayat Transaksi Terbaru Hari Ini</div>
+                <a href="#" class="bg-yellow text-black px-2 py-2 rounded-1 text-sm d-inline-block text-decoration-none fw-600">Semua Transaksi</a>
               </div>
               <div class="data-order mb-md-4 mb-4">
                 <div class="">
-                  <table id="list-order" class="table  text-white text-sm bg-transparent mb-0 rounded-3">
+                  <table id="list-order" class="table  text-white text-sm bg-transparent mb-0 rounded-3 w-100">
                     <thead>
                       <tr class="fw-600">
                         <td>Nomor Invoice</td>
@@ -135,7 +136,7 @@
                         <td>Item</td>
                         <td>Inputan/ID</td>
                         <td>Harga</td>
-                        <td>Tanggal</td>
+                        <!-- <td>Tanggal</td> -->
                         <td>Status</td>
                       </tr>
                     </thead>
@@ -146,7 +147,7 @@
                         <td>Weekly Diamond Pass</td>
                         <td><div class="rounded-3 px-2 py-1">2134564223 - 1001 <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></td>
                         <td>Rp. 26.500 </td>
-                        <td>06-12-2023  20:32:11</td>
+                        <!-- <td>06-12-2023  20:32:11</td> -->
                         <td><div class="bg-yellow text-black px-2 py-1 rounded-1 text-xs d-inline-block">Pending</div></td>
                       </tr>
                       <tr class="fw-500">
@@ -155,7 +156,7 @@
                         <td>Weekly Diamond Pass</td>
                         <td><div class="rounded-3 px-2 py-1">2134564223 - 1001 <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></td>
                         <td>Rp. 26.500 </td>
-                        <td>06-12-2023  20:32:11</td>
+                        <!-- <td>06-12-2023  20:32:11</td> -->
                         <td><div class="bg-yellow text-black px-2 py-1 rounded-1 text-xs d-inline-block">On Progress</div></td>
                       </tr>
                       <tr class="fw-500">
@@ -164,7 +165,7 @@
                         <td>Weekly Diamond Pass</td>
                         <td><div class="rounded-3 px-2 py-1">2134564223 - 1001 <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></td>
                         <td>Rp. 26.500 </td>
-                        <td>06-12-2023  20:32:11</td>
+                        <!-- <td>06-12-2023  20:32:11</td> -->
                         <td><div class="bg-green text-white px-2 py-1 rounded-1 text-xs d-inline-block">Success</div></td>
                       </tr>
                     </tbody>

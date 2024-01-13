@@ -122,9 +122,9 @@
               </div> -->
             </div>
             <div class="rounded-4 bg-blackgrey text-white py-sm-3 px-sm-4  pb-1">
-              <div class="px-md-2 px-3 py-3 d-sm-flex text-center text-sm-start justify-content-between align-items-center ">
+              <div class="px-md-2 px-3 py-3 d-flex justify-content-between align-items-center ">
                 <div class="fw-600 fs-5 mt-2 mt-sm-0 mb-2">Riwayat Transaksi Terbaru Hari Ini</div>
-                <a href="#" class="bg-yellow text-black px-2 py-2 rounded-1 text-sm d-inline-block text-decoration-none fw-600">Semua Transaksi</a>
+                <a href="#" style="white-space: nowrap;" class="bg-yellow text-black px-2 py-2 rounded-1 text-sm d-inline-block text-decoration-none fw-600">Semua Transaksi</a>
               </div>
               <div class="data-order mb-md-4 mb-4">
                 <div class="">

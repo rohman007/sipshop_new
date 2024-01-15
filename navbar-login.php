@@ -11,9 +11,6 @@
             <a class="navbar-brand" href="index.php">
               <img src="images/logo.png">
             </a>
-          </div>
-          <div class="background-layer"></div>
-          <div class="d-flex align-items-center">
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <a class="navbar-brand d-sm-none" href="#">
                 <img src="images/logo.png">
@@ -40,6 +37,20 @@
                 </li>
               </ul>
             </div>
+          </div>
+          <div class="background-layer"></div>
+          <div class="d-flex align-items-center">
+            <button id="toggleButton" class="search-button text-yellow border-0 rounded-pill py-2 px-3 fs-6 bg-transparent me-2 d-sm-none"><i class="fa fa-search" aria-hidden="true"></i></button>
+            <form method="GET" action="/search" class="search-form d-sm-block" id="searchBar" style="display:none">
+              <div class="input-group me-3 search-bar" aria-haspopup="true" id="dropsearchdown">
+                  <input type="text" name="query" placeholder="Cari game, voucher, pulsa, dll..." id="searchProd" class="form-control search-form text-xs" autocomplete="off">
+                  <button type="submit" class="btn btn-warning" id="btnSearchProds">
+                      <i class="fa fa-search"></i>
+                  </button>
+              </div>
+              <div id="listProduk"></div>
+            </form>
+            
             <div class="dropdown after-loggin">
               <button class="btn btn-default bg-yellow rounded-5 px-md-3 px-2 py-2 mx-md-1 ms-2 text-sm fw-600 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa fa-user-o me-1 fw-600" aria-hidden="true"></i> <span class=" me-1">|</span>Username

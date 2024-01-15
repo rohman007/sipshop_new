@@ -28,10 +28,10 @@
           </div>
           
           <div class="d-flex align-items-center">
-            <button id="toggleButton" class="search-button bg-yellow border-0 rounded-pill py-2 px-3 text-sm me-2 d-sm-none"><i class="fa fa-search" aria-hidden="true"></i></button>
-            <form method="GET" action="/search" class="search-form" id="searchBar">
+            <button id="toggleButton" class="search-button text-yellow border-0 rounded-pill py-2 px-3 fs-6 bg-transparent me-2 d-sm-none"><i class="fa fa-search" aria-hidden="true"></i></button>
+            <form method="GET" action="/search" class="search-form d-sm-block" id="searchBar" style="display:none">
               <div class="input-group me-3 search-bar" aria-haspopup="true" id="dropsearchdown">
-                  <input type="text" name="query" placeholder="Cari game, voucher, pulsa, dll..." id="searchProd" class="form-control search-form text-sm" autocomplete="off">
+                  <input type="text" name="query" placeholder="Cari game, voucher, pulsa, dll..." id="searchProd" class="form-control search-form text-xs" autocomplete="off">
                   <button type="submit" class="btn btn-warning" id="btnSearchProds">
                       <i class="fa fa-search"></i>
                   </button>

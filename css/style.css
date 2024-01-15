@@ -116,7 +116,7 @@ button.navbar-toggler span {
     display: block;
   }
   .login-action-button a {
-    padding: 7px 6px;
+    padding: 9px 10px;
   }
   div#navbarCollapse {
     position: absolute;
@@ -232,8 +232,10 @@ div#dropsearchdown input {
   border-radius: 25px;
   padding-left: 16px;
   border: 0;
-  font-size: 11pt;
+  /* font-size: 11pt; */
   width:250px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 div#dropsearchdown button {
   position: absolute;
@@ -251,11 +253,14 @@ div#listProduk {
   div#dropsearchdown input {
     /* border-radius: 20px; */
     padding-left: 20px;
-    padding: 6px 20px;
-    font-size: 10pt;
+    padding: 7px 20px;
+    font-size: 11pt;
+}
+  button#toggleButton {
+    padding: 9px 11px !important;
   }
   div#dropsearchdown button {
-    padding: 4px 10px;
+    padding: 6px 10px;
   }
 }
 

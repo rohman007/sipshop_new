@@ -19,6 +19,9 @@
         margin-top: 5px;
         overflow-y: auto !important;
     }
+    @media(max-width:767px){
+        .show-product-list{max-height:65vh}
+    }
     .dropdown-item-text {
     	color: #dee2e6;
     }

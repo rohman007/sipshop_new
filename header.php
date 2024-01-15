@@ -4,7 +4,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi">
+
 
   <title>SipShop - Situs Top Up Game Termurah Se Indonesia</title>
   <meta name="description" content="Situs Top Up Game Termurah Se Indonesia | Flash Sale Setiap Hari | Garansi Termurah | Proses Cepat | Aman dan Terpercaya.">

@@ -93,7 +93,16 @@ button.navbar-toggler span {
   .login-action-button {
     background: #f5da36;
     padding: 0 5px;
-    border-radius: 8px !important;
+    /* border-radius: 8px !important; */
+  }
+  form.search-form {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    background: #000;
+    padding: 2px 15px 17px;
+    display: none;
   }
   a.navbar-brand img {
     height: 28px;
@@ -220,15 +229,20 @@ div#hero-slide .owl-dots {
 
 /*SEARCH CATALOG*/
 div#dropsearchdown input {
-  border-radius: 6px;
-  padding-left: 20px;
+  border-radius: 25px;
+  padding-left: 16px;
   border: 0;
+  font-size: 11pt;
+  width:250px;
 }
 div#dropsearchdown button {
   position: absolute;
-  right: 5px;
+  right: 3px;
   background: transparent;
   border: 0;
+  background: #fff;
+  padding: 4px 10px;
+  border-radius: 0 30px 30px 0;
 }
 div#listProduk {
   position: relative;
@@ -266,16 +280,28 @@ div#listProduk {
   border-right: 0;
   padding: 10px 20px;
 }
+button.rounded-3 {
+  border-radius: 50px !important;
+}
 
 /*TAB CATALOG*/
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
   background: transparent;
-  border-color: transparent;
+  border-color: #f5da36;
   color: #f5da36;
+  /* border-radius: 0; */
+  background: transparent;
+  border-right: 1px solid #bbb;
 }
-.nav-tabs .nav-link{
+.nav-tabs .nav-link {
   color: #fff;
   font-weight: 500;
+  border-radius: 25px;
+  border-color: #fff;
+  color: #aaa;
+  background: transparent;
+  border: 1px solid #666;
+  margin: 0 6px;
 }
 @media(max-width:767px){
   ul#catalogTab {

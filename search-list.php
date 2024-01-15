@@ -4,7 +4,7 @@
 <head></head>
 <body>
     
-<ul class="show-product-list dropdown shadow navbar-nav-scroll p-sm-4 p-3 pt-2 pt-sm-2" aria-labelledby="dropsearchdown">
+<ul class="show-product-list dropdown shadow navbar-nav-scroll p-sm-3 p-3 pt-0 pt-sm-0" aria-labelledby="dropsearchdown">
 
 <style type="text/css">
     .show-product-list {
@@ -15,6 +15,9 @@
         background: rgb(122 122 122 / 90%);
         list-style: none;
         max-height:300px;
+        border-radius: 10px;
+        margin-top: 5px;
+        overflow-y: auto !important;
     }
     .dropdown-item-text {
     	color: #dee2e6;
@@ -34,6 +37,9 @@
     .show-product-list > li > a > .row img {
         border-radius: 10px;
     }
+    .dropdown-item{
+        white-space: normal;
+    }
 </style>
 		<li><span class="dropdown-item-text text-yellow fw-bold mb-1 mb-3 fs-6 mt-3" style=""><b>Game Mobile</b></span></li>
 	<hr class="dropdown-divider" style="">
@@ -43,7 +49,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16846614836216.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Genshin Impact</b></div>
                     </div>
@@ -58,7 +64,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866681903890.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>PUBG Mobile</b></div>
                     </div>
@@ -74,7 +80,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866694363604.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Revelation : Infinite Journey</b></div>
                     </div>
@@ -90,7 +96,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867355143461.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Never After</b></div>
                     </div>
@@ -106,7 +112,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869251103060.jpg" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Idle Legends : GODS SAGA</b></div>
                     </div>
@@ -122,7 +128,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867349449062.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>One Punch Man : The Strongest</b></div>
                     </div>
@@ -138,7 +144,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867350232163.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Project Entropy</b></div>
                     </div>
@@ -154,7 +160,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867350862288.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Rise of Kingdom</b></div>
                     </div>
@@ -170,7 +176,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867354856874.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Marvel Snap</b></div>
                     </div>
@@ -186,7 +192,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866918984589.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Omega Legends</b></div>
                     </div>
@@ -202,7 +208,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869249581196.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Jade Legends</b></div>
                     </div>
@@ -218,7 +224,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869247938860.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Mirage : Perfect Skyline</b></div>
                     </div>
@@ -234,7 +240,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867349087205.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Super SUS</b></div>
                     </div>
@@ -250,7 +256,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867352963400.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Hay Day</b></div>
                     </div>
@@ -266,7 +272,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869250515933.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Conquer Online</b></div>
                     </div>
@@ -282,7 +288,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866695175921.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Football Master 2</b></div>
                     </div>
@@ -298,7 +304,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867355628731.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Goddess of Victory: Nikke</b></div>
                     </div>
@@ -314,7 +320,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866914345203.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Dunk City Dynasty</b></div>
                     </div>
@@ -330,7 +336,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867346911576.jpg" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Clash Royale</b></div>
                     </div>
@@ -346,7 +352,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867347366515.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Clash of Clans</b></div>
                     </div>
@@ -362,7 +368,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867347795700.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Brawl Stars</b></div>
                     </div>
@@ -378,7 +384,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869247462873.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Heroes Evolved</b></div>
                     </div>
@@ -394,7 +400,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869248842356.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>BLEACH Mobile 3D</b></div>
                     </div>
@@ -410,7 +416,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869249266970.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Echocalypse</b></div>
                     </div>
@@ -426,7 +432,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866693915926.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Light of Thel : New Era</b></div>
                     </div>
@@ -442,7 +448,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866694739347.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Ensemble Stars Music</b></div>
                     </div>
@@ -458,7 +464,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16865455273252.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Laplace M</b></div>
                     </div>
@@ -474,7 +480,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867351895313.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Sky: Children of the Light</b></div>
                     </div>
@@ -490,7 +496,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867352249277.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>State of Survival: Zombie War</b></div>
                     </div>
@@ -506,7 +512,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869248502596.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Miko Era : Twelve Myths</b></div>
                     </div>
@@ -522,7 +528,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866679742019.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Call of Duty Mobile</b></div>
                     </div>
@@ -537,7 +543,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16846860969715.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Free Fire</b></div>
                     </div>
@@ -552,7 +558,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866692683808.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>MARVEL Super War</b></div>
                     </div>
@@ -567,7 +573,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866680457558.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Arena of Valor</b></div>
                     </div>
@@ -582,7 +588,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866681418816.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Ragnarok M : Eternal Love</b></div>
                     </div>
@@ -597,7 +603,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16951920116062.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Mobile Legends</b></div>
                     </div>
@@ -612,7 +618,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16932899506245.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Metal Slug : Awakening</b></div>
                     </div>
@@ -629,7 +635,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16854775889733.jpg" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Luna Online New World</b></div>
                     </div>
@@ -645,7 +651,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16867348743494.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Valorant</b></div>
                     </div>
@@ -661,7 +667,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869252213758.jpg" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Eudemons Online</b></div>
                     </div>
@@ -679,7 +685,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866721394607.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Axis</b></div>
                     </div>
@@ -695,7 +701,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866727289327.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>By U</b></div>
                     </div>
@@ -711,7 +717,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866723366101.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Three</b></div>
                     </div>
@@ -727,7 +733,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866723691796.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Telkomsel</b></div>
                     </div>
@@ -743,7 +749,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866724332477.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Smartfren</b></div>
                     </div>
@@ -759,7 +765,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866726359713.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>XL</b></div>
                     </div>
@@ -775,7 +781,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16869253492047.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Token Listrik PLN</b></div>
                     </div>
@@ -793,7 +799,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866696894699.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Amazon Prime Video</b></div>
                     </div>
@@ -809,7 +815,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866697649282.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Disney Hotstar</b></div>
                     </div>
@@ -825,7 +831,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866698904741.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Vidio Premier</b></div>
                     </div>
@@ -841,7 +847,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866701141455.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Viu Premium</b></div>
                     </div>
@@ -857,7 +863,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866700207556.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>WeTV Premium</b></div>
                     </div>
@@ -873,7 +879,7 @@
                 <div class="col-3">
                     <img src="https://api.sipshop.co.id/images/16866699732517.png" style="" class="img-fluid">
                 </div>
-                <div class="col-9">
+                <div class="col-9 ps-0">
                     <div class="row">
                         <div class="col-md-12"><b>Youtube Premium</b></div>
                     </div>

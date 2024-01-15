@@ -11,9 +11,7 @@
             <a class="navbar-brand" href="index.php">
               <img src="images/logo.png">
             </a>
-          </div>
-          <div class="background-layer"></div>
-          <div class="d-flex align-items-center">
+            <div class="background-layer"></div>
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <a class="navbar-brand d-sm-none" href="#">
                 <img src="images/logo.png">
@@ -27,10 +25,23 @@
                 </li>
               </ul>
             </div>
+          </div>
+          
+          <div class="d-flex align-items-center">
+            <button id="toggleButton" class="search-button bg-yellow border-0 rounded-pill py-2 px-3 text-sm me-2 d-sm-none"><i class="fa fa-search" aria-hidden="true"></i></button>
+            <form method="GET" action="/search" class="search-form" id="searchBar">
+              <div class="input-group me-3 search-bar" aria-haspopup="true" id="dropsearchdown">
+                  <input type="text" name="query" placeholder="Cari game, voucher, pulsa, dll..." id="searchProd" class="form-control search-form text-sm" autocomplete="off">
+                  <button type="submit" class="btn btn-warning" id="btnSearchProds">
+                      <i class="fa fa-search"></i>
+                  </button>
+              </div>
+              <div id="listProduk"></div>
+            </form>
             <div class="rounded-5 align-items-center login-action-button d-flex justify-content-around ms-4" >
               <a href="login.php" style="">Login</a>
-              <span>|</span>
-              <a href="register.php">Register</a>
+              <!-- <span>|</span> -->
+              <!-- <a href="register.php">Register</a> -->
             </div>
           </div>
         </div>

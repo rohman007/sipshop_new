@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-sm-8 col-md-6">
-            <form method="GET" action="/search">
+            <!-- <form method="GET" action="/search">
                 <div class="input-group me-3 search-bar" aria-haspopup="true" id="dropsearchdown">
                     <input type="text" name="query" placeholder="Cari game, voucher, pulsa, dll..." id="searchProd" class="form-control search-form" autocomplete="off">
                     <button type="submit" class="btn btn-warning" id="btnSearchProds">
@@ -52,7 +52,7 @@
                     </button>
                 </div>
                 <div id="listProduk"></div>
-            </form>
+            </form> -->
           </div>
           <div class="col-12">
             <ul class="nav nav-tabs justify-content-center mt-4 border-0" id="catalogTab" role="tablist">

@@ -1303,7 +1303,7 @@ a.bg-red:hover,button.bg-red:hover{
   min-width: 90px;
   text-align: center;
 }
-section#list-voucher:before {
+/* section#list-voucher:before {
   content: "";
   display: block;
   position: absolute;
@@ -1312,13 +1312,22 @@ section#list-voucher:before {
   background: #f00;
   left: 50%;
   transform: translateX(-50%);
-}
+} */
 @media(min-width:768px) and (max-width:992px){
-  .content-buy .card-body > .d-flex > .pe-3 {
-    width: 10% !important;
+}
+
+@media(max-width:992px){
+  #catalogTabContent h2 {
+    padding-left: 10px !important;
   }
   ul#catalogTab{
     justify-content: center !important;
+  }
+  .container, .container-md, .container-sm {
+    max-width: 98%;
+  }
+  .content-buy .card-body > .d-flex > .pe-3 {
+    width: 10% !important;
   }
   div#catalogTabContent .row > div {
     width: 25%;
@@ -1327,13 +1336,32 @@ section#list-voucher:before {
     width: 20%;
     padding-top: 10px !important;
   }
-  .container, .container-md, .container-sm {
-    max-width: calc(100vw - 20px);
-  }
   div#catalogTabContent .row {
     padding: 0 5px !important;
   }
+}
+
+@media(max-width:767px){
   #catalogTabContent h2 {
-    padding-left: 10px !important;
+    padding-left: 0px !important;
+  }
+  ul#catalogTab{
+    justify-content: start !important;
+  }
+  div#catalogTabContent .row {
+    padding: 0 0px !important;
+  }
+  .container, .container-md, .container-sm {
+    max-width: 100%;
+  }
+  .content-buy .card-body > .d-flex > .pe-3 {
+    width: 20% !important;
+  }
+  div#catalogTabContent .row > div {
+    width: 33.3%;
+  }
+  .col-4.col-lg-8.mt-4.mb-4.my-lg-0.mb-lg-3.position-relative.pt-2.pt-md-0 {
+    width: 33.33%;
+    padding-top: 0px !important;
   }
 }

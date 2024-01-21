@@ -34,7 +34,7 @@
                 <div class="col-sm-2 d-none d-sm-block">
                   <img src="images/Mobile Legends.jpg" class="w-100 rounded-3">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-7 col-lg-6">
                   <div class="row">
                     <div class="col-4 d-sm-none pe-1">
                       <img src="images/Mobile Legends.jpg" class="w-100 rounded-3">
@@ -85,7 +85,7 @@
                   <div class="fw-600 text-yellow mt-5 mb-2 text-center text-sm-start">Terima Kasih, Pesanan Anda telah kami selesaikan</div>
                   <div class="fw-500 text-white text-sm text-center text-sm-start">Silahkan di cek kembali Pesanan Anda.</div>
                 </div>
-                <div class="col-sm-4 mt-3">
+                <div class="col-sm-5 col-lg-4 mt-3">
                   <div class="d-none d-sm-block">
                     <div class="text-center">
                     <img src="images/check-icon.svg" class="">

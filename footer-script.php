@@ -27,11 +27,13 @@
         toggleButton.addEventListener('click', function() {
             // Toggle the visibility of the search bar
             if (searchBar.style.display === 'none') {
-                searchBar.style.display = 'block';
+                // searchBar.style.display = 'block !important';
+                searchBar.style.cssText = 'display: block !important;';
                 $("#toggleButton .fa").removeClass("fa-search");
                 $("#toggleButton .fa").addClass("fa-close");
             } else {
-                searchBar.style.display = 'none';
+                // searchBar.style.display = 'none !important';
+                searchBar.style.cssText = 'display: none !important;';
                 $("#toggleButton .fa").removeClass("fa-close");
                 $("#toggleButton .fa").addClass("fa-search");
             }

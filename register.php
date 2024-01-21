@@ -26,7 +26,7 @@
   <link href="css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
   <link href="css/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
 
-  <link href="css/login.css?v=11" rel="stylesheet">
+  <link href="css/login.css?v=111" rel="stylesheet">
 
   <!-- JS Files -->
   <script src="js/jquery.min.js"></script>
@@ -36,7 +36,7 @@
   <script src="js/owl.carousel.js"></script>
 </head>
 <body id="login-page">
-    
+    <a href="index.php" class="close-button homepage-menu">X</a>
   <div class="d-flex vh-100 align-items-center">
     <div class="form-block px-3 ps-md-5 col-12 col-sm-6 col-md-4">
       <img src="images/logo_2x.png" class="form-logo mb-4">

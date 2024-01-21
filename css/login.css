@@ -9,6 +9,23 @@ body {
 a {
   outline: 0 !important;
 }
+.close-button.homepage-menu {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: #f5da36;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  top: 20px;
+  left: 20px;
+  font-size: 13pt;
+}
 .toggle-password {
   position: absolute;
   right: 0;
@@ -70,6 +87,10 @@ input.form-control {
   margin-left: -50px;
 }
 @media(max-width:767px){
+  .close-button.homepage-menu{
+    top: 20px;
+    left: 20px;
+  }
   .image-form:before {
     background: rgba(0, 0, 0, 0.5);
     content: "";
@@ -97,3 +118,8 @@ input.form-control {
     max-width: 65%;
   }
 }
+@media(min-width:768px) and (max-width:991px){
+  .form-block {
+    width: 50% !important;
+  }
+}_

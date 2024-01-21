@@ -432,7 +432,7 @@
               nav: false,
             },
             // breakpoint from 768 up
-            768 : {
+            992 : {
               stagePadding: 150,
               nav: true,
             }

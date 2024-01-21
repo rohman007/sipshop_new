@@ -152,7 +152,10 @@
                   </div>
                   <p class="align-self-end text-black mt-2 mb-2 title-card-text py-1">Masukan Data User</p>
                 </div>
+                <button type="button" class="border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#caraID">
                 <i class="fa fa-question align-self-center rounded-2 px-2 py-1 me-3" style=" color: #F5DA36; background-color: black;font-size: 12px; cursor: pointer;"></i>
+                </button>
+                
               </div>
               <form class="rounded-bottom bg-grey py-3 px-2 px-md-4" action="/">
                 <div class="px-2">
@@ -841,6 +844,24 @@
 
   
   <?php include "footer.php" ?>  
+
+  <!-- Modal Cara ID -->
+  <div class="modal fade" id="caraID" tabindex="-1" role="dialog" aria-labelledby="caraIDLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content bg-blackgrey" style="width: 90%;margin: auto;padding: 10px 10px;">
+        <div class="modal-head text-white px-3 pt-2 fw-600 d-flex align-items-center justify-content-between">
+          <div>Petunjuk</div>
+          <button type="button" class="btn btn-secondary text-sm fw-bold py-1" data-bs-dismiss="modal" aria-label="Close">x</button>
+        </div>
+        <div class="modal-body">
+          <img src="images/popup-cara.png" class="w-100 mb-1">
+          <div class="d-flex align-items-center justify-content-between">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

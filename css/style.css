@@ -1341,7 +1341,7 @@ a.bg-red:hover,button.bg-red:hover{
   }
 }
 
-@media(max-width:767px){
+@media(max-width:640px){
   #catalogTabContent h2 {
     padding-left: 0px !important;
   }

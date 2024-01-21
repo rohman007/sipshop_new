@@ -1,5 +1,6 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="position-relative  ">
+    <?= $footercatalog ?>
     <div class="footer-bottom">
     <div class="container clearfix">
     <div class="row justify-content-center">

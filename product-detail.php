@@ -839,7 +839,69 @@
         </div>
       </div>
     </section><!-- End Hero Section -->
-
+<?php 
+  $footercatalog = '
+  
+  <div class="footer-top clearfix">
+    <div class="container-fluid px-4 px-lg-5 mx-auto py-5 pb-0 pb-md-5">
+      <h4 class="text-white text-center fw-bold">Tentang Top Up Mobile Legends MLBB</h4>
+      <p class="text-white text-sm text-center">Pada game Mobile Legends, pemain tetap bisa menikmati permainannya secara gratis. Seperti pembelian hero yang dapat dibeli menggunakan Battle Point (BP), Skin-skin tertentu yang bisa di dapatkan secara gratis dan efek-efek lainnya. Akan tetapi, pemain juga dapat melakukan pembelian (top up) berupa diamond yang dapat digunakan sebagai pembelian eksklusif dalam game. Tentunya Skin atau efek-efek yang didapatkan secara gratis dan berbayar itu pasti berbeda kualitasnya. Selain itu, biasanya untuk mendapatkan sesuatu yang gratis di Mobile Legends itu perlu usaha lebih. Seperti harus menjalankan suatu quest atau harus bermain terus untuk mendapatkan Battle Point (BP). Jika Anda ingin mendapatkan skin atau efek yang eksklusif, maka Anda harus top up diamond Mobile Legends.</p>
+      <h4 class="text-white text-center fw-bold mt-5">Mengapa Anda harus Top Up Diamond Mobile Legends?</h4>
+      <p class="text-white text-sm text-center">Jika Anda ingin membeli hero secara langsung karena Battle Point Anda tidak mencukupi, maka Anda harus membelinya menggunakan sejumlah diamond. Selain itu, jika Anda ingin mempunyai skin atau efek yang keren untuk hero Anda, maka Anda juga harus membelinya dengan diamond. Anda bisa membeli diamond di dalam gamenya langsung pada bagian top up. Namun harganya kerap kali lebih mahal, tapi Anda tak perlu ragu keamanannya karena resmi dari pihak Mobile Legends. Selain itu, jika Anda ingin menghemat maka pilihannya dengan membeli diamond Mobile Legends di situs yang dikhususkan untuk top up game. Ada banyak sekali situs yang menyediakan jasa top up, salah satunya adalah SipShop. Di SipShop Anda bisa mendapatkan harga diamond Mobile Legends termurah dengan proses yang instant.</p>
+      <p class="text-white my-4 text-sm text-center">Bahkan kami memberikan garansi harga termurah dan proses cepat juga loh!</p>
+      <div class="container text-sm text-white">
+        <div class="row">
+          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
+              <span> Bagaimana Cara Top Up <br /> Diamond Mobile Legends ? </span>
+            </p>
+            <ol type="number">
+              <li>Masukan ID Pengguna dan ID Zona Anda</li>
+              <li>Pilih nominal diamond</li>
+              <li>Pilih metode pembayaran</li>
+              <li>Masukan nomer WhatsApp sebagai notifikasi</li>
+              <li>Selesai! diamond akan langsung masuk ketika pembayaran telah berhasil.</li>
+            </ol>
+            <p>Anda juga bisa mengirimkan Diamond ke teman atau keluarga dengan cara ketik User ID dan Zone ID mereka.</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
+              <span> Bagaimana Cara Membeli <br /> Twilight Pass ? </span>
+            </p>
+            <ol type="number">
+              <li>Masukan ID Pengguna dan ID Zona Anda</li>
+              <li>Pilih nominal diamond</li>
+              <li>Pilih metode pembayaran</li>
+              <li>Masukan nomer WhatsApp sebagai notifikasi</li>
+              <li>Selesai! diamond akan langsung masuk ketika pembayaran telah berhasil.</li>
+            </ol>
+            <p>Anda juga bisa mengirimkan Twilight Pass ke teman atau keluarga dengan cara ketik User ID dan Zone ID mereka.</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
+              <span> Bagaimana Cara Membeli <br /> Weekly Diamond Pass ? </span>
+            </p>
+            <ol type="number">
+              <li>Masukan ID Pengguna dan ID Zona Anda</li>
+              <li>Pilih nominal diamond</li>
+              <li>Pilih metode pembayaran</li>
+              <li>Masukan nomer WhatsApp sebagai notifikasi</li>
+              <li>Selesai! diamond akan langsung masuk ketika pembayaran telah berhasil.</li>
+            </ol>
+            <p>Anda juga bisa mengirimkan Weekly Diamond Pass ke teman atau keluarga dengan cara ketik User ID dan Zone ID mereka.</p>
+          </div>
+          <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+            <p class=" px-4 py-2 rounded-1 title-footer-catalog fw-bold text-black">
+              <span> Dimana Promo/Flash Sale <br /> Diamond Mobile Legends <br /> di SipShop ? </span>
+            </p>
+            <p>Anda dapat menemukan promo/flash sale menarik seputar top up diamond mobile legends melalui halaman instagram kami di : <a href="/">@sipshop.co.id</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>';
+?>
   </main><!-- End #main -->
 
   
@@ -851,7 +913,7 @@
       <div class="modal-content bg-blackgrey" style="width: 90%;margin: auto;padding: 10px 10px;">
         <div class="modal-head text-white px-3 pt-2 fw-600 d-flex align-items-center justify-content-between">
           <div>Petunjuk</div>
-          <button type="button" class="btn btn-secondary text-sm fw-bold py-1" data-bs-dismiss="modal" aria-label="Close">x</button>
+          <button type="button" class="btn btn-secondary bg-yellow text-black text-sm fw-bold py-1" data-bs-dismiss="modal" aria-label="Close">x</button>
         </div>
         <div class="modal-body">
           <img src="images/popup-cara.png" class="w-100 mb-1">

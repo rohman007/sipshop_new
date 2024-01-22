@@ -68,7 +68,12 @@
                   <div class="border-bottom-2 mt-3 mb-2"></div>
                   <div class="row align-items-center mt-3">
                     <div class="col-5 col-sm-5 fw-500">Nomor Invoice</div>
-                    <div class="col-7 col-sm-7"><div class="px-2 fw-bold py-1 bg-grey text-white rounded-3 d-inline-block">HJGAD987987KHJH87JH <i class="fa fa-file-o ms-1" aria-hidden="true"></i></div></div>
+                    <div class="col-7 col-sm-7">
+                      <div class="px-2 fw-bold py-1 bg-grey text-white rounded-3 d-inline-block"> 
+                        <div id="trxcopy" class="d-inline-block">HJGAD987987KHJH87JH </div> 
+                        <button class="bg-transparent border-0 text-white px-0" onclick="copyTrx()"><i class="fa fa-file-o ms-1" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
                   </div>
                   <div class="row align-items-center mt-3">
                     <div class="col-5 col-sm-5 fw-500">Status Transaksi</div>
@@ -111,7 +116,10 @@
                   <div class="d-flex justify-content-between align-items-center mb-2">
                     <div class="text-sm">Total Pembayaran</div>
                     <div class="text-sm">
-                      <div class="fs-6 fw-bold py-1 px-3 rounded-5 bg-lightgrey">Rp. 26.500 <i class="fa fa-file-o ms-1 mb-1 fs-6" aria-hidden="true"></i></div>  
+                      <div class="fs-6 fw-bold py-1 px-3 rounded-5 bg-lightgrey">
+                        <div id="pricecopy" class="d-inline-block" value-data="26500">Rp. 26.500 </div> 
+                        <button class="bg-transparent border-0 text-white px-0" onclick="copyPrice()"><i class="fa fa-file-o ms-1" aria-hidden="true"></i></button>
+                      </div>  
                     </div>
                   </div>
                   <div class="border-bottom-2 mt-3 mb-3"></div>
@@ -155,6 +163,30 @@
   <?php include "footer.php" ?>
   <?php include "footer-script.php" ?>
   <script>
+    function copyTrx() {
+      var trxcopy = document.createRange();
+      trxcopy.selectNode(document.getElementById("trxcopy"));
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(trxcopy);
+      document.execCommand("copy");
+      window.getSelection().removeAllRanges();
+      alert("Copied the text: " + trxcopy);
+    }
+    function copyPrice() {
+      var priceElement = document.getElementById("pricecopy");
+
+      // Get the value-data attribute
+      var valueDataAttribute = priceElement.getAttribute("value-data");
+
+      // Copy the value to the clipboard
+      navigator.clipboard.writeText(valueDataAttribute)
+      .then(() => {
+          alert("Copied the text: " + valueDataAttribute);
+      })
+      .catch(err => {
+          console.error('Unable to copy to clipboard', err);
+      });
+    }
     $(document).ready(function() {
       //TAMBAH CLASS ACTIVE PADA MENU SIDEBAR
       $('#transaksi-sidebar').addClass("active");

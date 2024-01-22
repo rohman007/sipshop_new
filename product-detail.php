@@ -174,7 +174,10 @@
                     <input id="account_desc" class="rounded-4 w-100 px-3 border-0 text-yellow fw-bold py-3 text-sm" style="background:#767676" disabled="disabled" name="account_desc" type="text" value="Ananda Sekti - SIPSHOP" />
                   </div>
                   <p class="mt-3 px-md-4 text-center text-white fw-bold fst-italic text-xs">Nickname akan muncul secara otomatis setelah anda mengklik RE - CHECK USER. <br class="d-none d-md-block"/> Harap diperiksa kembali nickname anda jika sudah benar. </p>
-                  <button class="w-100 rounded-3 text-black bg-yellow border-0 py-2 fw-bold" type="submit">RE - CHECK USER</button>
+                  <!-- <button class="w-100 rounded-3 text-black bg-yellow border-0 py-2 fw-bold" type="submit">RE - CHECK USER</button> -->
+                  <button type="button" class="w-100 rounded-3 text-black bg-yellow border-0 py-2 fw-bold" data-bs-toggle="modal" data-bs-target="#checkID">
+                    RE - CHECK USER
+                  </button>
                 </div>
               </form>
             </div>
@@ -918,6 +921,34 @@
         <div class="modal-body">
           <img src="images/popup-cara.png" class="w-100 mb-1">
           <div class="d-flex align-items-center justify-content-between">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Check ID-->
+  <div class="modal fade" id="checkID" tabindex="-1" role="dialog" aria-labelledby="checkIDLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content bg-blackgrey" style="width: 90%;margin: auto;padding: 10px 10px;">
+        <div class="modal-body">
+          <div class="text-center">
+            <img src="images/check-icon.png" class="" style="width:70px">
+          </div>
+          <div class="fs-5 fw-600 text-white text-center  mb-2 mt-3">Berhasil Ditemukan</div>
+          <div class="bg-grey text-white rounded-2 p-2 mb-3 mt-3">
+            <table class="table text-white text-sm bg-grey table-order fw-500 mb-0">
+              <tr>
+                <td class=" bg-grey">Username</td>
+                <td>:</td>
+                <td>Zilongmlbb</td>
+              </tr>
+            </table>
+          </div>
+          <div class="text-sm text-center text-white mb-4">*Periksa kembali ID akun Anda, kesalahan inputan data bukan tanggung jawab kami.</div>
+          <div class="d-flex align-items-center justify-content-center">
+            <button type="button" class="btn btn-secondary bg-yellow text-black text-sm px-4 me-1 fw-bold" data-bs-dismiss="modal" aria-label="Close">OK</button>
           </div>
         </div>
         

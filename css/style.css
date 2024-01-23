@@ -89,6 +89,52 @@ button.navbar-toggler span {
   display: block;
   vertical-align: middle;
 }
+
+/*popup copy*/
+.custom-alert {
+  position: fixed;
+  width: 350px;
+  background: #fff;
+  top: -10px;
+  opacity: 0;
+  z-index: 9999;
+  left: 50%;
+  transform: translateX(-50%) scale(0.5);
+  padding: 14px 20px 14px 56px;
+  border-radius: 10px;
+  font-size: 12pt;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+}
+.custom-alert.active {
+  top:20px;
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+.custom-alert .check-icon:before {
+  content: "";
+  width: 14px;
+  height: 9px;
+  border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff;
+  display: block;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 6px;
+  left: 5px;
+}
+.custom-alert .check-icon {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background: #05d515;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 @media(max-width:992px){
   .login-action-button {
     background: #f5da36;

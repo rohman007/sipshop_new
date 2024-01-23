@@ -175,7 +175,38 @@
       window.getSelection().addRange(nomorcopy);
       document.execCommand("copy");
       window.getSelection().removeAllRanges();
-      alert("Copied the text: " + nomorcopy);
+      // alert("Copied the text: " + nomorcopy);
+
+      var overlay = document.createElement('div');
+      overlay.classList.add('overlay');
+      document.body.appendChild(overlay);
+
+      var alertBox = document.createElement('div');
+      alertBox.classList.add('custom-alert');
+      alertBox.innerHTML = `
+        <div class="check-icon"></div>
+        <div>
+        ${nomorcopy} successfully copied to the clipboard!
+        </div>
+      `;
+      document.body.appendChild(alertBox);
+
+      overlay.style.display = 'block';
+      alertBox.style.display = 'block';
+
+      setTimeout(function () {
+        $('.custom-alert').addClass("active");
+      }, 200);
+
+      
+      setTimeout(function () {
+        $('.custom-alert').removeClass("active");
+      }, 2800);
+      
+      // Close the custom alert box after 2 seconds
+      setTimeout(function () {
+        closeCustomAlert();
+      }, 3000);
     }
     function copyTrx() {
       var trxcopy = document.createRange();
@@ -184,8 +215,58 @@
       window.getSelection().addRange(trxcopy);
       document.execCommand("copy");
       window.getSelection().removeAllRanges();
-      alert("Copied the text: " + trxcopy);
+      // alert("Copied the text: " + trxcopy);
+
+      var overlay = document.createElement('div');
+      overlay.classList.add('overlay');
+      document.body.appendChild(overlay);
+
+      var alertBox = document.createElement('div');
+      alertBox.classList.add('custom-alert');
+      alertBox.innerHTML = `
+        <div class="check-icon"></div>
+        <div>
+        ${trxcopy} successfully copied to the clipboard!
+        </div>
+      `;
+      document.body.appendChild(alertBox);
+
+      overlay.style.display = 'block';
+      alertBox.style.display = 'block';
+
+      setTimeout(function () {
+        $('.custom-alert').addClass("active");
+      }, 200);
+
+      
+      setTimeout(function () {
+        $('.custom-alert').removeClass("active");
+      }, 2800);
+      
+      // Close the custom alert box after 2 seconds
+      setTimeout(function () {
+        closeCustomAlert();
+      }, 3000);
     }
+    // function copyPrice() {
+    //   var priceElement = document.getElementById("pricecopy");
+
+    //   // Get the value-data attribute
+    //   var valueDataAttribute = priceElement.getAttribute("value-data");
+
+    //   // Copy the value to the clipboard
+    //   navigator.clipboard.writeText(valueDataAttribute)
+    //   .then(() => {
+    //       alert("Copied the text: " + valueDataAttribute);
+    //   })
+    //   .catch(err => {
+    //       console.error('Unable to copy to clipboard', err);
+    //   });
+    // }
+    $(document).ready(function() {
+      //TAMBAH CLASS ACTIVE PADA MENU SIDEBAR
+      $('#transaksi-sidebar').addClass("active");
+    });
     function copyPrice() {
       var priceElement = document.getElementById("pricecopy");
 
@@ -194,17 +275,53 @@
 
       // Copy the value to the clipboard
       navigator.clipboard.writeText(valueDataAttribute)
-      .then(() => {
-          alert("Copied the text: " + valueDataAttribute);
-      })
-      .catch(err => {
-          console.error('Unable to copy to clipboard', err);
-      });
+      // .then(() => {
+      //     alert("Copied the text: " + valueDataAttribute);
+      // })
+      // .catch(err => {
+      //     console.error('Unable to copy to clipboard', err);
+      // });
+      var overlay = document.createElement('div');
+      overlay.classList.add('overlay');
+      document.body.appendChild(overlay);
+
+      var alertBox = document.createElement('div');
+      alertBox.classList.add('custom-alert');
+      alertBox.innerHTML = `
+        <div class="check-icon"></div>
+        <div>
+        ${valueDataAttribute} successfully copied to the clipboard!
+        </div>
+      `;
+      document.body.appendChild(alertBox);
+
+      overlay.style.display = 'block';
+      alertBox.style.display = 'block';
+
+      setTimeout(function () {
+        $('.custom-alert').addClass("active");
+      }, 200);
+
+      
+      setTimeout(function () {
+        $('.custom-alert').removeClass("active");
+      }, 2800);
+      
+      // Close the custom alert box after 2 seconds
+      setTimeout(function () {
+        closeCustomAlert();
+      }, 3000);
     }
-    $(document).ready(function() {
-      //TAMBAH CLASS ACTIVE PADA MENU SIDEBAR
-      $('#transaksi-sidebar').addClass("active");
-    });
+    function closeCustomAlert() {
+      var overlay = document.querySelector('.overlay');
+      var alertBox = document.querySelector('.custom-alert');
+
+      overlay.style.display = 'none';
+      alertBox.style.display = 'none';
+
+      overlay.remove();
+      alertBox.remove();
+    }
   </script>
 </body>
 

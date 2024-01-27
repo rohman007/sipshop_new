@@ -5,7 +5,8 @@
 <head>
   <meta charset="utf-8">
   <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
-  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi">
+  <!-- <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 
   <title>SipShop - Situs Top Up Game Termurah Se Indonesia</title>

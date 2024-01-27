@@ -4,12 +4,15 @@
 <body>
 
   <?php include "navbar.php" ?>  
+  
     <!-- ======= Hero Section ======= -->
     <section id="banner-catalog" class="position-relative pt-md-4  pt-2">
 
       <div class="container">
         <div class="row">
-          <div class="col-12">
+
+        <button type="button" class="w-100 rounded-3 text-black bg-yellow border-0 py-2 fw-bold d-inline-block mb-4 w-auto px-5" data-bs-toggle="modal" data-bs-target="#gagalID">GAGAL</button>          
+        <div class="col-12">
             <img src="images/banner-home.jpg" class="w-100">
           </div>
         </div>
@@ -956,6 +959,25 @@
     </div>
   </div>
 
+
+  <!-- Gagal Modal-->
+  <div class="modal fade" id="gagalID" tabindex="-1" role="dialog" aria-labelledby="gagalIDLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content bg-blackgrey" style="width: 90%;margin: auto;padding: 10px 10px;">
+        <div class="modal-body">
+          <div class="text-center">
+            <div class="close-icon"></div>
+          </div>
+          <div class="fs-5 fw-600 text-white text-center  mb-2 mt-3">Gagal</div>
+          <div class="text-sm text-center text-white mb-4">Mohon masukkan data Zone</div>
+          <div class="d-flex align-items-center justify-content-center">
+            <button type="button" class="btn btn-secondary bg-yellow text-black text-sm px-4 me-1 fw-bold" data-bs-dismiss="modal" aria-label="Close">OK</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">

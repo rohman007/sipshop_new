@@ -531,7 +531,8 @@ section#banner-catalog img {
   background: #f5da36;
 }
 a.bg-yellow:hover,button.bg-yellow:hover,button.bg-yellow.show,a.bg-yellow:active,button.bg-yellow:active{
-  background: #85771d !important;
+  /* background: #85771d !important; */
+  background: #ffeb59 !important;
 }
 .modal {
   background: rgba(255, 255, 255, 0.3) !important;

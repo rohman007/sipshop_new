@@ -438,37 +438,6 @@
             }
         }
       })
-      $('body').click(function (e) {
-        if ($(e.target).is($("#listProduk"))) {
-            
-        } else {
-            $('#listProduk').html("")
-        }
-      })
-      $('#searchProd').keyup(function(){
-          // $('#dropdownData').dropdown()
-          $('#loading').show();
-          var searchProd = $('#searchProd').val();
-          console.log(searchProd)
-          if(searchProd != ""){
-              $.ajax({
-                  url: "search-list.php?search=" + $('#searchProd').val(),
-                  type: "GET",
-                  dataType: "html",
-                  success: function (data) {  
-                      console.log(data);  
-                      $('#loading').hide();
-                      $('#listProduk').html(data);
-                  },
-                  error: function (xhr, status) {
-                  },
-                  complete: function (xhr, status) {
-                  }
-              });
-          }else{
-              $('#listProduk').html("")
-          }
-      });
     })
   </script>
 </body>

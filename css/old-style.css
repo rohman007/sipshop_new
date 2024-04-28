@@ -24,9 +24,6 @@ a {
   outline: 0 !important;
 }
 @media(max-width:992px){
-  table.dataTable td, table.dataTable th {
-    white-space: nowrap;
-  }
   body{
     padding-top: 73px;
   }
@@ -145,7 +142,7 @@ button.navbar-toggler span {
     padding: 0 5px;
     /* border-radius: 8px !important; */
   }
-  header .search-form {
+  form.search-form {
     position: absolute;
     left: 0;
     width: 100%;
@@ -301,6 +298,9 @@ div#listProduk {
   position: relative;
 }
 @media(max-width:992px){
+  table.dataTable td, table.dataTable th {
+    white-space: nowrap;
+}
   div#dropsearchdown input {
     /* border-radius: 20px; */
     padding-left: 20px;
@@ -311,7 +311,8 @@ div#listProduk {
     padding: 9px 11px !important;
   }
   div#dropsearchdown button {
-    padding: 6px 10px;
+    padding: 0px 10px;
+    height: 100%;
   }
 }
 
@@ -343,7 +344,7 @@ button.rounded-3 {
 /*TAB CATALOG*/
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
   background: transparent;
-  border-color: #f5da36 !important;
+  border-color: #f5da36;
   color: #f5da36;
   /* border-radius: 0; */
   background: transparent;
@@ -430,24 +431,6 @@ div#catalogTabContent .row > div {
 }
 
 /*FOOTER*/
-#footer-catalog {
-  background: #151515;
-  margin-top: 60px;
-  margin-bottom: -80px;
-}
-#footer-catalog h3:first-child{
-  margin-top: 0 !important;
-}
-#footer-catalog h3{
-  font-family: 'Montserrat', sans-serif !important;
-  font-size: 1.5rem;
-  margin-top: 3rem!important;
-}
-#footer-catalog p,#footer-catalog p *{
-  font-family: 'Montserrat', sans-serif !important;
-  font-size:10pt !important;
-  color:#fff !important;
-}
 footer#footer {
   background: #151515;
   margin-top: 80px;
@@ -491,12 +474,6 @@ img.footer-logo {
   footer#footer {
     margin-top: 40px;
     font-size: 13px;
-  }
-  #footer-catalog {
-    margin-bottom: -40px!important;
-  }
-  .point-event-scrollto {
-    top: -115px !important;
   }
   .payment-methode > div {
     width: calc(25% - 0.4rem);
@@ -555,54 +532,64 @@ section#banner-catalog img {
   background: #f5da36;
 }
 a.bg-yellow:hover,button.bg-yellow:hover,button.bg-yellow.show,a.bg-yellow:active,button.bg-yellow:active{
-  background: #85771d !important;
-}
-.swal-modal {
-  background: #151515;
-  color: #fff !important;
-}
-.swal-content {
-  margin-top: 10px !important;
-}
-.swal-title {
-  color:#fff;
-  font-size: 1.25rem!important;
-}
-.swal-content * {
-  font-size: 10pt;
-  color: #fff !important;
-}
-.swal-text {
-  color: #Fff;
-  font-size: 10pt;
-}
-.swal-icon--error {
-  border: 3px solid #f00 !important;
-  width: 73px;
-  height: 74px;
-}
-.swal-icon:first-child {
-  margin-top: 26px;
-  margin-bottom: 10px;
-}
-.swal-icon--error__line{
-  background: #f00 !important;
-  height:3px !important;
-  width:41px;
-}
-button.swal-button.swal-button--confirm {
-  background: #f5da36 !important;
-  color: #000 !important;
-  padding: 7px 24px !important;
-}
-.swal-footer{
-  text-align: center !important;
-}
-.swal-icon--error{
-  border:3px solid #f00 !important
+  /* background: #85771d !important; */
+  background: #ffeb59 !important;
 }
 .modal {
   background: rgba(255, 255, 255, 0.3) !important;
+}
+.close-icon:after {
+  left: 50%;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  font-weight: 300;
+  background: #f00;
+  margin-top: 20px;
+  transition: all 0.2s ease;
+  opacity: 0;
+  transition-delay: 0.25s;
+}
+
+.close-icon:before {
+  left: 50%;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  font-weight: 300;
+  background: #f00;
+  margin-top: 20px;
+  transition: all 0.2s ease;
+  opacity: 0;
+  transition-delay: 0.25s;
+}
+.close-icon {
+  width: 70px;
+  height: 70px;
+  border: 3px solid #f00;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto;
+  opacity: 0;
+  transition: all 0.2s ease;
+  top: 10px;
+  transition-delay: 0.25s;
+}
+.show .close-icon{
+  opacity: 1;
+  top: 0;
+}
+.show .close-icon:before,.show .close-icon:after {
+  opacity: 1;
+  margin-top: 0;
 }
 .bg-grey{
   background: #34373B !important;
@@ -652,20 +639,11 @@ button.swal-button.swal-button--confirm {
   rotate: -45deg;
   font-weight: bold;
 }
-#caraBayar .accordion-item:not(:first-of-type) {
-  border: 1px solid !important;
-}
-.accordion-button::after{
-  filter: invert(1) !important;
-}
 input#account_desc {
   padding: 12px 19px !important;
   border-radius: 20px !important;
   background: #666 !important;
   color: #ffe96f !important;
-  opacity:1;
-  -webkit-text-fill-color: #ffe96f !important;
-  /* color: #ffd800 !important */
 }
 .data-detail-catalog .title-card-text {
   font-size: 15pt !important;
@@ -688,12 +666,6 @@ div#item_pilihan_container > .col-6 > div {
 }
 div#item_pilihan_container p {
   margin-bottom: 5px;
-}
-.point-event-scrollto {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  top: -130px;
 }
 div#isi_ulang_instan_container img {
   /* width: 40px; */
@@ -718,11 +690,6 @@ div#isi_ulang_instan_container p:last-child,div#item_pilihan_container p:last-ch
   margin: 0;
   padding: 2px 0 3px 13px !important;
   margin-left: -13px;
-}
-div#isi_ulang_instan_container > .col-6 > label a, div#item_pilihan_container > .col-6 > label a {
-    position: absolute;
-    width: 100%;
-    height: 100%;
 }
 div#isi_ulang_instan_container > div {
   margin-bottom: -7px;
@@ -848,7 +815,6 @@ div#pilih_pembayaran_container a {
   cursor: pointer;
   padding: 5px 10px !important;
   text-decoration:none;
-  z-index: 3;
 }
 .active>.page-link, .page-link.active {
   z-index: 3;
@@ -944,24 +910,6 @@ div#pilih_pembayaran_container > div.disabled-payment > div > div:nth-child(2) p
   text-align: center;
   font-size: 13px;
 }
-
-div#pilih_pembayaran_container > div.recommend-payment.disabled-payment > div > div:nth-child(2) p:last-child span{
-  font-weight: bold;
-    font-size: 16px;
-    white-space: nowrap;
-    display: inline-block;
-    transform: skew(15deg);
-    color: #CACACA;
-}
-div#pilih_pembayaran_container > div.recommend-payment.disabled-payment > div > div:nth-child(2) p:last-child{
-  box-shadow: 4px 4px #B38700;
-  transform: skew(-15deg);
-  margin-left: -5px;
-  margin-bottom: 0 !important;
-}
-div#pilih_pembayaran_container > div.recommend-payment > div:before{
-  display: block !important;
-}
 div#pilih_pembayaran_container .disabled-payment a{
   background-color: #434343;
   box-shadow: 4px 4px #767676;
@@ -991,13 +939,12 @@ div#pilih_pembayaran_container > div.recommend-payment > div > div:nth-child(2) 
   box-shadow: 2px 2px 20px 2px #F5DA36;
   background-color: #F5DA36;
 }
-#footer-catalog .title-footer-catalog span {
+.title-footer-catalog span{
   font-weight: bold;
-  font-size: 15px !important;
-  white-space: normal;
+  font-size: 15px;
+  white-space: nowrap;
   display: inline-block;
   transform: skew(15deg);
-  color: #000 !important;
 }
 div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child span {
   color: #fff;
@@ -1109,34 +1056,11 @@ div#pilih_pembayaran_container > div.recommend-payment > div:before {background:
     width: auto;
     height: 25px;
   }
-  div#pilih_pembayaran_container > div > div > div:first-child, 
-  div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child, 
-  div#pilih_pembayaran_container > div.recommend-payment.disabled-payment > div > div:first-child{
-    /* padding-bottom: 22px !important; */
-  }
-  div#pilih_pembayaran_container > div.disabled-payment > div > div:first-child {
-    padding: 0 !important;
-  }
-  .after-loggin button#dropdownMenuButton1 {
-    white-space: nowrap;
-    max-width: calc(100vw - 260px);
-    overflow: hidden;
-    max-height: 4rem;
-    -webkit-line-clamp: 1;
-    display: box;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
-  }
   div#pilih_pembayaran_container > div > div > div:first-child p {
     padding-left: 8px !important;
     font-size: 9px;
     padding-top: 4px;
     margin-bottom: 5px;
-    /* position: absolute; */
-    white-space: nowrap;    
-    max-width: 100px;
-    bottom: 2px;
   }
   div#pilih_pembayaran_container > div.disabled-payment > div > div:nth-child(2) p:last-child {
     font-size: 10px;
@@ -1156,17 +1080,6 @@ div#pilih_pembayaran_container > div.recommend-payment > div:before {background:
   div#pilih_pembayaran_container > div > div > div:nth-child(2) p:last-child {
     padding: 2px 8px 3px !important;
     margin-right: 0 !important;
-    margin-top: 6px;
-  }
-  div#pilih_pembayaran_container > div.recommend-payment.disabled-payment > div > div:nth-child(2) p:last-child span{
-    font-size: 12px;
-    font-weight: bolder;
-  }
-  div#pilih_pembayaran_container > div.recommend-payment.disabled-payment > div > div:nth-child(2) p:last-child{
-    box-shadow: 2px 2px #B38700;
-    padding: 2px 8px 3px !important;
-    margin-right: 0 !important;
-    margin-top: 6px;
   }
   div#pilih_pembayaran_container a {
     top: 11px;
@@ -1233,12 +1146,6 @@ div#pilih_pembayaran_container > div.recommend-payment > div:before {background:
 }
 
 @media(min-width:993px){
-  .after-loggin button#dropdownMenuButton1 {
-    margin-left: 15px !important;
-  }
-  main#main {
-    min-height: calc(100% - 562px);
-  }
   .col-lg-9.data-detail-catalog {
     width: 72%;
   }
@@ -1329,7 +1236,6 @@ ul.pagination a {
   border-radius: 7px !important;
   font-size: 10pt;
   font-weight: 500;
-  color:#000;
   padding: 7px 15px;
 }
 ul.pagination .disabled a {
@@ -1516,9 +1422,6 @@ a.bg-red:hover,button.bg-red:hover{
 }
 
 @media(max-width:992px){
-  #footer-catalog h3{
-    font-size: calc(1.275rem + .3vw);
-  }
   #catalogTabContent h2 {
     padding-left: 10px !important;
   }
@@ -1565,18 +1468,5 @@ a.bg-red:hover,button.bg-red:hover{
   .col-4.col-lg-8.mt-4.mb-4.my-lg-0.mb-lg-3.position-relative.pt-2.pt-md-0 {
     width: 33.33%;
     padding-top: 0px !important;
-  }
-}
-
-@media(max-width:767px){
-  div#pilih_pembayaran_container > div.recommend-payment > div > div:first-child span {
-    font-size: 4vw;
-    margin-left: -5px;
-    position: absolute;
-    left: 86px;
-    top: 33%;
-    right: auto;
-    bottom: auto;
-    transform: translateY(-50%);  
   }
 }

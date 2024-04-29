@@ -1541,9 +1541,6 @@ button#btn-transfer {
     color: #016002;
     font-weight: 600;
 }
-.pulsa-input-block label {
-  font-size: 10pt;
-}
 
 
 @media(min-width:768px) and (max-width:992px){
@@ -1578,6 +1575,10 @@ button#btn-transfer {
 }
 
 @media(max-width:640px){
+  
+  .pulsa-input-block label {
+    font-size: 8pt;
+  }
   div#result-phone {
     font-size: 24pt !important;
   }

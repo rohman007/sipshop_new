@@ -1512,6 +1512,40 @@ a.bg-red:hover,button.bg-red:hover{
   left: 50%;
   transform: translateX(-50%);
 } */
+
+
+/*PULSA PAGE*/
+.pulsa-input-block .form-control {
+  padding: 12px 18px !important;
+}
+.pulsa-input-block button {
+    padding: 10px !important;
+    border: 0 !important; 
+    color: #222 !important;
+}
+.btn-border-yellow {
+  border: 1px solid #f5da36 !important;
+  border-radius: var(--bs-border-radius-lg)!important;
+}
+button#btn-transfer {
+    padding: 9px 0;
+}
+.accordion-transfer button.accordion-button {
+  padding: 10px 15px;
+}
+.accordion-transfer .accordion-item{
+  border: 1px solid #fff;
+}
+.alert.alert-success.alert-pulsa {
+    background: #adfeaf;
+    color: #016002;
+    font-weight: 600;
+}
+.pulsa-input-block label {
+  font-size: 10pt;
+}
+
+
 @media(min-width:768px) and (max-width:992px){
 }
 
@@ -1544,6 +1578,9 @@ a.bg-red:hover,button.bg-red:hover{
 }
 
 @media(max-width:640px){
+  div#result-phone {
+    font-size: 24pt !important;
+  }
   #catalogTabContent h2 {
     padding-left: 0px !important;
   }
